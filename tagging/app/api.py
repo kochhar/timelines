@@ -10,6 +10,7 @@ from flask_restful.reqparse import RequestParser
 from app import tasks
 
 
+
 class YoutubeInput(Resource):
     """Resource which represents an input queue for processing."""
     fields = {
@@ -42,7 +43,8 @@ class YoutubeInput(Resource):
 
         res = chain(
             tasks.youtube_captions_from_video.s(video_id),
-            tasks.events_from_captions.s(video_id)
+            tasks.annotate_events_in_captions.s(video_id),
+            tasks.events_from_timeml_annotated_captions.s(video_id)
         ).apply_async()
 
         return {'url': args['url'],

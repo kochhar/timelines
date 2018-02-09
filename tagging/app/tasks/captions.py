@@ -3,23 +3,26 @@ captions.py
 
 module containing tasks for captions
 """
+from bs4 import BeautifulSoup
 import html
 import logging
 import os
 from os import path
 import requests
+import spacy
 import subprocess
 import tempfile
 from xml.etree import ElementTree as ET
 
 from app import app, celery, db
 
-from bs4 import BeautifulSoup
+
+# load english language processing rules
+nlp = spacy.load('en')
+
 
 CAPTION_SERVICE_URL = 'http://video.google.com/timedtext'
 HEIDELTIME_WD = path.join(app.root_path, app.config['HEIDELTIME_LIB_DIR'])
-HEIDELTIME_CMD_ARGS = \
-    'java -jar de.unihd.dbs.heideltime.standalone.jar -t narratives'.split()
 RESPONSE_SERIAL_FIELDS = [
 #    'content',
 #    'elapsed',
@@ -34,11 +37,18 @@ RESPONSE_SERIAL_FIELDS = [
 ]
 
 
+
 @celery.task
-def youtube_captions_from_video(video_id):
-    """Given a youtube video id, fetches the captions for the video."""
-    caption_params = {'lang': 'en', 'v': video_id}
-    resp = requests.get(CAPTION_SERVICE_URL, params=caption_params)
+def fetch_url_result(url, params):
+    """Given a url and params, fetches the result from the url.
+
+    Returns:
+        dict containg fields: encoding, headers, links, ok, reason,
+                              status_code, text, url
+        additionally, if the response is in JSON, result contains a json
+        field.
+    """
+    resp = requests.get(url, params=params)
     if resp.headers.get('Content-Type') == 'application/json':
         result = {'json': resp.json()}
     else:
@@ -52,26 +62,44 @@ def youtube_captions_from_video(video_id):
 
 
 @celery.task
-def events_from_captions(caption_result, video_id):
+def youtube_captions_from_video(video_id):
+    """Given a video_id returns the captions of the video."""
+    return fetch_url_result(CAPTION_SERVICE_URL, {'lang': 'en', 'v': video_id})
+
+
+@celery.task
+def annotate_events_in_captions(caption_result, video_id, save_to_file=False):
     """Given captions as string and a video_id, extracts events."""
-    fd, filename = tempfile.mkstemp(suffix='.txt', prefix='cap-',
-                                    dir=app.config['HEIDELTIME_TMPINPUT_DIR'])
+    transcript = ET.fromstring(caption_result['text'])
+    text_blobs = [html.unescape(tn.text) for tn in transcript.findall('text')]
+    # reconstitute into a unified blob
+    blob = ' '.join(text_blobs).replace('\n', ' ')
 
-    transcript_xml = caption_result['text']
-    transcript_root = ET.fromstring(transcript_xml)
+    tmp_dir = app.config['HEIDELTIME_TMPINPUT_DIR']
+    infd, infile = tempfile.mkstemp(suffix='.txt', prefix='cap-', dir=tmp_dir)
+    fin = os.fdopen(infd, 'w')
 
-    f = os.fdopen(fd, 'w')
-    for i, text_node in enumerate(transcript_root.findall('text')):
-        unescaped = html.unescape(text_node.text)
-        f.write(unescaped)
-        f.write(' ')
-    f.close()
-    logging.debug('Wrote {} caption chunks for extraction'.format(i+1))
+    # parse the blob into sentences, and write it to the file
+    doc = nlp(blob)
+    for i, sent in enumerate(doc.sents):
+        fin.write(sent.string.strip()+'\n')
+    fin.close()
+    logging.debug('Wrote {} caption sentences for extraction'.format(i+1))
 
-    cmd_args = HEIDELTIME_CMD_ARGS + [filename]
+    # Setup the command to execute
+    HEIDELTIME_CMD_ARGS = \
+        'java -jar de.unihd.dbs.heideltime.standalone.jar -t narratives'.split()
+    cmd_args = HEIDELTIME_CMD_ARGS + [infile]
+
+    # run the command and get the output
     logging.info('Invoking HeidelTime with {}'.format(' '.join(cmd_args)))
-    res = subprocess.run(cmd_args, cwd=HEIDELTIME_WD, stdout=subprocess.PIPE)
-    return res.stdout.decode('utf-8')
+    if save_to_file:
+        outfd, outfile = tempfile.mkstemp(suffix='.xml', prefix='evt-', dir=tmp_dir)
+        res = subprocess.run(cmd_args, cwd=HEIDELTIME_WD, stdout=outfd)
+        return outfile
+    else:
+        res = subprocess.run(cmd_args, cwd=HEIDELTIME_WD, stdout=subprocess.PIPE)
+        return res.stdout.decode('utf-8')
 
 def events_from_date(date_pttn):
     wiki_url = wiki_url_from_date(date_pttn)
