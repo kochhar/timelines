@@ -14,6 +14,8 @@ from xml.etree import ElementTree as ET
 
 from app import app, celery, db
 
+from bs4 import BeautifulSoup
+
 CAPTION_SERVICE_URL = 'http://video.google.com/timedtext'
 HEIDELTIME_WD = path.join(app.root_path, app.config['HEIDELTIME_LIB_DIR'])
 HEIDELTIME_CMD_ARGS = \
@@ -70,3 +72,22 @@ def events_from_captions(caption_result, video_id):
     logging.info('Invoking HeidelTime with {}'.format(' '.join(cmd_args)))
     res = subprocess.run(cmd_args, cwd=HEIDELTIME_WD, stdout=subprocess.PIPE)
     return res.stdout.decode('utf-8')
+
+def events_from_date(date_pttn):
+    wiki_url = wiki_url_from_date(date_pttn)
+    html = requests.get(wiki_url).text
+
+    logging.debug('hello there')
+    # pass through beautiful soup
+    soup = BeautifulSoup(html, 'html.parser')
+    
+    logging.debug('soup is here {}'.format(soup))
+
+    temp = "somethinge else"
+    for link in soup.find_all('a'):
+        print(link.get('href'))
+
+    return temp
+
+def wiki_url_from_date(date_pttn):
+    return "https://en.wikipedia.org/wiki/2011"
