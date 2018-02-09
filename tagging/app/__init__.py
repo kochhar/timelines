@@ -5,6 +5,7 @@ from flask.ext.login import LoginManager
 from flask.ext.mail import Mail
 from flask.ext.sqlalchemy import SQLAlchemy
 from flask_debugtoolbar import DebugToolbarExtension
+from flask_restful import Api
 
 app = Flask(__name__)
 
@@ -69,3 +70,9 @@ def make_celery(app):
 
 celery = make_celery(app)
 from app import tasks
+
+
+# Setup the API interface
+from app.api import YoutubeInput
+api = Api(app, prefix='/api/v1')
+api.add_resource(YoutubeInput, '/in/yt', endpoint='yt_in')
