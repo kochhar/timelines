@@ -147,7 +147,15 @@ def events_from_year_soup(soup, month):
     events = []
     for bullet in bullets:
         if bullet != "\n":
-            events.append(events_from_bullet(bullet))
+            ul = bullet.find('ul')
+            if ul is None:
+                events.append(events_from_bullet(bullet))
+            else:
+                month_day = next(bullet.children) #eg. <a> for March 13
+                for sub_bullet in ul.children:
+                    if sub_bullet != "\n":
+                        sub_bullet.append(month_day)
+                        events.append(events_from_bullet(sub_bullet))
 
     return events
 
@@ -155,6 +163,14 @@ def events_from_year_soup(soup, month):
 def events_from_bullet(bullet):
     # bullet is a soup object
     return bullet.get_text()
+    # ret = {}
+    # ret['text'] = bullet.get_text()
+
+    # links = []
+    # for tag in bullet.select('a'):
+    #     links.append(tag.get('href'))
+    # ret['links'] = links
+    # return ret
 
 
 def events_from_date_soup(soup, year):
@@ -172,7 +188,7 @@ def test1():
     html = requests.get(wiki_url).text
 
     soup = BeautifulSoup(html, 'html.parser')
-    month = "June"
+    month = "March"
     return events_from_year_soup(soup, month)
 
 
