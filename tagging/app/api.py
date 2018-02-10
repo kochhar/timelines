@@ -44,7 +44,8 @@ class YoutubeInput(Resource):
         res = chain(
             tasks.captions.youtube_captions_from_video.s(video_id),
             tasks.captions.annotate_events_in_captions.s(video_id),
-            tasks.captions.events_from_timeml_annotated_captions.s(video_id)
+            tasks.captions.event_dates_from_timeml_annotated_captions.s(video_id),
+            tasks.wikitext.wikipedia_events_from_dates.s(video_id)
         ).apply_async()
 
         return {'url': args['url'],
