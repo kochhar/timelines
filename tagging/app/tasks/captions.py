@@ -256,11 +256,12 @@ def events_from_date(date_pttn):
         html = requests.get(wiki_url).text
         date_soup = BeautifulSoup(html, 'html.parser')
         events.append( events_from_date_soup)
-    
+
     # loop over events to see what matches
     # matchedEvents
 
     return matchedEvents
+
 
 def date_from_pttn(date_pttn):
     # todo
@@ -268,8 +269,9 @@ def date_from_pttn(date_pttn):
     ret.day = "15"
     ret.months = "3"
     ret.year = "2011"
-    
+
     return ret
+
 
 def events_from_year_soup(soup, month):
     t = soup.find(id=month)
@@ -279,22 +281,24 @@ def events_from_year_soup(soup, month):
     for bullet in bullets:
         if bullet != "\n":
             events.append(events_from_bullet(bullet))
-    
+
     return events
+
 
 def events_from_bullet(bullet):
     # bullet is a soup object
     return bullet.get_text()
 
+
 def events_from_date_soup(soup, year):
     t = soup.find(id="Events")
     bullets_soup = t.parent.next_sibling.next_sibling
-    bullet = bullets_soup.select('a[href="/wiki/2011"]')[0].parent; 
+    bullet = bullets_soup.select('a[href="/wiki/2011"]')[0].parent;
     return events_from_bullet(bullet)
 
 
 
-# testing 
+# testing
 
 def test1():
     year = "2011"
