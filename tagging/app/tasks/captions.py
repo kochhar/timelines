@@ -73,21 +73,89 @@ def events_from_captions(caption_result, video_id):
     res = subprocess.run(cmd_args, cwd=HEIDELTIME_WD, stdout=subprocess.PIPE)
     return res.stdout.decode('utf-8')
 
+@celery.task
 def events_from_date(date_pttn):
-    wiki_url = wiki_url_from_date(date_pttn)
+    date = date_from_pttn(date_pttn)
+
+    events = []
+
+    # get events from the year page
+    wiki_url = "https://en.wikipedia.org/wiki/" + date.year
     html = requests.get(wiki_url).text
+    year_soup = BeautifulSoup(html, 'html.parser')
 
-    logging.debug('hello there')
-    # pass through beautiful soup
-    soup = BeautifulSoup(html, 'html.parser')
+    if date.month:
+        months = []
+        months.append(date.month)
+    else if date.season:
+        months = months_from_season(date.season)
+    else:
+        months = ['January', 'February', 'March']
+
+    for month in months:
+        events.push(events_from_year_soup(soup, month))
+
+    # get events from the date page
+    if date.day && date.month:
+        wiki_url = "https://en.wikipedia.org/wiki/" + date.month + "_" + date.day
+        html = requests.get(wiki_url).text
+        date_soup = BeautifulSoup(html, 'html.parser')
+        events.append( events_from_date_soup)
     
-    logging.debug('soup is here {}'.format(soup))
+    # loop over events to see what matches
+    # matchedEvents
 
-    temp = "somethinge else"
-    for link in soup.find_all('a'):
-        print(link.get('href'))
+    return matchedEvents
 
-    return temp
+def date_from_pttn(date_pttn):
+    # todo
+    ret = {}
+    ret.day = "15"
+    ret.months = "3"
+    ret.year = "2011"
+    
+    return ret
 
-def wiki_url_from_date(date_pttn):
-    return "https://en.wikipedia.org/wiki/2011"
+def events_from_year_soup(soup, month):
+    t = soup.find(id=month)
+    bullets = t.parent.next_sibling.next_sibling.children
+
+    events = []
+    for bullet in bullets:
+        if bullet != "\n":
+            events.append(events_from_bullet(bullet))
+    
+    return events
+
+def events_from_bullet(bullet):
+    # bullet is a soup object
+    return bullet.get_text()
+
+def events_from_date_soup(soup, year):
+    t = soup.find(id="Events")
+    bullets_soup = t.parent.next_sibling.next_sibling
+    bullet = bullets_soup.select('a[href="/wiki/2011"]')[0].parent; 
+    return events_from_bullet(bullet)
+
+
+
+# testing 
+
+def test1():
+    year = "2011"
+    wiki_url = "https://en.wikipedia.org/wiki/" + year
+    html = requests.get(wiki_url).text
+    soup = BeautifulSoup(html, 'html.parser')
+
+    month = "June"
+
+    return events_from_year_soup(soup, month)
+
+def test2():
+    wiki_url = "https://en.wikipedia.org/wiki/March_15"
+    html = requests.get(wiki_url).text
+    soup = BeautifulSoup(html, 'html.parser')
+
+    year = "2011"
+
+    return events_from_date_soup(soup, year)
