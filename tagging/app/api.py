@@ -42,9 +42,9 @@ class YoutubeInput(Resource):
             return abort(400, message=msg)
 
         res = chain(
-            tasks.youtube_captions_from_video.s(video_id),
-            tasks.annotate_events_in_captions.s(video_id),
-            tasks.events_from_timeml_annotated_captions.s(video_id)
+            tasks.captions.youtube_captions_from_video.s(video_id),
+            tasks.captions.annotate_events_in_captions.s(video_id),
+            tasks.captions.events_from_timeml_annotated_captions.s(video_id)
         ).apply_async()
 
         return {'url': args['url'],
