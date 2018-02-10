@@ -3,38 +3,21 @@ captions.py
 
 module containing tasks for captions
 """
-from bs4 import BeautifulSoup
 import html
 import logging
 import os
 from os import path
 import re
-import requests
-import spacy
 import subprocess
 import tempfile
 from xml.etree import ElementTree as ET
 
 from app import app, celery, db, lib
-
-# load english language processing rules
-nlp = spacy.load('en')
+from app.tasks import requests as treq
 
 
 CAPTION_SERVICE_URL = 'http://video.google.com/timedtext'
 HEIDELTIME_WD = path.join(app.root_path, app.config['HEIDELTIME_LIB_DIR'])
-RESPONSE_SERIAL_FIELDS = [
-#    'content',
-#    'elapsed',
-    'encoding',
-    'headers',
-    'links',
-    'ok',
-    'reason',
-    'status_code',
-    'text',
-    'url'
-]
 TML_REGEX = "<TimeML>(.*)</TimeML>"
 TML_MATCHER = re.compile(TML_REGEX, re.DOTALL)
 TIMX_REGEX = "<TIMEX3[^>]*>[^<]*</TIMEX3>"
@@ -42,32 +25,9 @@ TIMX_MATCH = re.compile(TIMX_REGEX)
 
 
 @celery.task
-def fetch_url_result(url, params):
-    """Given a url and params, fetches the result from the url.
-
-    Returns:
-        dict containg fields: encoding, headers, links, ok, reason,
-                              status_code, text, url
-        additionally, if the response is in JSON, result contains a json
-        field.
-    """
-    resp = requests.get(url, params=params)
-    if resp.headers.get('Content-Type') == 'application/json':
-        result = {'json': resp.json()}
-    else:
-        result = {}
-
-    result.update(dict((f, getattr(resp, f)) for f in RESPONSE_SERIAL_FIELDS))
-    # headers is an instance of CaseInsensitiveDict, convert to plain dic
-    if 'headers' in result:
-        result['headers'] = dict(result['headers'])
-    return result
-
-
-@celery.task
 def youtube_captions_from_video(video_id):
     """Given a video_id returns the captions of the video."""
-    return fetch_url_result(CAPTION_SERVICE_URL, {'lang': 'en', 'v': video_id})
+    return treq.fetch_url_result(CAPTION_SERVICE_URL, {'lang': 'en', 'v': video_id})
 
 
 @celery.task
