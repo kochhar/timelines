@@ -2,8 +2,8 @@
   <div class="analyse">
     <table class="table is-bordered">
       <tbody>
-        <tr v-for="sent in dataBySentence">
-          <td @click="logSent()">{{sent.text}}</td>
+        <tr v-for="sent in sentencesWithWiki">
+          <td @click="log(sent)"><a>{{sent.text}}</a></td>
           <!-- captionEnts -->
           <td>
             <table class="table is-bordered">
@@ -18,23 +18,26 @@
               <tr v-for="event in sent.events">
                 <td>{{event.date}} << {{event.text}}</td>
                 <td>
-                  <table class="table" v-if="event.wiki.length">
-                    <tr v-for="(w,i) in event.wiki">
+                  <!-- <table class="table">
+                    <tr v-for="(w,i) in event.wiki" v-if="event.scores[i] > 0">
                       <td>{{w.text}}</td>
-                      <td>{{event.scores[i]}}</td>
+                      <td>{{parseInt(event.scores[i] * 100)}}</td>
+                    </tr>
+                  </table> -->
+                  <!-- {{event.wiki.length}} -->
+                  <table class="table">
+                    <tr v-for="(w,i) in event.wiki" v-if="event.scores[i].filter(s => s).length">
+                      <td @click="log(w.ents)">{{w.text}}</td>
+                      <td>{{ event.scores[i].map(s => parseInt(s*100)).join(',') }}</td>
                     </tr>
                   </table>
-                  <div v-else>No Wiki</div>
                 </td>
                 <td>
-                  <table class="table" v-if="event.match">
-                    <tr v-for="w in event.match">
-                      <td>{{w.text}}</td>
-                    </tr>
-                  </table>
+                  <div v-if="event.match" @click="log(event.match)">
+                    <a><strong>MATCH FOUND:</strong> {{event.match.text}}</a>
+                  </div>
                   <div v-else>no match</div>
                 </td>
-                <!-- <td>{{event.ents}}</td> -->
                 <td>
                   <table class="table is-bordered">
                     <tr v-for="ent in event.ents.item">
@@ -56,7 +59,6 @@
                     </tr>
                   </table>
                 </td>
-                <td>{{event.match}}</td>
               </tr>
             </table>
           </td>
@@ -68,7 +70,7 @@
 
 <script>
 
-import pythonData from '../data/match-veMFCFyOwFI-f_any6o3.json'
+import pythonData from '../data/match-video-xj3s8pac.json'
 
 export default {
   data() {
@@ -77,7 +79,7 @@ export default {
     }
   },
   computed: {
-    dataBySentence() {
+    sentences() {
       return this.data.captions.sents.map((sent, i) => {
         return {
           text: sent,
@@ -86,11 +88,22 @@ export default {
           events: this.data.events[i],
         }
       })
+    },
+    sentencesWithDate() {
+      return this.sentences.filter(s => s.events && s.events.length);
+    },
+    sentencesWithWiki() {
+      return this.sentencesWithDate.filter(s => s.events.filter(e => e.wiki.length).length)
+    },
+    sentencesWithMatch() {
+      return this.sentencesWithWiki.filter(s => s.events.filter(e => e.match).length)
     }
   },
   methods: {
-   
-  }
+    log(item) {
+      console.log(item);
+    }
+  } 
 }
 </script>
 
