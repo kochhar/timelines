@@ -2,9 +2,9 @@
 
 # Set these paths appropriately
 
-BIN=/Users/kochhar/workspace/projects/timelines/tagging/app/lib/treetagger/bin
-CMD=/Users/kochhar/workspace/projects/timelines/tagging/app/lib/treetagger/cmd
-LIB=/Users/kochhar/workspace/projects/timelines/tagging/app/lib/treetagger/lib
+BIN=/private/var/www/himhacks/timelines/tagging/app/lib/treetagger/bin
+CMD=/private/var/www/himhacks/timelines/tagging/app/lib/treetagger/cmd
+LIB=/private/var/www/himhacks/timelines/tagging/app/lib/treetagger/lib
 
 GERMANTAGGER=${CMD}/tree-tagger-german
 TAGGER=${BIN}/tree-tagger
