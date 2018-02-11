@@ -5,7 +5,9 @@ module containing tasks for wikitext processing
 """
 from bs4 import BeautifulSoup
 import collections
+import functools
 import logging
+import operator as op
 import re
 import requests
 
@@ -13,13 +15,21 @@ from app import app, celery, db, lib
 DatePtn = collections.namedtuple('DatePtn', 'year month months day ssn')
 
 
+CITE_REGEX = '\[\d+\]'
+CITE_MATCH = re.compile(CITE_REGEX)
 DEFAULT_DATEPTN = DatePtn(year=None, month=None, months=None, day=None, ssn=None)
+ENTITY_TYPE_BLACKLIST = [
+    'CARDINAL', 'DATE', 'LANGUAGE', 'MONEY',
+    'ORDINAL', 'PERCENT', 'QUANTITY', 'TIME',
+]
+MATCH_THRESHOLD = 0.25
 MONTHS_BY_INDEX = {
     '01': 'January', '02': 'February', '03': 'March',
     '04': 'April', '05': 'May', '06': 'June',
     '07': 'July', '08': 'August',  '09': 'September',
     '10': 'October', '11': 'November', '12': 'December'
 }
+STOP_DATES = ['PRESENT_REF', 'XXXX-XX-XX']
 # Time parsing regular expressions
 YMD_REGEX = '(?P<year>\d{4})-(?P<month>\d{2})-(?P<day>\d{2})'
 YM_REGEX  = '(?P<year>\d{4})-(?P<month>\d{2})'
@@ -33,6 +43,7 @@ YR_MATCH = re.compile(YR_REGEX)
 
 @celery.task
 def wikipedia_events_from_dates(extracted_events, video_id):
+    """Fetches wikipedia event descriptions given dates."""
     events = extracted_events['events']
     logging.debug('Events: {}'.format(events))
 
@@ -81,20 +92,93 @@ def wikitexts_from_date(date):
 
 @celery.task
 def event_entities_from_wikitext(extracted_events, video_id):
+    """Runs named entity extraction over the wiki text for each extracted event.
+    Extracted entities are saved in the wiki object for each event."""
     events = extracted_events['events']
     logging.debug('Events {}'.format(events))
+
+    text_cleaner = functools.partial(CITE_MATCH.sub, '')
+    entity_extractor = lib.entities_from_span
+    nlp_over_lines = lib.nlp_over_lines
 
     for i, sent in enumerate(events):
         for j, event in enumerate(sent):
             if 'wiki' not in event: continue
 
-            wiki_texts = [w['text'] for w in event['wiki']]
-            entity_and_sent = lib.nlp_over_lines_as_blob(wiki_texts, lib.entities_from_span, lib.str_from_span)
-            entities, sents = zip(*list(entity_and_sent))
-            event['wiki']['ents'] = entities
-            event['wiki']['sents'] = sents
+            wiki_blobs = event['wiki']
+            wiki_texts = [text_cleaner(b['text']) for b in wiki_blobs]
+            extracts = nlp_over_lines(wiki_texts, entity_extractor)
+            for blob, (entities,) in zip(wiki_blobs, extracts):
+                blob['ents'] = entities
 
     return extracted_events
+
+
+@celery.task
+def match_event_via_entities(extracted_events, video_id):
+    """Atempts to match an extracted event with the candidate wikipedia
+    events for the date."""
+    events = extracted_events['events']
+    logging.debug('Events {}'.format(events))
+
+    def entity_filter(entity_pairs):
+        return [(e, etype) for (e, etype) in entity_pairs if etype not in ENTITY_TYPE_BLACKLIST]
+
+    for candidate_list in events:
+        if not candidate_list: continue
+        for date in candidate_list:
+            if date['date'] in STOP_DATES: continue
+
+            match, scores = match_event_on_date(
+                text=date['text'],
+                date=date['date'],
+                ents=date['ents'],
+                candidate_events=date['wiki'],
+                entity_filter=entity_filter
+            )
+            date['match'] = match
+            date['scores'] = scores
+
+    return extracted_events
+
+
+def match_event_on_date(text, date, ents, candidate_events, entity_filter):
+    """Given an event date and entities relevant to the event, tries to match
+    against candidate events fetched from wikipedia.
+
+    Params:
+        text - date text
+        date - date as a pattern
+        ents - Dict containing entity tuples for the event, and for windows
+               before and after the event
+        candidate_events - List of dicts containing: entities, text & links
+               for the candidate events
+        entity_filter - function which filters the relevant entities
+    """
+    date_ents = entity_filter(ents['item'] + ents['before'] + ents['after'])
+    # score the date ents against each candidate
+    event_scores = [jacquard(date_ents, entity_filter(e['ents'])) for e in candidate_events]
+    matches = [(i, score) for (i, score) in enumerate(event_scores) if score > MATCH_THRESHOLD]
+
+    if not matches:
+        return None, event_scores
+
+    # get the best scoring event and return a copy of its dict
+    best_idx, best_score = sorted(matches, key=op.itemgetter(1), reverse=True)[0]
+    match_dict = dict(candidate_events[best_idx])
+    match_dict.update({'idx': best_idx, 'score': best_score})
+    return match_dict, event_scores
+
+
+def jacquard(first, second):
+    """Computes the jacquard similarity between two vectors described as lists.
+    The items in the lists must be hashable.
+
+    Jacquard similarity is the ratio of common items to the total items."""
+    common = set(first).intersection(second)
+    union = set(first).union(second)
+
+    return float(len(common)) / float(len(union))
 
 
 def date_from_pattern(date_ptn):
@@ -154,8 +238,9 @@ def events_from_year_soup(soup, month):
                 month_day = next(bullet.children) #eg. <a> for March 13
                 for sub_bullet in ul.children:
                     if sub_bullet != "\n":
-                        sub_bullet.append(month_day)
-                        events.append(events_from_bullet_soup(sub_bullet))
+                        event = events_from_bullet_soup(sub_bullet)
+                        event['text'] = '{} - {}'.format(month_day.get_text(), event['text'])
+                        events.append(event)
 
     return events
 
@@ -174,7 +259,8 @@ def events_from_bullet_soup(bullet):
 def events_from_date_soup(soup, year):
     t = soup.find(id="Events")
     bullets_soup = t.parent.next_sibling.next_sibling
-    bullet = bullets_soup.select('a[href="/wiki/2011"]')[0].parent;
+    # Find the section of the page with a link to the specific year
+    bullet = bullets_soup.select('a[href="/wiki/{}"]'.format(year))[0].parent;
     return events_from_bullet_soup(bullet)
 
 
