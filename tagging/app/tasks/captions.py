@@ -9,7 +9,6 @@ import os
 from os import path
 import re
 import subprocess
-import tempfile
 from xml.etree import ElementTree as ET
 
 from app import app, celery, db, lib
@@ -50,12 +49,10 @@ def annotate_events_in_captions(caption_result, video_id, save_to_file=False):
     annotated['captions']['ents'] = entities
     annotated['captions']['sents'] = sents
 
-    tmp_dir = app.config['HEIDELTIME_TMPINPUT_DIR']
-    infd, infile = tempfile.mkstemp(suffix='.txt', prefix='cap-', dir=tmp_dir)
-    fin = os.fdopen(infd, 'w')
-    for sent_str in sents:
-        fin.write(sent_str+'\n')
-    fin.close()
+    infile = lib.save_to_tempfile_as_lines(
+        sents,
+        prefix='cap-{}-'.format(video_id),
+        dir=app.config['HEIDELTIME_TMPINPUT_DIR'])
     logging.debug('Wrote {} caption sentences for extraction'.format(len(sents)))
 
     # Setup the command to execute

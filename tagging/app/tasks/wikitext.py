@@ -49,21 +49,19 @@ def wikipedia_events_from_dates(extracted_events, video_id):
 
     for i, sent in enumerate(events):
         for j, event in enumerate(sent):
-            logging.info('Sent {}, candidate event {} on date {}'.format(i, j, event['date']))
+            date = date_from_pattern(event['date'])
+            if not date or not date.year:
+                event['wiki'] = []
+                continue
 
-            wiki_texts = wikitexts_from_date(date_from_pattern(event['date']))
-            if wiki_texts is None: continue
-            event['wiki'] = wiki_texts
+            logging.info('Sent {}, candidate event {} on date {}'.format(i, j, date))
+            event['wiki'] = wikitexts_from_date(date)
 
     return extracted_events
 
 
 def wikitexts_from_date(date):
-    """Given a DatePtn, returns a list of wikitext for the events on those days.
-    If date_ptn is missing year, returns None"""
-    if not date: return None
-    if not date.year: return None
-
+    """Given a DatePtn, returns a list of wikitext for the events on those days."""
     # get events from the year page
     wiki_url = "https://en.wikipedia.org/wiki/" + date.year
     html = requests.get(wiki_url).text
@@ -129,16 +127,21 @@ def match_event_via_entities(extracted_events, video_id):
         for date in candidate_list:
             if date['date'] in STOP_DATES: continue
 
-            match, scores = match_event_on_date(
-                text=date['text'],
-                date=date['date'],
-                ents=date['ents'],
-                candidate_events=date['wiki'],
-                entity_filter=entity_filter
-            )
-            date['match'] = match
-            date['scores'] = scores
+            try:
+                match, scores = match_event_on_date(
+                    text=date['text'],
+                    date=date['date'],
+                    ents=date['ents'],
+                    candidate_events=date['wiki'],
+                    entity_filter=entity_filter
+                )
+                date['match'] = match
+                date['scores'] = scores
+            except KeyError as ke:
+                import pdb; pdb.set_trace()
 
+    filenam = lib.save_to_tempfile_as_json(extracted_events, prefix='match-{}-'.format(video_id))
+    logging.info('Saved extracted events to {}', filename)
     return extracted_events
 
 
@@ -225,22 +228,31 @@ def months_from_season(season):
 
 
 def events_from_year_soup(soup, month):
-    t = soup.find(id=month)
-    bullets = t.parent.next_sibling.next_sibling.children
-
     events = []
+
+    t = soup.find(id=month)
+    found = t.parent
+    while found.name != 'ul':
+        try:
+            found = found.next_sibling
+        except AttributeError as e:
+            logging.info('Could not find ul')
+            logging.debug(soup, month)
+            return events
+
+    bullets = found.children
     for bullet in bullets:
-        if bullet != "\n":
-            ul = bullet.find('ul')
-            if ul is None:
-                events.append(events_from_bullet_soup(bullet))
-            else:
-                month_day = next(bullet.children) #eg. <a> for March 13
-                for sub_bullet in ul.children:
-                    if sub_bullet != "\n":
-                        event = events_from_bullet_soup(sub_bullet)
-                        event['text'] = '{} - {}'.format(month_day.get_text(), event['text'])
-                        events.append(event)
+        if bullet == "\n": continue
+        ul = bullet.find('ul')
+        if ul is None:
+            events.append(events_from_bullet_soup(bullet))
+        else:
+            month_day = next(bullet.children) #eg. <a> for March 13
+            for sub_bullet in ul.children:
+                if sub_bullet == "\n": continue
+                event = events_from_bullet_soup(sub_bullet)
+                event['text'] = '{} - {}'.format(month_day.get_text(), event['text'])
+                events.append(event)
 
     return events
 
