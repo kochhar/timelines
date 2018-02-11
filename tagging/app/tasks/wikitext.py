@@ -22,7 +22,8 @@ ENTITY_TYPE_BLACKLIST = [
     'CARDINAL', 'DATE', 'LANGUAGE', 'MONEY',
     'ORDINAL', 'PERCENT', 'QUANTITY', 'TIME',
 ]
-MATCH_THRESHOLD = 0.25
+ITEM_MATCH_THRESHOLD = 0.25
+WINDOW_MATCH_THRESHOLD = 0.18
 MONTHS_BY_INDEX = {
     '01': 'January', '02': 'February', '03': 'March',
     '04': 'April', '05': 'May', '06': 'June',
@@ -158,11 +159,17 @@ def match_event_on_date(text, date, ents, candidate_events, entity_filter):
                for the candidate events
         entity_filter - function which filters the relevant entities
     """
-    date_ents = entity_filter(ents['item'] + ents['before'] + ents['after'])
-    # score the date ents against each candidate
-    event_scores = [jacquard(date_ents, entity_filter(e['ents'])) for e in candidate_events]
-    matches = [(i, score) for (i, score) in enumerate(event_scores) if score > MATCH_THRESHOLD]
+    date_item_ents = entity_filter(ents['item'])
+    item_scores = [jacquard(date_item_ents, entity_filter(e['ents'])) for e in candidate_events]
+    item_matches = [(i, score) for (i, score) in enumerate(item_scores) if score >= ITEM_MATCH_THRESHOLD]
 
+    date_window_ents = entity_filter(ents['item'] + ents['before'] + ents['after'])
+    # score the date ents against each candidate
+    window_scores = [jacquard(date_window_ents, entity_filter(e['ents'])) for e in candidate_events]
+    window_matches = [(i, score) for (i, score) in enumerate(window_scores) if score >= WINDOW_MATCH_THRESHOLD]
+
+    event_scores = [(isc, wsc) for (isc, wsc) in zip(item_scores, window_scores)]
+    matches = merge_item_window_matches(item_matches, window_matches)
     if not matches:
         return None, event_scores
 
@@ -178,10 +185,39 @@ def jacquard(first, second):
     The items in the lists must be hashable.
 
     Jacquard similarity is the ratio of common items to the total items."""
+    if not first or not second: return 0.0
+
     common = set(first).intersection(second)
     union = set(first).union(second)
 
     return float(len(common)) / float(len(union))
+
+
+def merge_item_window_matches(item_matches, window_matches):
+    unified_matches = []
+    idx_item, idx_wdow = 0, 0
+
+    while True:
+        if idx_item == len(item_matches): break
+        if idx_wdow == len(window_matches): break
+        item_match, window_match = item_matches[idx_item], window_matches[idx_wdow]
+        if item_match[0] < window_match[0]:
+            unified_matches.append(item_match)
+            idx_item += 1
+        elif item_match[0] == window_match[0]:
+            unified_matches.append(item_match)
+            idx_item += 1
+            idx_wdow += 1
+        else: # item_match[0] > window_match[0]
+            unified_matches.append(window_match)
+            idx_wdow += 1
+
+    if idx_item == len(item_matches) and idx_wdow < len(window_matches):
+        unified_matches.extend(window_matches[idx_wdow:])
+    elif idx_item < len(item_matches) and idx_wdow == len(window_matches):
+        unified_matches.extend(item_matches[idx_item:])
+
+    return unified_matches
 
 
 def date_from_pattern(date_ptn):
