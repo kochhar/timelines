@@ -140,7 +140,7 @@ def match_event_via_entities(extracted_events, video_id):
             except KeyError as ke:
                 import pdb; pdb.set_trace()
 
-    filenam = lib.save_to_tempfile_as_json(extracted_events, prefix='match-{}-'.format(video_id))
+    filename = lib.save_to_tempfile_as_json(extracted_events, prefix='match-{}-'.format(video_id))
     logging.info('Saved extracted events to {}', filename)
     return extracted_events
 
