@@ -3,7 +3,14 @@ __init__.py
 
 library module for the app
 """
+import json
+import os
+import tempfile
+
 import spacy
+
+from app import app
+
 nlp = spacy.load('en')
 
 
@@ -67,3 +74,32 @@ def entity_text_type_from_tokens(tokens):
 
 def str_from_span(sent):
     return sent.string.strip()
+
+
+def get_tempfile_for_write(**kwargs):
+    if 'dir' not in kwargs:
+        kwargs['dir'] = app.root_path
+    fd, filename = tempfile.mkstemp(**kwargs)
+    return (os.fdopen(fd, 'w'), filename)
+
+
+def save_to_tempfile_as_json(data, **kwargs):
+    """Saves data to a .json tempfile and returns the filename. Files are
+    created using `tempfile.mkstemp`, kwargs passed will be sent to mkstemp.
+    If no dir is specified, file is created in the app root."""
+    kwargs.update({'suffix': '.json'})
+    fout, filename = get_tempfile_for_write(**kwargs)
+    fout.write(json.dumps(data, indent=2))
+    fout.close()
+    return filename
+
+
+def save_to_tempfile_as_lines(lines, **kwargs):
+    """Saves lines to a .txt tempfile and returns the filename. Appends a
+    newline at the end of each line."""
+    kwargs.update({'suffix': '.txt'})
+    fout, filename = get_tempfile_for_write(**kwargs)
+    for line in lines:
+        fout.write(line+'\n')
+    fout.close()
+    return filename
