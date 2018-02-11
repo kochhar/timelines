@@ -2,3 +2,5 @@
 *.log
 *.pyc
 config.py
+
+tagging/app/lib/treetagger/cmd/
