@@ -141,7 +141,7 @@ def match_event_via_entities(extracted_events, video_id):
                 import pdb; pdb.set_trace()
 
     filename = lib.save_to_tempfile_as_json(extracted_events, prefix='match-{}-'.format(video_id))
-    logging.info('Saved extracted events to {}', filename)
+    logging.info('Saved extracted events to %s', filename)
     return extracted_events
 
 
