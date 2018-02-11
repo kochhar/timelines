@@ -1,11 +1,12 @@
 from celery import Celery
 from flask import Flask
-from flask.ext.bcrypt import Bcrypt
-from flask.ext.login import LoginManager
-from flask.ext.mail import Mail
-from flask.ext.sqlalchemy import SQLAlchemy
+from flask_bcrypt import Bcrypt
 from flask_debugtoolbar import DebugToolbarExtension
+from flask_login import LoginManager
+from flask_mail import Mail
+from flask_migrate import Migrate
 from flask_restful import Api
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
@@ -17,6 +18,7 @@ app.config.update(
 )
 # Setup the database
 db = SQLAlchemy(app)
+migrate = Migrate(app, db)
 
 # Setup the password crypting
 bcrypt = Bcrypt(app)
