@@ -42,7 +42,7 @@ def wikipedia_events_from_dates(extracted_events, video_id):
 
             wiki_texts = wikitexts_from_date(date_from_pattern(event['date']))
             if wiki_texts is None: continue
-            event['wiki'] = {'text': wiki_texts}
+            event['wiki'] = wiki_texts
 
     return extracted_events
 
@@ -88,7 +88,7 @@ def event_entities_from_wikitext(extracted_events, video_id):
         for j, event in enumerate(sent):
             if 'wiki' not in event: continue
 
-            wiki_texts = event['wiki']['text']
+            wiki_texts = [w['text'] for w in event['wiki']]
             entity_and_sent = lib.nlp_over_lines_as_blob(wiki_texts, lib.entities_from_span, lib.str_from_span)
             entities, sents = zip(*list(entity_and_sent))
             event['wiki']['ents'] = entities
@@ -149,35 +149,33 @@ def events_from_year_soup(soup, month):
         if bullet != "\n":
             ul = bullet.find('ul')
             if ul is None:
-                events.append(events_from_bullet(bullet))
+                events.append(events_from_bullet_soup(bullet))
             else:
                 month_day = next(bullet.children) #eg. <a> for March 13
                 for sub_bullet in ul.children:
                     if sub_bullet != "\n":
                         sub_bullet.append(month_day)
-                        events.append(events_from_bullet(sub_bullet))
+                        events.append(events_from_bullet_soup(sub_bullet))
 
     return events
 
 
-def events_from_bullet(bullet):
-    # bullet is a soup object
-    return bullet.get_text()
-    # ret = {}
-    # ret['text'] = bullet.get_text()
+def events_from_bullet_soup(bullet):
+    ret = {}
+    ret['text'] = bullet.get_text()
 
-    # links = []
-    # for tag in bullet.select('a'):
-    #     links.append(tag.get('href'))
-    # ret['links'] = links
-    # return ret
+    links = []
+    for tag in bullet.select('a'):
+        links.append(tag.get('href'))
+    ret['links'] = links
+    return ret
 
 
 def events_from_date_soup(soup, year):
     t = soup.find(id="Events")
     bullets_soup = t.parent.next_sibling.next_sibling
     bullet = bullets_soup.select('a[href="/wiki/2011"]')[0].parent;
-    return events_from_bullet(bullet)
+    return events_from_bullet_soup(bullet)
 
 
 
