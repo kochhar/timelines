@@ -15,12 +15,19 @@ def nlp_over_lines_as_blob(lines, *extractors):
     """
     blob = ' '.join(lines).replace('\n', ' ')
     doc = nlp(blob)
-    for i, sent in enumerate(doc.sents):
-        extracted = []
-        for ext in extractors:
-            extract = ext(sent)
-            extracted.append(extract)
+    for sent in doc.sents:
+        extracted = [ext(sent) for ext in extractors]
+        yield tuple(extracted)
 
+def nlp_over_lines(lines, *extractors):
+    """Given an iterable collection of lines of text, runs a series of
+    extractor functions over each line.
+
+    Yields a tuple for each line containing the results of each extractor
+    """
+    for line in lines:
+        doc = nlp(line)
+        extracted = [ext(doc) for ext in extractors]
         yield tuple(extracted)
 
 
