@@ -7,8 +7,8 @@ from urllib import parse
 from celery import chain
 from flask_restful import abort, fields, marshal_with, Resource
 from flask_restful.reqparse import RequestParser
-from app import tasks
 
+from app import app, tasks
 
 
 class YoutubeInput(Resource):
@@ -47,7 +47,8 @@ class YoutubeInput(Resource):
             tasks.captions.event_dates_from_timeml_annotated_captions.s(video_id),
             tasks.wikitext.wikipedia_events_from_dates.s(video_id),
             tasks.wikitext.event_entities_from_wikitext.s(video_id),
-            tasks.requests.send_url_payload(app.config['WIKITEXT_PAYLOAD_DEST_URL'])
+            tasks.wikitext.match_event_via_entities.s(video_id),
+            # tasks.requests.send_url_payload(app.config['WIKITEXT_PAYLOAD_DEST_URL']),
         ).apply_async()
 
         return {'url': args['url'],
