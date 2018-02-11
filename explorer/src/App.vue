@@ -21,7 +21,6 @@ $primary: #2070bb;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0px auto;
-  text-align: center;
   padding: 40px;
   max-width: 1000px;
 }

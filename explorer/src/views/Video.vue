@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="video">
     <div class="title">Timelines Project</div>
     <timeline></timeline>
     <youtube :video-id="videoId" @ready="ready" :player-height="300" :player-width="500"></youtube>
@@ -29,5 +29,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.video {
+  text-align: center;
+}
 </style>
