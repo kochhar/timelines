@@ -70,22 +70,24 @@
 
 <script>
 
-import pythonData from '../data/match-video-xj3s8pac.json'
-
 export default {
   data() {
     return {
-      data: pythonData
+      matchData: this.$store.matchData,
+      matchIndex: 2
     }
   },
   computed: {
+    videoData() {
+      return this.matchData[this.matchIndex];
+    },
     sentences() {
-      return this.data.captions.sents.map((sent, i) => {
+      return this.videoData.captions.sents.map((sent, i) => {
         return {
           text: sent,
-          captionEnts: this.data.captions.ents[i],
-          heidelSents: this.data.heidel.sents[i],
-          events: this.data.events[i],
+          captionEnts: this.videoData.captions.ents[i],
+          heidelSents: this.videoData.heidel.sents[i],
+          events: this.videoData.events[i],
         }
       })
     },
@@ -103,7 +105,7 @@ export default {
     log(item) {
       console.log(item);
     }
-  } 
+  }
 }
 </script>
 
