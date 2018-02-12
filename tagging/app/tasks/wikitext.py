@@ -261,6 +261,8 @@ def months_from_season(season):
 
 
 def events_from_year_soup(soup, month):
+    """Returns list of events: [{'text': '', 'links': ['']}] which occurred
+    in a given month."""
     events = []
 
     t = soup.find(id=month)
@@ -290,8 +292,26 @@ def events_from_year_soup(soup, month):
     return events
 
 
+def events_from_date_soup(soup, year):
+    """Returns list of events: [{'text': '', 'links': ['']}] which occurred
+    in a given year."""
+    events = []
+    t = soup.find(id="Events")
+    bullets_soup = t.parent.next_sibling.next_sibling
+    # Find the section of the page with a link to the specific year
+    try:
+        bullet = bullets_soup.select('a[href="/wiki/{}"]'.format(year))[0].parent;
+        events.append(events_from_bullet_soup(bullet))
+    except IndexError as e:
+        logging.warn("Could not find bullet for year {}".format(year))
+
+    return events
+
+
 def events_from_bullet_soup(bullet):
     ret = {}
+    if not bullet: return ret
+
     ret['text'] = bullet.get_text()
 
     links = []
@@ -299,14 +319,6 @@ def events_from_bullet_soup(bullet):
         links.append(tag.get('href'))
     ret['links'] = links
     return ret
-
-
-def events_from_date_soup(soup, year):
-    t = soup.find(id="Events")
-    bullets_soup = t.parent.next_sibling.next_sibling
-    # Find the section of the page with a link to the specific year
-    bullet = bullets_soup.select('a[href="/wiki/{}"]'.format(year))[0].parent;
-    return events_from_bullet_soup(bullet)
 
 
 

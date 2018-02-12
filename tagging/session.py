@@ -24,4 +24,16 @@ def run_pipeline(video_id):
     return matched_events
 
 
-matched_events = run_pipeline('veMFCFyOwFI')
+def preprocess_video_set():
+    """Preprocesses the video set."""
+    return [
+        run_pipeline(video_id)
+        for video_id in [
+            '8EDW88CBo-8',
+            'AQPlREDW-Ro',
+            'iRYZjOuUnlU',
+            'pzmO6RWy1v8',
+            'wb6IiSUxpgw',
+            'K5H5w3_QTG0'
+        ]
+    ]

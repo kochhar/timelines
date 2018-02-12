@@ -2,7 +2,7 @@
   <div class="analyse">
     <table class="table is-bordered">
       <tbody>
-        <tr v-for="sent in sentencesWithWiki">
+        <tr v-for="sent in sentencesWithDate">
           <td @click="log(sent)"><a>{{sent.text}}</a></td>
           <!-- captionEnts -->
           <td>
@@ -25,7 +25,7 @@
                     </tr>
                   </table> -->
                   <!-- {{event.wiki.length}} -->
-                  <table class="table">
+                  <table v-if="event.wiki" class="table">
                     <tr v-for="(w,i) in event.wiki" v-if="event.scores[i].filter(s => s).length">
                       <td @click="log(w.ents)">{{w.text}}</td>
                       <td>{{ event.scores[i].map(s => parseInt(s*100)).join(',') }}</td>
