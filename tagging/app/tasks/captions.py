@@ -33,7 +33,8 @@ def youtube_captions_from_video(video_id):
 def annotate_events_in_captions(caption_result, video_id, save_to_file=False):
     """Given captions as string and a video_id, extracts events."""
     # container for the result
-    annotated = {
+    video_extract = {
+        'video_id': video_id,
         'captions': {'sents':[], 'ents': []},
         'heidel': {'sents':[]}
     }
@@ -46,8 +47,8 @@ def annotate_events_in_captions(caption_result, video_id, save_to_file=False):
     entity_and_sent_pairs = list(entity_and_sent)
     # inside-out trick, converts a list of tuples into a tuple of lists, which get unpacked
     entities, sents = zip(*entity_and_sent_pairs)
-    annotated['captions']['ents'] = entities
-    annotated['captions']['sents'] = sents
+    video_extract['captions']['ents'] = entities
+    video_extract['captions']['sents'] = sents
 
     infile = lib.save_to_tempfile_as_lines(
         sents,
@@ -66,30 +67,31 @@ def annotate_events_in_captions(caption_result, video_id, save_to_file=False):
     match = TML_MATCHER.search(output)
     if not match:
         logging.info('Did not find any TimeML in the HeidelTime output')
-        return annotated
+        return video_extract
 
     body = match.group(1)
     sents = [sent for sent in body.split('\n') if len(sent)]
-    annotated['heidel']['sents'] = sents
+    video_extract['heidel']['sents'] = sents
 
-    return annotated
+    return video_extract
 
 
 @celery.task
-def event_dates_from_timeml_annotated_captions(annotated, video_id):
+def event_dates_from_timeml_annotated_captions(video_extract):
     """Extracts events their dates and the entities associated with the
     event from captions which have been annotated with TimeML.
 
     Params:
-        - annotated - {
+        - video_extract - {
+            'video_id': '<video_id>',
             'captions': { 'sents': [ plain text sentences ] },
             'heidel': { 'sents': [ annotated sentences ] }
         }
         - video_id - string with the video_id
     """
-    cap_sents = annotated['captions']['sents']
-    cap_ents = annotated['captions']['ents']
-    cap_timeann = annotated['heidel']['sents']
+    cap_sents = video_extract['captions']['sents']
+    cap_ents = video_extract['captions']['ents']
+    cap_timeann = video_extract['heidel']['sents']
     logging.debug('Sentences: {}'.format(cap_sents))
     logging.debug('Entities: {}'.format(cap_ents))
     logging.debug('Annotated: {}'.format(cap_timeann))
@@ -111,8 +113,8 @@ def event_dates_from_timeml_annotated_captions(annotated, video_id):
         ]
         events.append(ann_events)
 
-    annotated['events'] = events
-    return annotated
+    video_extract['events'] = events
+    return video_extract
 
 
 def context_window(listy, bef=1, aft=1):

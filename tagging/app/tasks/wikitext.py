@@ -43,10 +43,9 @@ YR_MATCH = re.compile(YR_REGEX)
 
 
 @celery.task
-def wikipedia_events_from_dates(extracted_events, video_id):
+def wikipedia_events_from_dates(video_extract):
     """Fetches wikipedia event descriptions given dates."""
-    events = extracted_events['events']
-    logging.debug('Events: {}'.format(events))
+    events = video_extract['events']
 
     for i, sent in enumerate(events):
         for j, event in enumerate(sent):
@@ -58,7 +57,7 @@ def wikipedia_events_from_dates(extracted_events, video_id):
             logging.info('Sent {}, candidate event {} on date {}'.format(i, j, date))
             event['wiki'] = wikitexts_from_date(date)
 
-    return extracted_events
+    return video_extract
 
 
 def wikitexts_from_date(date):
@@ -90,11 +89,10 @@ def wikitexts_from_date(date):
 
 
 @celery.task
-def event_entities_from_wikitext(extracted_events, video_id):
+def event_entities_from_wikitext(video_extract):
     """Runs named entity extraction over the wiki text for each extracted event.
     Extracted entities are saved in the wiki object for each event."""
-    events = extracted_events['events']
-    logging.debug('Events {}'.format(events))
+    events = video_extract['events']
 
     text_cleaner = functools.partial(CITE_MATCH.sub, '')
     entity_extractor = lib.entities_from_span
@@ -110,15 +108,14 @@ def event_entities_from_wikitext(extracted_events, video_id):
             for blob, (entities,) in zip(wiki_blobs, extracts):
                 blob['ents'] = entities
 
-    return extracted_events
+    return video_extract
 
 
 @celery.task
-def match_event_via_entities(extracted_events, video_id):
+def match_event_via_entities(video_extract):
     """Atempts to match an extracted event with the candidate wikipedia
     events for the date."""
-    events = extracted_events['events']
-    logging.debug('Events {}'.format(events))
+    events = video_extract['events']
 
     def entity_filter(entity_pairs):
         return [(e, etype) for (e, etype) in entity_pairs if etype not in ENTITY_TYPE_BLACKLIST]
@@ -134,16 +131,16 @@ def match_event_via_entities(extracted_events, video_id):
                     date=date['date'],
                     ents=date['ents'],
                     candidate_events=date['wiki'],
-                    entity_filter=entity_filter
-                )
+                    entity_filter=entity_filter)
                 date['match'] = match
                 date['scores'] = scores
             except KeyError as ke:
                 import pdb; pdb.set_trace()
 
-    filename = lib.save_to_tempfile_as_json(extracted_events, prefix='match-{}-'.format(video_id))
+    video_id = video_extract['video_id']
+    filename = lib.save_to_tempfile_as_json(video_extract, prefix='match-{}-'.format(video_id))
     logging.info('Saved extracted events to %s', filename)
-    return extracted_events
+    return video_extract
 
 
 def match_event_on_date(text, date, ents, candidate_events, entity_filter):

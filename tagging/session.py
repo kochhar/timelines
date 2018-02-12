@@ -7,15 +7,21 @@ from importlib import reload
 captions = reload(captions)
 wikitext = reload(wikitext)
 
-caps = captions.youtube_captions_from_video('veMFCFyOwFI')
-annotations = captions.annotate_events_in_captions(caps, 'video')
-event_dates = captions.event_dates_from_timeml_annotated_captions(annotations, 'video')
-wikipedia_events = wikitext.wikipedia_events_from_dates(event_dates, 'video')
-wikipedia_entities = wikitext.event_entities_from_wikitext(wikipedia_events, 'video')
-matched_events = wikitext.match_event_via_entities(wikipedia_entities, 'video')
+
+def run_pipeline(video_id):
+    """Runs the pipeline for a video id."""
+    caps = captions.youtube_captions_from_video(video_id)
+    annotations = captions.annotate_events_in_captions(caps, video_id)
+    event_dates = captions.event_dates_from_timeml_annotated_captions(annotations)
+    wikipedia_events = wikitext.wikipedia_events_from_dates(event_dates)
+
+    # matching via entities
+    wikipedia_entities = wikitext.event_entities_from_wikitext(wikipedia_events)
+    matched_events = wikitext.match_event_via_entities(wikipedia_entities)
+
+    # matching via vector similarity
+    # vector_matches = wikitext.match_event_via_vector_sim(wikipedia_events)
+    return matched_events
 
 
-def save_as_json(obj, filename):
-    f = open(filename, 'w')
-    f.write(json.dumps(obj, indent=2))
-    f.close()
+matched_events = run_pipeline('veMFCFyOwFI')

@@ -44,10 +44,10 @@ class YoutubeInput(Resource):
         res = chain(
             tasks.captions.youtube_captions_from_video.s(video_id),
             tasks.captions.annotate_events_in_captions.s(video_id),
-            tasks.captions.event_dates_from_timeml_annotated_captions.s(video_id),
-            tasks.wikitext.wikipedia_events_from_dates.s(video_id),
-            tasks.wikitext.event_entities_from_wikitext.s(video_id),
-            tasks.wikitext.match_event_via_entities.s(video_id),
+            tasks.captions.event_dates_from_timeml_annotated_captions.s(),
+            tasks.wikitext.wikipedia_events_from_dates.s(),
+            tasks.wikitext.event_entities_from_wikitext.s(),
+            tasks.wikitext.match_event_via_entities.s(),
             # tasks.requests.send_url_payload(app.config['WIKITEXT_PAYLOAD_DEST_URL']),
         ).apply_async()
 
