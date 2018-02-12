@@ -41,20 +41,21 @@ def annotate_events_in_captions(caption_result, video_id, save_to_file=False):
     if not caption_result['text']: return video_extract
 
     captions = ET.fromstring(caption_result['text'])
-    text_blobs = [html.unescape(tn.text) for tn in captions.findall('text')]
+    text_blobs = [html.unescape(tn.text).replace('\n', ' ') for tn in captions.findall('text')]
+    text_times = [tn.attrib.get('start') for tn in captions.findall('text')]
 
     # parse the text blocks into entities and sentences
     entity_and_sent = lib.nlp_over_lines_as_blob(text_blobs, lib.entities_from_span, lib.str_from_span)
     entity_and_sent_pairs = list(entity_and_sent)
     # inside-out trick, converts a list of tuples into a tuple of lists, which get unpacked
     entities, sents = zip(*entity_and_sent_pairs)
+    timestamps, sents = zip(*assign_timestamp_to_sentences(text_blobs, text_times, sents))
     video_extract['captions']['ents'] = entities
     video_extract['captions']['sents'] = sents
+    video_extract['captions']['timestamps'] = timestamps
 
-    infile = lib.save_to_tempfile_as_lines(
-        sents,
-        prefix='cap-{}-'.format(video_id),
-        dir=app.config['HEIDELTIME_TMPINPUT_DIR'])
+    infile = lib.save_to_tempfile_as_lines(sents, prefix='cap-'+video_id,
+                                           dir=app.config['HEIDELTIME_TMPINPUT_DIR'])
     logging.debug('Wrote {} caption sentences for extraction'.format(len(sents)))
 
     # Setup the command to execute
@@ -75,6 +76,46 @@ def annotate_events_in_captions(caption_result, video_id, save_to_file=False):
     video_extract['heidel']['sents'] = sents
 
     return video_extract
+
+
+def assign_timestamp_to_sentences(text_blobs, text_times, sentences):
+    sentence_stamps = []
+    idx_blob, idx_sent = 0, 0
+    part_blob, part_sent = None, None
+
+    while idx_blob < len(text_blobs):
+        blob, ts = (part_blob, ts) if part_blob else (text_blobs[idx_blob], text_times[idx_blob])
+        sentence = part_sent if part_sent else sentences[idx_sent]
+        blob, sentence = blob.strip(), sentence.strip()
+        # If blob and sentence are the same, record the timestamp and move to the next
+        if blob == sentence:
+            # if this match completes a previous sentence don't update sentence stamps
+            if not part_sent:
+                sentence_stamps.append((ts, sentences[idx_sent]))
+            idx_blob += 1
+            idx_sent += 1
+            part_blob, part_sent = None, None
+            continue
+
+        # If not, two cases are possible:
+        # - blob is longer than sentence
+        # - sentence if longer than blob
+        if blob.startswith(sentence):
+            # if this match completes a previous sentence don't update sentence stamps
+            if not part_sent:
+                sentence_stamps.append((ts, sentences[idx_sent]))
+            idx_sent += 1
+            part_blob, part_sent = blob[len(sentence):], None
+        elif sentence.startswith(blob):
+            # if this match completes a previous sentence don't update sentence stamps
+            if not part_sent:
+                sentence_stamps.append((ts, sentences[idx_sent]))
+            idx_blob += 1
+            part_blob, part_sent = None, sentence[len(blob):]
+        else:
+            logging.warn('No initial overlap between %s and %s', blob, sentence)
+
+    return sentence_stamps
 
 
 @celery.task
