@@ -38,6 +38,7 @@ def annotate_events_in_captions(caption_result, video_id, save_to_file=False):
         'captions': {'sents':[], 'ents': []},
         'heidel': {'sents':[]}
     }
+    if not caption_result['text']: return video_extract
 
     captions = ET.fromstring(caption_result['text'])
     text_blobs = [html.unescape(tn.text) for tn in captions.findall('text')]
