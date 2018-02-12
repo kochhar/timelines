@@ -7,6 +7,12 @@ from importlib import reload
 captions = reload(captions)
 wikitext = reload(wikitext)
 
+def run_annotations(video_id):
+    """Runs the time annotations for a video id."""
+    caps = captions.youtube_captions_from_video(video_id)
+    annotations = captions.annotate_events_in_captions(caps, video_id)
+    return annotations
+
 
 def run_pipeline(video_id):
     """Runs the pipeline for a video id."""
@@ -29,11 +35,13 @@ def preprocess_video_set():
     return [
         run_pipeline(video_id)
         for video_id in [
+            'JFpanWNgfQY',
             '8EDW88CBo-8',
             'AQPlREDW-Ro',
             'iRYZjOuUnlU',
             'pzmO6RWy1v8',
             'wb6IiSUxpgw',
-            'K5H5w3_QTG0'
+            'K5H5w3_QTG0',
+            'veMFCFyOwFI',
         ]
     ]

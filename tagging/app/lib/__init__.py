@@ -20,7 +20,7 @@ def nlp_over_lines_as_blob(lines, *extractors):
 
     Yields a tuple for each sentence containing the results of each extractor
     """
-    blob = ' '.join(lines).replace('\n', ' ')
+    blob = ' '.join(lines)
     doc = nlp(blob)
     for sent in doc.sents:
         extracted = [ext(sent) for ext in extractors]
