@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node src/server.js --presets es2015,stage-2"
+    "start": "babel-node src/server.js --presets es2015,stage-2",
+    "debug": "babel-node src/server.js --presets es2015,stage-2 --inspect"
   },
   "keywords": [],
   "author": "",

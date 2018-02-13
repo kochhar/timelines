@@ -1,15 +1,24 @@
 import wdk from 'wikidata-sdk'
 import axios from 'axios'
 import _ from 'lodash'
-import extractData from './extract.js'
+import extractData from '../videos/match-JFpanWNgfQY-mdrr3k9p.json'
 
 async function addWikidata(match) {
-  let wbIds = match.wptopics.map(wpt => wpt.wbid);
-  console.log(wbIds);
+  let {wptopics} = match;
+  let wbIds = wptopics.map(wpt => wpt.wbid);
 
   let wptopics_temp = await Promise.all(wbIds.map(wbId => getEntityInfo({wbId})));
+  //merge with wptopics
+  wptopics = wptopics.map((wpt,i) => {
+    return {
+      ...wpt,
+      ...wptopics_temp[i]
+    };
+  });
 
-  let wptopic_sel = wptopics_temp.find(wpt => wpt.start_time);
+  let wptopic_sel = wptopics.find(wpt => wpt.start_time) || null;
+  
+  // if(wptopic_sel)console.log(wptopics_temp, wptopic_sel);
 
   // //add wptopic_sel.related
   let wptopic_rel = {};
@@ -22,7 +31,7 @@ async function addWikidata(match) {
     ...match,
     wptopic_rel,
     wptopic_sel,
-    wptopics_temp
+    wptopics
   };
 }
 export let startDownstream = async (request, reply) => {
@@ -104,7 +113,7 @@ export let getEntityInfo = async ({wbId}) => {
     delete currEntity.instance_of;
 
     if (currWbId == wbId) rootEntity = currEntity;
-    else part_of_arr.push(currEntity)
+    else part_of_arr.push(currEntity);
 
   });
   return {

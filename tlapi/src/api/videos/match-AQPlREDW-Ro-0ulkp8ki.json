@@ -1,0 +1,6997 @@
+{
+  "video_id": "AQPlREDW-Ro",
+  "captions": {
+    "sents": [
+      "Oh dear\u2026",
+      "Just when you thought the Iraq problem was solved because you haven\u2019t heard about it for a while, everything\u2019s back to murderous chaos and terror.",
+      "What happened?",
+      "In 2003, the US invaded Iraq because of its alleged connections to terrorism and weapons of mass destruction.",
+      "At the time, Saddam Hussein, a brutal dictator, ruled the country.",
+      "He was part of the Sunni minority and suppressed the Shia majority.",
+      "Iraq was conquered fairly quickly, but the US had no plan for the country.",
+      "The until-then suppressed Shia majority took over and began oppressing the Sunnis, because suppressing other faiths has proven to be such a good idea.",
+      "Unsurprisingly, a Sunni rebel uprising began and terrorist groups, like al-Qaeda, trickled into Iraq and local forces, often former Sunni military, began fighting the US troops and the newly formed Iraqi state, peaking in a bloody civil war in 2006.",
+      "Since then, people in Iraq have basically been segregated by religion.",
+      "So, in a tragic irony of history, the US invasion led to the formation of the very terrorists the US wanted to eliminate in the first place, because Iraq was now the perfect training ground for terrorism.",
+      "To understand this complicated conflict better, we need to understand the relationship between the two main branches of the Muslim faith: Shia and Sunni Islam.",
+      "Sunnis make up about 80% of the Muslim world and Shia about 20%.",
+      "And the hard-liners on both sides don\u2019t like each other very much.",
+      "Saudi Arabia and Iran are the two most powerful players in the game of faiths.",
+      "They both have no separation of state and religion, domestic problems, and a lot of oil money.",
+      "And they support groups that fight the other religious orientation.",
+      "And one of those terror organizations supported by Saudi Arabia was the Islamic State in Iraq, or ISI for short.",
+      "In 2010, the Arab Spring happened and changed the whole situation in the Middle East.",
+      "In Syria, dictator Bashar al-Assad didn\u2019t think much of resigning and started a gruesome civil war against his own people.",
+      "The longer the war went on, the more foreign groups joined the fight, most of them for religious reasons, and with the goal of building an Islamic state in the region.",
+      "And one of them was the infamous ISI, which now became the Islamic State in Iraq and Syria, or ISIS.",
+      "They had fought in Iraq for years, and had thousands of well-trained and fanatic soldiers.",
+      "They already quasi-controlled parts of northern Iraq and were very determined to build their religious state.",
+      "And they changed the game in Syria like no-one expected.",
+      "ISIS was so unbelievably violent and radical that soon it was a war with almost every other faction of the Syrian rebel armies.",
+      "They attacked and killed member of other Muslim terrorist groups.",
+      "In the territories they controlled, they built an Islamic state with rules so strict that even the hard-liners of al-Qaeda and Saudi Arabia were shocked and withdrew their support.",
+      "ISIS has been accused of responsibility for multiple massacres against civilians, countless suicide bombings, the hostage-taking of women and children, the execution of their prisoners, and beheadings.",
+      "All kinds of medieval hororrs we would rather not have to illustrate.",
+      "And this lovely gathering of human beings recently decided it was time to take more territory in Iraq.",
+      "Since the US left Iraq, the Shia prime minister, Nouri al-Maliki, has monopolized power and discriminated against Sunnis wherever possible.",
+      "The government of Iraq is widely regarded as being corrupt, incapable, and it\u2019s cetainly hated by a large part of its citizens.",
+      "The Iraqi army, consisting of about 300,000 soldiers, was created using 25 billion US dollars in tax money, but it\u2019s not loyal to its government and has been withdrawing or completely disbanding, giving up city after city.",
+      "Because ISIS has announced that everyone who opposes them will be killed, they have proven they mean business.",
+      "By June 2014, they\u2019d conquered a big chunk of Iraq, including Mosul, Iraq\u2019s second-largest city.",
+      "They\u2019d stolen hundreds of millions from captured banks, making them the richest terror organization on Earth.",
+      "And they are constantly working on establishing a super-medieval religious state.",
+      "Iran and the US are even considering working together to fight them.",
+      "That\u2019s how gruesome the situation is.",
+      "Events in Iraq show again that exploiting the people you\u2019ve defeated in a war, denying them power, a living, and a stake in the rebuilding of the country is just sowing the seeds of the next bout of violence.",
+      "Somehow, we have to break this circle.",
+      "Subtitles by the Amara.org community"
+    ],
+    "ents": [
+      [],
+      [
+        [
+          "Iraq",
+          "GPE"
+        ]
+      ],
+      [],
+      [
+        [
+          "2003",
+          "DATE"
+        ],
+        [
+          "US",
+          "GPE"
+        ],
+        [
+          "Iraq",
+          "GPE"
+        ]
+      ],
+      [
+        [
+          "Saddam Hussein",
+          "PERSON"
+        ]
+      ],
+      [
+        [
+          "Sunni",
+          "NORP"
+        ],
+        [
+          "Shia",
+          "NORP"
+        ]
+      ],
+      [
+        [
+          "Iraq",
+          "GPE"
+        ],
+        [
+          "US",
+          "GPE"
+        ]
+      ],
+      [
+        [
+          "Shia",
+          "NORP"
+        ],
+        [
+          "Sunnis",
+          "NORP"
+        ]
+      ],
+      [
+        [
+          "Sunni",
+          "NORP"
+        ],
+        [
+          "al - Qaeda",
+          "ORG"
+        ],
+        [
+          "Iraq",
+          "GPE"
+        ],
+        [
+          "Sunni",
+          "NORP"
+        ],
+        [
+          "US",
+          "GPE"
+        ],
+        [
+          "Iraqi",
+          "NORP"
+        ],
+        [
+          "2006",
+          "DATE"
+        ]
+      ],
+      [
+        [
+          "Iraq",
+          "GPE"
+        ]
+      ],
+      [
+        [
+          "US",
+          "GPE"
+        ],
+        [
+          "US",
+          "GPE"
+        ],
+        [
+          "first",
+          "ORDINAL"
+        ],
+        [
+          "Iraq",
+          "GPE"
+        ]
+      ],
+      [
+        [
+          "two",
+          "CARDINAL"
+        ],
+        [
+          "Muslim",
+          "NORP"
+        ],
+        [
+          "Shia",
+          "NORP"
+        ],
+        [
+          "Sunni",
+          "NORP"
+        ]
+      ],
+      [
+        [
+          "Sunnis",
+          "NORP"
+        ],
+        [
+          "about 80 %",
+          "PERCENT"
+        ],
+        [
+          "Muslim",
+          "NORP"
+        ],
+        [
+          "Shia",
+          "NORP"
+        ],
+        [
+          "about 20 %",
+          "PERCENT"
+        ]
+      ],
+      [],
+      [
+        [
+          "Saudi Arabia",
+          "GPE"
+        ],
+        [
+          "Iran",
+          "GPE"
+        ],
+        [
+          "two",
+          "CARDINAL"
+        ]
+      ],
+      [],
+      [],
+      [
+        [
+          "one",
+          "CARDINAL"
+        ],
+        [
+          "Saudi Arabia",
+          "GPE"
+        ],
+        [
+          "the Islamic State",
+          "ORG"
+        ],
+        [
+          "Iraq",
+          "GPE"
+        ],
+        [
+          "ISI",
+          "ORG"
+        ]
+      ],
+      [
+        [
+          "2010",
+          "DATE"
+        ],
+        [
+          "the Arab Spring",
+          "ORG"
+        ],
+        [
+          "the Middle East",
+          "LOC"
+        ]
+      ],
+      [
+        [
+          "Syria",
+          "GPE"
+        ],
+        [
+          "Bashar al - Assad",
+          "PERSON"
+        ]
+      ],
+      [
+        [
+          "Islamic",
+          "NORP"
+        ]
+      ],
+      [
+        [
+          "ISI",
+          "ORG"
+        ],
+        [
+          "the Islamic State",
+          "ORG"
+        ],
+        [
+          "Iraq",
+          "GPE"
+        ],
+        [
+          "Syria",
+          "GPE"
+        ]
+      ],
+      [
+        [
+          "Iraq",
+          "GPE"
+        ],
+        [
+          "years",
+          "DATE"
+        ],
+        [
+          "thousands",
+          "CARDINAL"
+        ]
+      ],
+      [
+        [
+          "Iraq",
+          "GPE"
+        ]
+      ],
+      [
+        [
+          "Syria",
+          "GPE"
+        ]
+      ],
+      [
+        [
+          "Syrian",
+          "NORP"
+        ]
+      ],
+      [
+        [
+          "Muslim",
+          "NORP"
+        ]
+      ],
+      [
+        [
+          "Islamic",
+          "NORP"
+        ],
+        [
+          "al - Qaeda",
+          "ORG"
+        ],
+        [
+          "Saudi Arabia",
+          "GPE"
+        ]
+      ],
+      [],
+      [],
+      [
+        [
+          "Iraq",
+          "GPE"
+        ]
+      ],
+      [
+        [
+          "US",
+          "GPE"
+        ],
+        [
+          "Iraq",
+          "GPE"
+        ],
+        [
+          "Shia",
+          "NORP"
+        ],
+        [
+          "Nouri al - Maliki",
+          "PERSON"
+        ],
+        [
+          "Sunnis",
+          "NORP"
+        ]
+      ],
+      [
+        [
+          "Iraq",
+          "GPE"
+        ]
+      ],
+      [
+        [
+          "Iraqi",
+          "NORP"
+        ],
+        [
+          "about 300,000",
+          "CARDINAL"
+        ],
+        [
+          "25 billion US dollars",
+          "MONEY"
+        ]
+      ],
+      [],
+      [
+        [
+          "June 2014",
+          "DATE"
+        ],
+        [
+          "Iraq",
+          "GPE"
+        ],
+        [
+          "Mosul",
+          "GPE"
+        ],
+        [
+          "Iraq",
+          "GPE"
+        ],
+        [
+          "second",
+          "ORDINAL"
+        ]
+      ],
+      [
+        [
+          "hundreds of millions",
+          "CARDINAL"
+        ],
+        [
+          "Earth",
+          "LOC"
+        ]
+      ],
+      [],
+      [
+        [
+          "Iran",
+          "GPE"
+        ],
+        [
+          "US",
+          "GPE"
+        ]
+      ],
+      [],
+      [
+        [
+          "Iraq",
+          "GPE"
+        ]
+      ],
+      [],
+      [
+        [
+          "Amara.org",
+          "ORG"
+        ]
+      ]
+    ],
+    "timestamps": [
+      "0",
+      "0",
+      "6.991",
+      "8.841",
+      "14.278",
+      "17.576",
+      "21.709",
+      "25.936",
+      "35.313",
+      "49.964",
+      "53.999",
+      "65.58",
+      "74.273",
+      "79.033",
+      "83.197",
+      "87.553",
+      "92.952",
+      "97.16",
+      "104.545",
+      "109.009",
+      "115.754",
+      "123.849",
+      "130.692",
+      "136.52",
+      "142.458",
+      "146.078",
+      "152.933",
+      "155.975",
+      "166.123",
+      "176.481",
+      "180.429",
+      "186.043",
+      "193.731",
+      "201.006",
+      "213.508",
+      "220.571",
+      "227.084",
+      "232.234",
+      "236.938",
+      "240.865",
+      "243.339",
+      "253.978",
+      "273"
+    ]
+  },
+  "heidel": {
+    "sents": [
+      "Oh dear\u2026",
+      "Just when you thought the Iraq problem was solved because you haven\u2019t heard about it for a while, everything\u2019s back to murderous chaos and terror.",
+      "What happened?",
+      "In <TIMEX3 tid=\"t1\" type=\"DATE\" value=\"2003\">2003</TIMEX3>, the US invaded Iraq because of its alleged connections to terrorism and weapons of mass destruction.",
+      "At the time, Saddam Hussein, a brutal dictator, ruled the country.",
+      "He was part of the Sunni minority and suppressed the Shia majority.",
+      "Iraq was conquered fairly quickly, but the US had no plan for the country.",
+      "The until-then suppressed Shia majority took over and began oppressing the Sunnis, because suppressing other faiths has proven to be such a good idea.",
+      "Unsurprisingly, a Sunni rebel uprising began and terrorist groups, like al-Qaeda, trickled into Iraq and local forces, often former Sunni military, began fighting the US troops and the newly formed Iraqi state, peaking in a bloody civil war in <TIMEX3 tid=\"t2\" type=\"DATE\" value=\"2006\">2006</TIMEX3>.",
+      "Since then, people in Iraq have basically been segregated by religion.",
+      "So, in a tragic irony of history, the US invasion led to the formation of the very terrorists the US wanted to eliminate in the first place, because Iraq was <TIMEX3 tid=\"t3\" type=\"DATE\" value=\"PRESENT_REF\">now</TIMEX3> the perfect training ground for terrorism.",
+      "To understand this complicated conflict better, we need to understand the relationship between the two main branches of the Muslim faith: Shia and Sunni Islam.",
+      "Sunnis make up about 80% of the Muslim world and Shia about 20%.",
+      "And the hard-liners on both sides don\u2019t like each other very much.",
+      "Saudi Arabia and Iran are the two most powerful players in the game of faiths.",
+      "They both have no separation of state and religion, domestic problems, and a lot of oil money.",
+      "And they support groups that fight the other religious orientation.",
+      "And one of those terror organizations supported by Saudi Arabia was the Islamic State in Iraq, or ISI for short.",
+      "In <TIMEX3 tid=\"t4\" type=\"DATE\" value=\"2010\">2010</TIMEX3>, the Arab <TIMEX3 tid=\"t5\" type=\"DATE\" value=\"2010-SP\">Spring</TIMEX3> happened and changed the whole situation in the Middle East.",
+      "In Syria, dictator Bashar al-Assad didn\u2019t think much of resigning and started a gruesome civil war against his own people.",
+      "The longer the war went on, the more foreign groups joined the fight, most of them for religious reasons, and with the goal of building an Islamic state in the region.",
+      "And one of them was the infamous ISI, which <TIMEX3 tid=\"t6\" type=\"DATE\" value=\"PRESENT_REF\">now</TIMEX3> became the Islamic State in Iraq and Syria, or ISIS.",
+      "They had fought in Iraq for years, and had thousands of well-trained and fanatic soldiers.",
+      "They already quasi-controlled parts of northern Iraq and were very determined to build their religious state.",
+      "And they changed the game in Syria like no-one expected.",
+      "ISIS was so unbelievably violent and radical that soon it was a war with almost every other faction of the Syrian rebel armies.",
+      "They attacked and killed member of other Muslim terrorist groups.",
+      "In the territories they controlled, they built an Islamic state with rules so strict that even the hard-liners of al-Qaeda and Saudi Arabia were shocked and withdrew their support.",
+      "ISIS has been accused of responsibility for multiple massacres against civilians, countless suicide bombings, the hostage-taking of women and children, the execution of their prisoners, and beheadings.",
+      "All kinds of medieval hororrs we would rather not have to illustrate.",
+      "And this lovely gathering of human beings <TIMEX3 tid=\"t7\" type=\"DATE\" value=\"PAST_REF\">recently</TIMEX3> decided it was time to take more territory in Iraq.",
+      "Since the US left Iraq, the Shia prime minister, Nouri al-Maliki, has monopolized power and discriminated against Sunnis wherever possible.",
+      "The government of Iraq is widely regarded as being corrupt, incapable, and it\u2019s cetainly hated by a large part of its citizens.",
+      "The Iraqi army, consisting of about 300,000 soldiers, was created using 25 billion US dollars in tax money, but it\u2019s not loyal to its government and has been withdrawing or completely disbanding, giving up city after city.",
+      "Because ISIS has announced that everyone who opposes them will be killed, they have proven they mean business.",
+      "By <TIMEX3 tid=\"t10\" type=\"DATE\" value=\"2014-06\">June 2014</TIMEX3>, they\u2019d conquered a big chunk of Iraq, including Mosul, Iraq\u2019s second-largest city.",
+      "They\u2019d stolen hundreds of millions from captured banks, making them the richest terror organization on Earth.",
+      "And they are constantly working on establishing a super-medieval religious state.",
+      "Iran and the US are even considering working together to fight them.",
+      "That\u2019s how gruesome the situation is.",
+      "Events in Iraq show again that exploiting the people you\u2019ve defeated in a war, denying them power, a living, and a stake in the rebuilding of the country is just sowing the seeds of the next bout of violence.",
+      "Somehow, we have to break this circle.",
+      "Subtitles by the Amara.org community"
+    ]
+  },
+  "events": [
+    [],
+    [],
+    [],
+    [
+      {
+        "text": "2003",
+        "date": "2003",
+        "ents": {
+          "item": [
+            [
+              "2003",
+              "DATE"
+            ],
+            [
+              "US",
+              "GPE"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ]
+          ],
+          "before": [],
+          "after": [
+            [
+              "2003",
+              "DATE"
+            ],
+            [
+              "US",
+              "GPE"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "Saddam Hussein",
+              "PERSON"
+            ]
+          ]
+        },
+        "wiki": [
+          {
+            "text": "January 11 \u2013 Illinois Governor George Ryan commutes the death sentences of 167 prisoners on Illinois's death row based on the Jon Burge scandal.[2][3]",
+            "links": [
+              "/wiki/January_11",
+              "/wiki/George_Ryan",
+              "/wiki/Jon_Burge",
+              "#cite_note-2",
+              "#cite_note-3"
+            ],
+            "ents": [
+              [
+                "January 11 \u2013 Illinois",
+                "DATE"
+              ],
+              [
+                "George Ryan",
+                "PERSON"
+              ],
+              [
+                "167",
+                "CARDINAL"
+              ],
+              [
+                "Illinois",
+                "GPE"
+              ],
+              [
+                "the Jon Burge",
+                "LOC"
+              ]
+            ]
+          },
+          {
+            "text": "January 22 \u2013 The last signal from NASA's Pioneer 10 spacecraft is received, some 7.6 billion miles from Earth.[4]",
+            "links": [
+              "/wiki/January_22",
+              "/wiki/Pioneer_10",
+              "/wiki/Earth",
+              "#cite_note-4"
+            ],
+            "ents": [
+              [
+                "January 22 \u2013",
+                "DATE"
+              ],
+              [
+                "NASA",
+                "ORG"
+              ],
+              [
+                "Pioneer",
+                "ORG"
+              ],
+              [
+                "10",
+                "CARDINAL"
+              ],
+              [
+                "some 7.6 billion miles",
+                "QUANTITY"
+              ],
+              [
+                "Earth",
+                "LOC"
+              ]
+            ]
+          },
+          {
+            "text": "January 30 \u2013 Belgium legally recognizes same-sex marriage, becoming the second country in the world to do so.[5]",
+            "links": [
+              "/wiki/January_30",
+              "/wiki/Belgium",
+              "/wiki/Same-sex_marriage_in_Belgium",
+              "#cite_note-5"
+            ],
+            "ents": [
+              [
+                "January 30 \u2013",
+                "DATE"
+              ],
+              [
+                "Belgium",
+                "GPE"
+              ],
+              [
+                "second",
+                "ORDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "February 1 \u2013 At the conclusion of the STS-107 mission, the Space Shuttle Columbia disintegrates during reentry over Texas, killing all seven astronauts on board.[6]",
+            "links": [
+              "/wiki/February_1",
+              "/wiki/STS-107",
+              "/wiki/Space_Shuttle_Columbia_disaster",
+              "/wiki/Texas",
+              "#cite_note-6"
+            ],
+            "ents": [
+              [
+                "February 1 \u2013",
+                "DATE"
+              ],
+              [
+                "the Space Shuttle Columbia",
+                "ORG"
+              ],
+              [
+                "Texas",
+                "GPE"
+              ],
+              [
+                "seven",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "February 4 \u2013 The leaders of the Federal Republic of Yugoslavia reconstitute the country into a loose state-union between Montenegro and Serbia, marking an end to the 85 year old Yugoslav state.[7]",
+            "links": [
+              "/wiki/February_4",
+              "/wiki/Serbia_and_Montenegro",
+              "/wiki/Montenegro",
+              "#cite_note-7"
+            ],
+            "ents": [
+              [
+                "February 4",
+                "DATE"
+              ],
+              [
+                "the Federal Republic of Yugoslavia",
+                "ORG"
+              ],
+              [
+                "Montenegro",
+                "GPE"
+              ],
+              [
+                "Serbia",
+                "GPE"
+              ],
+              [
+                "the 85 year old",
+                "DATE"
+              ],
+              [
+                "Yugoslav",
+                "NORP"
+              ]
+            ]
+          },
+          {
+            "text": "February 15 \u2013 Millions of people worldwide take part in massive anti-war protests before the United States and its allies invade Iraq.[8]",
+            "links": [
+              "/wiki/February_15",
+              "/wiki/February_15,_2003,_anti-war_protests",
+              "#cite_note-8"
+            ],
+            "ents": [
+              [
+                "February 15 \u2013 Millions",
+                "DATE"
+              ],
+              [
+                "the United States",
+                "GPE"
+              ],
+              [
+                "Iraq",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "February 26 \u2013 The War in Darfur begins after rebel groups rise up against the Sudanese government.[9]",
+            "links": [
+              "/wiki/February_26",
+              "/wiki/War_in_Darfur",
+              "#cite_note-9"
+            ],
+            "ents": [
+              [
+                "February 26",
+                "DATE"
+              ],
+              [
+                "The War",
+                "EVENT"
+              ],
+              [
+                "Darfur",
+                "GPE"
+              ],
+              [
+                "Sudanese",
+                "NORP"
+              ]
+            ]
+          },
+          {
+            "text": "February 27 \u2013 Former Bosnian Serb leader Biljana Plav\u0161i\u0107 is sentenced by the U.N. ICTY to 11 years in prison for war crimes committed during the Bosnian War.[10]",
+            "links": [
+              "/wiki/February_27",
+              "/wiki/Biljana_Plav%C5%A1i%C4%87",
+              "/wiki/International_Criminal_Tribunal_for_the_former_Yugoslavia",
+              "/wiki/Bosnian_War",
+              "#cite_note-10"
+            ],
+            "ents": [
+              [
+                "February 27",
+                "DATE"
+              ],
+              [
+                "Bosnian Serb",
+                "NORP"
+              ],
+              [
+                "Biljana Plav\u0161i\u0107",
+                "PERSON"
+              ],
+              [
+                "U.N.",
+                "ORG"
+              ],
+              [
+                "11 years",
+                "DATE"
+              ],
+              [
+                "the Bosnian War",
+                "EVENT"
+              ]
+            ]
+          },
+          {
+            "text": "March 8 \u2013 Malta approves joining the European Union in a referendum.[11]",
+            "links": [
+              "/wiki/March_8",
+              "/wiki/Malta",
+              "/wiki/European_Union",
+              "/wiki/Maltese_European_Union_membership_referendum,_2003",
+              "#cite_note-11"
+            ],
+            "ents": [
+              [
+                "March 8 \u2013 Malta",
+                "DATE"
+              ],
+              [
+                "the European Union",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "March 12 - Serbian Prime Minister Zoran \u0110in\u0111i\u0107 is assassinated in Belgrade by a sniper.[12]",
+            "links": [
+              "/wiki/Serbia",
+              "/wiki/Zoran_%C4%90in%C4%91i%C4%87",
+              "/wiki/Assassination_of_Zoran_%C4%90in%C4%91i%C4%87",
+              "#cite_note-12"
+            ],
+            "ents": [
+              [
+                "March 12",
+                "DATE"
+              ],
+              [
+                "Serbian",
+                "NORP"
+              ],
+              [
+                "Zoran \u0110in\u0111i\u0107",
+                "PERSON"
+              ],
+              [
+                "Belgrade",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "March 12 - The World Health Organization issues a global alert on severe acute respiratory syndrome when it spreads to Hong Kong and Vietnam after originating in China.[13]",
+            "links": [
+              "/wiki/World_Health_Organization",
+              "/wiki/Severe_acute_respiratory_syndrome",
+              "/wiki/Hong_Kong",
+              "/wiki/Vietnam",
+              "/wiki/China",
+              "#cite_note-13"
+            ],
+            "ents": [
+              [
+                "March 12 - The World Health Organization",
+                "DATE"
+              ],
+              [
+                "Hong Kong",
+                "GPE"
+              ],
+              [
+                "Vietnam",
+                "GPE"
+              ],
+              [
+                "China",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "March 20 \u2013 The Iraq War begins with the invasion of Iraq by the U.S. and allied forces.[14]",
+            "links": [
+              "/wiki/March_20",
+              "/wiki/Iraq_War",
+              "/wiki/2003_invasion_of_Iraq",
+              "#cite_note-:0-14"
+            ],
+            "ents": [
+              [
+                "March 20",
+                "DATE"
+              ],
+              [
+                "The Iraq War",
+                "EVENT"
+              ],
+              [
+                "Iraq",
+                "GPE"
+              ],
+              [
+                "U.S.",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "March 23 \u2013 Slovenia approves joining the European Union and NATO in a referendum.[15]",
+            "links": [
+              "/wiki/March_23",
+              "/wiki/Slovenia",
+              "/wiki/NATO",
+              "/wiki/Slovenian_European_Union_and_NATO_membership_referendum,_2003",
+              "#cite_note-15"
+            ],
+            "ents": [
+              [
+                "March 23 \u2013 Slovenia",
+                "DATE"
+              ],
+              [
+                "the European Union",
+                "ORG"
+              ],
+              [
+                "NATO",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "April 9 \u2013 U.S. forces seize control of Baghdad, ending the regime of Saddam Hussein.[14]",
+            "links": [
+              "/wiki/April_9",
+              "/wiki/Battle_of_Baghdad_(2003)",
+              "/wiki/Saddam_Hussein",
+              "#cite_note-:0-14"
+            ],
+            "ents": [
+              [
+                "April 9 \u2013 U.S.",
+                "DATE"
+              ],
+              [
+                "Baghdad",
+                "GPE"
+              ],
+              [
+                "Saddam Hussein",
+                "PERSON"
+              ]
+            ]
+          },
+          {
+            "text": "April 12 \u2013 Hungary approves joining the European Union in a referendum.[16]",
+            "links": [
+              "/wiki/April_12",
+              "/wiki/Hungary",
+              "/wiki/Hungarian_European_Union_membership_referendum,_2003",
+              "#cite_note-16"
+            ],
+            "ents": [
+              [
+                "April 12 \u2013",
+                "DATE"
+              ],
+              [
+                "Hungary",
+                "GPE"
+              ],
+              [
+                "the European Union",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "April 14 \u2013 The Human Genome Project is completed, with 99% of the human genome sequenced to 99.99% accuracy.[17]",
+            "links": [
+              "/wiki/April_14",
+              "/wiki/Human_Genome_Project",
+              "/wiki/Genome",
+              "#cite_note-17"
+            ],
+            "ents": [
+              [
+                "April 14 \u2013",
+                "DATE"
+              ],
+              [
+                "The Human Genome Project",
+                "ORG"
+              ],
+              [
+                "99 %",
+                "PERCENT"
+              ],
+              [
+                "99.99 %",
+                "PERCENT"
+              ]
+            ]
+          },
+          {
+            "text": "April 29 \u2013 The United States announces the withdrawal of troops stationed in Saudi Arabia, and the redeployment of some at the Al Udeid Air Base in Qatar.[18]",
+            "links": [
+              "/wiki/April_29",
+              "/wiki/Saudi_Arabia",
+              "/wiki/Al_Udeid_Air_Base",
+              "/wiki/Qatar",
+              "#cite_note-18"
+            ],
+            "ents": [
+              [
+                "April 29 \u2013",
+                "DATE"
+              ],
+              [
+                "The United States",
+                "GPE"
+              ],
+              [
+                "Saudi Arabia",
+                "GPE"
+              ],
+              [
+                "the Al Udeid Air Base",
+                "FAC"
+              ],
+              [
+                "Qatar",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "May 11 - Benvenuto Cellini's Cellini Salt Cellar table sculpture is stolen from the Kunsthistorisches Museum in Vienna.[19]",
+            "links": [
+              "/wiki/Benvenuto_Cellini",
+              "/wiki/Cellini_Salt_Cellar",
+              "/wiki/Kunsthistorisches_Museum",
+              "/wiki/Vienna",
+              "#cite_note-19"
+            ],
+            "ents": [
+              [
+                "May 11",
+                "DATE"
+              ],
+              [
+                "the Kunsthistorisches Museum",
+                "ORG"
+              ],
+              [
+                "Vienna",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "May 11 - Lithuania approves joining the European Union in a referendum.[20]",
+            "links": [
+              "/wiki/Lithuania",
+              "/wiki/Lithuanian_European_Union_membership_referendum,_2003",
+              "#cite_note-20"
+            ],
+            "ents": [
+              [
+                "May 11 - Lithuania",
+                "DATE"
+              ],
+              [
+                "the European Union",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "May 12 \u2013 In Riyadh, Saudi Arabia, over 30 people are killed in multiple bombings at a housing compound, mostly foreign expatriates.[21]",
+            "links": [
+              "/wiki/May_12",
+              "/wiki/Riyadh",
+              "/wiki/Riyadh_compound_bombings",
+              "#cite_note-21"
+            ],
+            "ents": [
+              [
+                "May 12 \u2013",
+                "DATE"
+              ],
+              [
+                "Riyadh",
+                "GPE"
+              ],
+              [
+                "Saudi Arabia",
+                "GPE"
+              ],
+              [
+                "over 30",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "May 17 \u2013 Slovakia approves joining the European Union in a referendum.[22]",
+            "links": [
+              "/wiki/May_17",
+              "/wiki/Slovakia",
+              "/wiki/Slovak_European_Union_membership_referendum,_2003",
+              "#cite_note-22"
+            ],
+            "ents": [
+              [
+                "May 17 \u2013 Slovakia",
+                "DATE"
+              ],
+              [
+                "the European Union",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "May 23 \u2013 Dewey, the first deer cloned by scientists at Texas A&M University, is born.[23]",
+            "links": [
+              "/wiki/May_23",
+              "/wiki/Dewey_(deer)",
+              "/wiki/Deer",
+              "/wiki/Texas_A%26M_University",
+              "#cite_note-23"
+            ],
+            "ents": [
+              [
+                "May 23 \u2013 Dewey",
+                "DATE"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ],
+              [
+                "Texas A&M University",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "May 28 \u2013 Prometea, the first horse cloned by Italian scientists, is born.[24]",
+            "links": [
+              "/wiki/May_28",
+              "/wiki/Prometea",
+              "/wiki/Horse",
+              "#cite_note-24"
+            ],
+            "ents": [
+              [
+                "May 28 \u2013 Prometea",
+                "DATE"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ],
+              [
+                "Italian",
+                "NORP"
+              ]
+            ]
+          },
+          {
+            "text": "June 8 \u2013 Poland approves joining the European Union in a referendum.[25]",
+            "links": [
+              "/wiki/June_8",
+              "/wiki/Poland",
+              "/wiki/Polish_European_Union_membership_referendum,_2003",
+              "#cite_note-25"
+            ],
+            "ents": [
+              [
+                "June 8 \u2013 Poland",
+                "DATE"
+              ],
+              [
+                "the European Union",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "June 14 \u2013 The Czech Republic approves joining the European Union in a referendum.[26]",
+            "links": [
+              "/wiki/June_14",
+              "/wiki/Czech_Republic",
+              "/wiki/Czech_European_Union_membership_referendum,_2003",
+              "#cite_note-26"
+            ],
+            "ents": [
+              [
+                "June 14 \u2013",
+                "DATE"
+              ],
+              [
+                "The Czech Republic",
+                "GPE"
+              ],
+              [
+                "the European Union",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "June 30 \u2013 Warring parties in the Democratic Republic of the Congo sign a peace accord, bringing an end to the Second Congo War, which left millions dead.[27]",
+            "links": [
+              "/wiki/June_30",
+              "/wiki/Democratic_Republic_of_the_Congo",
+              "/wiki/Second_Congo_War",
+              "#cite_note-27"
+            ],
+            "ents": [
+              [
+                "June 30",
+                "DATE"
+              ],
+              [
+                "the Democratic Republic of the",
+                "GPE"
+              ],
+              [
+                "Congo",
+                "GPE"
+              ],
+              [
+                "the Second Congo War",
+                "EVENT"
+              ],
+              [
+                "millions",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "July 5 \u2013 Severe acute respiratory syndrome is declared to be contained by the World Health Organization.[28]",
+            "links": [
+              "/wiki/July_5",
+              "#cite_note-28"
+            ],
+            "ents": [
+              [
+                "July 5 \u2013 Severe",
+                "DATE"
+              ],
+              [
+                "the World Health Organization",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "July 6 \u2013 The 70-meter Eupatoria Planetary Radar sends a METI message Cosmic Call 2 to 5 stars: Hip 4872, HD 245409, 55 Cancri, HD 10307 and 47 Ursae Majoris, that will arrive at these stars in 2036, 2040, May 2044, September 2044 and 2049 respectively.[29]",
+            "links": [
+              "/wiki/July_6",
+              "/wiki/Eupatoria",
+              "/wiki/Message_to_Extra-Terrestrial_Intelligence",
+              "/wiki/Cosmic_Call_2",
+              "/wiki/55_Cancri",
+              "/wiki/HD_10307",
+              "/wiki/47_Ursae_Majoris",
+              "/wiki/2036",
+              "/wiki/2040",
+              "/wiki/2044",
+              "/wiki/2049",
+              "#cite_note-29"
+            ],
+            "ents": [
+              [
+                "July 6 \u2013",
+                "DATE"
+              ],
+              [
+                "Eupatoria Planetary Radar",
+                "PRODUCT"
+              ],
+              [
+                "METI",
+                "ORG"
+              ],
+              [
+                "5",
+                "CARDINAL"
+              ],
+              [
+                "Hip 4872",
+                "DATE"
+              ],
+              [
+                "245409",
+                "DATE"
+              ],
+              [
+                "55",
+                "DATE"
+              ],
+              [
+                "Cancri",
+                "ORG"
+              ],
+              [
+                "10307",
+                "DATE"
+              ],
+              [
+                "47",
+                "CARDINAL"
+              ],
+              [
+                "Ursae Majoris",
+                "PERSON"
+              ],
+              [
+                "2036",
+                "DATE"
+              ],
+              [
+                "2040",
+                "DATE"
+              ],
+              [
+                "May 2044 , September 2044 and 2049",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "July 18 \u2013 The Convention on the Future of Europe finishes its work and proposes the first European Constitution.[30]",
+            "links": [
+              "/wiki/July_18",
+              "/wiki/Convention_on_the_Future_of_Europe",
+              "#cite_note-30"
+            ],
+            "ents": [
+              [
+                "July 18 \u2013",
+                "DATE"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ],
+              [
+                "European Constitution",
+                "LAW"
+              ]
+            ]
+          },
+          {
+            "text": "July 24 \u2013 The Regional Assistance Mission to the Solomon Islands, led by Australia, begins after ethnic violence engulfs the island country.[31]",
+            "links": [
+              "/wiki/July_24",
+              "/wiki/Regional_Assistance_Mission_to_Solomon_Islands",
+              "/wiki/Australia",
+              "#cite_note-31"
+            ],
+            "ents": [
+              [
+                "July 24",
+                "DATE"
+              ],
+              [
+                "The Regional Assistance Mission",
+                "ORG"
+              ],
+              [
+                "the Solomon Islands",
+                "LOC"
+              ],
+              [
+                "Australia",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "August 11 - The Second Liberian Civil War comes to an end after President Charles Taylor resigns and flees the country.[32]",
+            "links": [
+              "/wiki/Second_Liberian_Civil_War",
+              "/wiki/Charles_Taylor_(Liberian_politician)",
+              "#cite_note-32"
+            ],
+            "ents": [
+              [
+                "August 11 - The Second Liberian Civil War",
+                "DATE"
+              ],
+              [
+                "Charles Taylor",
+                "PERSON"
+              ]
+            ]
+          },
+          {
+            "text": "August 11 - NATO takes over command of the peacekeeping force in Afghanistan, marking its first major operation outside Europe in its 54-year-history.[33]",
+            "links": [
+              "/wiki/International_Security_Assistance_Force",
+              "#cite_note-33"
+            ],
+            "ents": [
+              [
+                "August 11 - NATO",
+                "DATE"
+              ],
+              [
+                "Afghanistan",
+                "GPE"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ],
+              [
+                "Europe",
+                "LOC"
+              ]
+            ]
+          },
+          {
+            "text": "August 14 - A massive blackout occurs in the northeastern region of the United States. Leaving over 50,000,000 people without power. Power is restored the next day.[34]",
+            "links": [
+              "/wiki/August_14",
+              "/wiki/Northeast_blackout_of_2003",
+              "/wiki/United_States",
+              "/wiki/August_15",
+              "#cite_note-34"
+            ],
+            "ents": [
+              [
+                "August 14",
+                "DATE"
+              ],
+              [
+                "the United States",
+                "GPE"
+              ],
+              [
+                "50,000,000",
+                "CARDINAL"
+              ],
+              [
+                "the next day",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "August 25 \u2013 The Spitzer Space Telescope is launched from Cape Canaveral, Florida.[35]",
+            "links": [
+              "/wiki/August_25",
+              "/wiki/Spitzer_Space_Telescope",
+              "/wiki/Cape_Canaveral",
+              "/wiki/Florida",
+              "#cite_note-35"
+            ],
+            "ents": [
+              [
+                "August 25 \u2013",
+                "DATE"
+              ],
+              [
+                "Cape Canaveral",
+                "GPE"
+              ],
+              [
+                "Florida",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "August 27 - Mars makes its closest approach to Earth in over 60,000 years.[36]",
+            "links": [
+              "/wiki/Mars",
+              "/wiki/Opposition_(planets)",
+              "#cite_note-36"
+            ],
+            "ents": [
+              [
+                "August 27 - Mars",
+                "DATE"
+              ],
+              [
+                "Earth",
+                "LOC"
+              ]
+            ]
+          },
+          {
+            "text": "August 27 - The first six-party talks, involving South and North Korea, the United States, China, Japan and Russia, convene to find a peaceful resolution to the security concerns of the North Korean nuclear weapons program.[37]",
+            "links": [
+              "/wiki/Six-party_talks",
+              "/wiki/North_Korea_and_weapons_of_mass_destruction",
+              "#cite_note-37"
+            ],
+            "ents": [
+              [
+                "August 27 -",
+                "DATE"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ],
+              [
+                "six",
+                "CARDINAL"
+              ],
+              [
+                "South",
+                "LOC"
+              ],
+              [
+                "North Korea",
+                "GPE"
+              ],
+              [
+                "the United States",
+                "GPE"
+              ],
+              [
+                "China",
+                "GPE"
+              ],
+              [
+                "Japan",
+                "GPE"
+              ],
+              [
+                "Russia",
+                "GPE"
+              ],
+              [
+                "North Korean",
+                "NORP"
+              ]
+            ]
+          },
+          {
+            "text": "September 4 \u2013 Europe's busiest shopping centre, the Bull Ring in Birmingham, is officially opened.[38]",
+            "links": [
+              "/wiki/September_4",
+              "/wiki/Bull_Ring,_Birmingham",
+              "/wiki/Birmingham",
+              "#cite_note-38"
+            ],
+            "ents": [
+              [
+                "September 4 \u2013 Europe 's",
+                "DATE"
+              ],
+              [
+                "the Bull Ring",
+                "ORG"
+              ],
+              [
+                "Birmingham",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "September 14 \u2013 Estonia approves joining the European Union in a referendum.[39]",
+            "links": [
+              "/wiki/September_14",
+              "/wiki/Estonia",
+              "/wiki/Estonian_European_Union_membership_referendum,_2003",
+              "#cite_note-39"
+            ],
+            "ents": [
+              [
+                "September",
+                "DATE"
+              ],
+              [
+                "14",
+                "CARDINAL"
+              ],
+              [
+                "Estonia",
+                "GPE"
+              ],
+              [
+                "the European Union",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "September 15 \u2013 ELN rebels kidnap eight foreign tourists at Ciudad Perdida, Colombia, being freed 100 days later following negotiations with the Colombian government.[40]",
+            "links": [
+              "/wiki/September_15",
+              "/wiki/National_Liberation_Army_(Colombia)",
+              "/wiki/Ciudad_Perdida",
+              "/wiki/Colombia",
+              "#cite_note-40"
+            ],
+            "ents": [
+              [
+                "September",
+                "DATE"
+              ],
+              [
+                "15",
+                "CARDINAL"
+              ],
+              [
+                "eight",
+                "CARDINAL"
+              ],
+              [
+                "Ciudad Perdida",
+                "ORG"
+              ],
+              [
+                "Colombia",
+                "GPE"
+              ],
+              [
+                "100 days later",
+                "DATE"
+              ],
+              [
+                "Colombian",
+                "NORP"
+              ]
+            ]
+          },
+          {
+            "text": "September 20 \u2013 Latvia approves joining the European Union in a referendum.[41]",
+            "links": [
+              "/wiki/September_20",
+              "/wiki/Latvia",
+              "/wiki/Latvian_European_Union_membership_referendum,_2003",
+              "#cite_note-41"
+            ],
+            "ents": [
+              [
+                "September 20 \u2013 Latvia",
+                "DATE"
+              ],
+              [
+                "the European Union",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "September 24 \u2013 The Hubble Space Telescope starts the Hubble Ultra-Deep Field, making 800 exposures, until January 16, 2004.[42]",
+            "links": [
+              "/wiki/September_24",
+              "/wiki/Hubble_Space_Telescope",
+              "/wiki/Hubble_Ultra-Deep_Field",
+              "#cite_note-42"
+            ],
+            "ents": [
+              [
+                "September",
+                "DATE"
+              ],
+              [
+                "24",
+                "CARDINAL"
+              ],
+              [
+                "The Hubble Space Telescope",
+                "FAC"
+              ],
+              [
+                "Hubble",
+                "WORK_OF_ART"
+              ],
+              [
+                "Deep Field",
+                "WORK_OF_ART"
+              ],
+              [
+                "800",
+                "CARDINAL"
+              ],
+              [
+                "January 16 , 2004",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "September 27 \u2013 SMART-1, a European Space Agency satellite and Europe's first mission to the moon, is launched.[43]",
+            "links": [
+              "/wiki/September_27",
+              "/wiki/SMART-1",
+              "/wiki/European_Space_Agency",
+              "#cite_note-43"
+            ],
+            "ents": [
+              [
+                "September 27 \u2013 SMART-1",
+                "DATE"
+              ],
+              [
+                "European Space Agency",
+                "ORG"
+              ],
+              [
+                "Europe",
+                "LOC"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "October 5 \u2013 Israeli warplanes strike alleged Islamic jihad bases inside Syrian territory, the first Israeli attack on the country since the 1973 Yom Kippur War.[44]",
+            "links": [
+              "/wiki/October_5",
+              "/wiki/Israel",
+              "/wiki/Ain_es_Saheb_airstrike",
+              "/wiki/Syria",
+              "/wiki/Yom_Kippur_War",
+              "#cite_note-44"
+            ],
+            "ents": [
+              [
+                "October 5 \u2013 Israeli",
+                "DATE"
+              ],
+              [
+                "Islamic",
+                "NORP"
+              ],
+              [
+                "Syrian",
+                "NORP"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ],
+              [
+                "Israeli",
+                "NORP"
+              ],
+              [
+                "1973",
+                "DATE"
+              ],
+              [
+                "Yom Kippur War",
+                "EVENT"
+              ]
+            ]
+          },
+          {
+            "text": "October 15 \u2013 China launches Shenzhou 5, their first manned spaceflight.[45]",
+            "links": [
+              "/wiki/October_15",
+              "/wiki/Shenzhou_5",
+              "/wiki/Human_spaceflight",
+              "#cite_note-45"
+            ],
+            "ents": [
+              [
+                "October 15 \u2013 China",
+                "DATE"
+              ],
+              [
+                "Shenzhou 5",
+                "PRODUCT"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "October 24 \u2013 The Concorde makes its last commercial flight, bringing the era of airliner supersonic travel to a close.[46]",
+            "links": [
+              "/wiki/October_24",
+              "/wiki/Concorde",
+              "/wiki/Supersonic_transport",
+              "#cite_note-46"
+            ],
+            "ents": [
+              [
+                "October 24 \u2013",
+                "DATE"
+              ],
+              [
+                "Concorde",
+                "PRODUCT"
+              ]
+            ]
+          },
+          {
+            "text": "November 12 \u2013 A suicide bombing at an Italian military police headquarters in Nasiriyah, Iraq, kills 17 Italian military police officers and nine Iraqi civilians.[47]",
+            "links": [
+              "/wiki/November_12",
+              "/wiki/2003_Nasiriyah_bombing",
+              "/wiki/Italy",
+              "/wiki/Nasiriyah",
+              "/wiki/Iraq",
+              "#cite_note-47"
+            ],
+            "ents": [
+              [
+                "November 12 \u2013",
+                "DATE"
+              ],
+              [
+                "Italian",
+                "NORP"
+              ],
+              [
+                "Nasiriyah",
+                "GPE"
+              ],
+              [
+                "Iraq",
+                "GPE"
+              ],
+              [
+                "17",
+                "CARDINAL"
+              ],
+              [
+                "Italian",
+                "NORP"
+              ],
+              [
+                "nine",
+                "CARDINAL"
+              ],
+              [
+                "Iraqi",
+                "NORP"
+              ]
+            ]
+          },
+          {
+            "text": "November 23 \u2013 Georgian President Eduard Shevardnadze resigns after widespread protests engulf the country following a disputed parliamentary election.[48]",
+            "links": [
+              "/wiki/November_23",
+              "/wiki/President_of_Georgia",
+              "/wiki/Eduard_Shevardnadze",
+              "/wiki/Rose_Revolution",
+              "/wiki/Georgian_parliamentary_election,_2003",
+              "#cite_note-48"
+            ],
+            "ents": [
+              [
+                "November 23 \u2013 Georgian",
+                "DATE"
+              ],
+              [
+                "Eduard Shevardnadze",
+                "PERSON"
+              ]
+            ]
+          },
+          {
+            "text": "November 26 \u2013 The supersonic passenger jet, Concorde, makes its last ever flight from London Heathrow to Bristol Filton Airport.[49][50]",
+            "links": [
+              "/wiki/November_26",
+              "/wiki/Concorde",
+              "/wiki/London_Heathrow",
+              "/wiki/Bristol_Filton_Airport",
+              "#cite_note-49",
+              "#cite_note-50"
+            ],
+            "ents": [
+              [
+                "November 26 \u2013",
+                "DATE"
+              ],
+              [
+                "Concorde",
+                "PRODUCT"
+              ],
+              [
+                "London Heathrow",
+                "FAC"
+              ],
+              [
+                "Bristol Filton Airport",
+                "FAC"
+              ]
+            ]
+          },
+          {
+            "text": "December 13 \u2013 Saddam Hussein, former President of Iraq, is captured in the small town of Ad-Dawr by the U.S. Army.[51]",
+            "links": [
+              "/wiki/December_13",
+              "/wiki/Saddam_Hussein",
+              "/wiki/President_of_Iraq",
+              "/wiki/Operation_Red_Dawn",
+              "/wiki/Ad-Dawr",
+              "#cite_note-51"
+            ],
+            "ents": [
+              [
+                "December 13 \u2013 Saddam Hussein",
+                "DATE"
+              ],
+              [
+                "Iraq",
+                "GPE"
+              ],
+              [
+                "the U.S. Army",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "December 19 \u2013 Libya agrees to eliminate all of its materials, equipment, and programs aimed at producing weapons of mass destruction.[52]",
+            "links": [
+              "/wiki/December_19",
+              "/wiki/Great_Socialist_People%27s_Libyan_Arab_Jamahiriya",
+              "/wiki/Libya_and_weapons_of_mass_destruction",
+              "#cite_note-52"
+            ],
+            "ents": [
+              [
+                "December 19 \u2013 Libya",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "December 23 - The World Tourism Organization becomes a specialized agency of the United Nations.[53]",
+            "links": [
+              "/wiki/World_Tourism_Organization",
+              "/wiki/United_Nations",
+              "#cite_note-53"
+            ],
+            "ents": [
+              [
+                "December 23 - The World Tourism Organization",
+                "DATE"
+              ],
+              [
+                "the United Nations",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "December 23 - PetroChina Chuandongbei natural gas field explosion, Guoqiao, Kai County, Chongqing, China, killing at least 234.[54]",
+            "links": [
+              "/wiki/PetroChina",
+              "/wiki/Chongqing",
+              "#cite_note-54"
+            ],
+            "ents": [
+              [
+                "December 23 - PetroChina",
+                "DATE"
+              ],
+              [
+                "Guoqiao",
+                "GPE"
+              ],
+              [
+                "Kai County",
+                "GPE"
+              ],
+              [
+                "Chongqing",
+                "GPE"
+              ],
+              [
+                "China",
+                "GPE"
+              ],
+              [
+                "at least 234",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "December 26 \u2013 The 6.6 Mw Bam earthquake shakes southeastern Iran with a maximum Mercalli intensity of IX (Violent), killing an estimated 30,000 people.[55]",
+            "links": [
+              "/wiki/December_26",
+              "/wiki/2003_Bam_earthquake",
+              "/wiki/Iran",
+              "/wiki/Mercalli_intensity_scale",
+              "#cite_note-55"
+            ],
+            "ents": [
+              [
+                "December 26 \u2013",
+                "DATE"
+              ],
+              [
+                "6.6",
+                "CARDINAL"
+              ],
+              [
+                "Mw Bam",
+                "PERSON"
+              ],
+              [
+                "Iran",
+                "GPE"
+              ],
+              [
+                "Mercalli",
+                "PERSON"
+              ],
+              [
+                "IX ( Violent",
+                "ORG"
+              ],
+              [
+                "an estimated 30,000",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "December 29 - The last known speaker of Akkala Sami dies, rendering the language extinct.[56]",
+            "links": [
+              "/wiki/December_29",
+              "/wiki/Akkala_Sami",
+              "#cite_note-56"
+            ],
+            "ents": [
+              [
+                "December 29 - The",
+                "DATE"
+              ],
+              [
+                "Akkala Sami",
+                "PERSON"
+              ]
+            ]
+          }
+        ],
+        "match": {
+          "text": "February 15 \u2013 Millions of people worldwide take part in massive anti-war protests before the United States and its allies invade Iraq.[8]",
+          "links": [
+            "/wiki/February_15",
+            "/wiki/February_15,_2003,_anti-war_protests",
+            "#cite_note-8"
+          ],
+          "ents": [
+            [
+              "February 15 \u2013 Millions",
+              "DATE"
+            ],
+            [
+              "the United States",
+              "GPE"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ]
+          ],
+          "idx": 5,
+          "score": 0.3333333333333333,
+          "wptopics": [
+            {
+              "href": "/wiki/February_15",
+              "title": "February_15",
+              "wbid": "Q2334"
+            },
+            {
+              "href": "/wiki/February_15,_2003,_anti-war_protests",
+              "title": "February_15,_2003,_anti-war_protests",
+              "wbid": "Q2580246"
+            }
+          ]
+        },
+        "scores": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.3333333333333333,
+            0.25
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.25,
+            0.2
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.25
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.2,
+            0.16666666666666666
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.3333333333333333,
+            0.25
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "text": "2006",
+        "date": "2006",
+        "ents": {
+          "item": [
+            [
+              "Sunni",
+              "NORP"
+            ],
+            [
+              "al - Qaeda",
+              "ORG"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "Sunni",
+              "NORP"
+            ],
+            [
+              "US",
+              "GPE"
+            ],
+            [
+              "Iraqi",
+              "NORP"
+            ],
+            [
+              "2006",
+              "DATE"
+            ]
+          ],
+          "before": [
+            [
+              "Shia",
+              "NORP"
+            ],
+            [
+              "Sunnis",
+              "NORP"
+            ]
+          ],
+          "after": [
+            [
+              "Sunni",
+              "NORP"
+            ],
+            [
+              "al - Qaeda",
+              "ORG"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "Sunni",
+              "NORP"
+            ],
+            [
+              "US",
+              "GPE"
+            ],
+            [
+              "Iraqi",
+              "NORP"
+            ],
+            [
+              "2006",
+              "DATE"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ]
+          ]
+        },
+        "wiki": [
+          {
+            "text": "January 1 \u2013 Russia cuts the shipment of natural gas to Ukraine over a price dispute.[2]",
+            "links": [
+              "/wiki/January_1",
+              "/wiki/Natural_gas",
+              "/wiki/Ukraine",
+              "/wiki/Russia%E2%80%93Ukraine_gas_disputes",
+              "#cite_note-2"
+            ],
+            "ents": [
+              [
+                "January 1 \u2013",
+                "DATE"
+              ],
+              [
+                "Russia",
+                "GPE"
+              ],
+              [
+                "Ukraine",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "January 12 \u2013 A stampede during the Stoning of the Devil ritual on the last day at the Hajj in Mina, Saudi Arabia, kills at least 362 pilgrims.[3][4]",
+            "links": [
+              "/wiki/January_12",
+              "/wiki/Stoning_of_the_Devil",
+              "/wiki/Hajj",
+              "/wiki/Mina,_Saudi_Arabia",
+              "#cite_note-3",
+              "#cite_note-4"
+            ],
+            "ents": [
+              [
+                "January 12 \u2013",
+                "DATE"
+              ],
+              [
+                "the last day",
+                "DATE"
+              ],
+              [
+                "Hajj",
+                "PERSON"
+              ],
+              [
+                "Mina",
+                "GPE"
+              ],
+              [
+                "Saudi Arabia",
+                "GPE"
+              ],
+              [
+                "at least 362",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "January 15 \u2013 NASA's Stardust mission successfully ends, the first to return dust from a comet.[5]",
+            "links": [
+              "/wiki/January_15",
+              "/wiki/NASA",
+              "/wiki/Stardust_(spacecraft)",
+              "/wiki/Comet",
+              "#cite_note-5"
+            ],
+            "ents": [
+              [
+                "January 15 \u2013 NASA 's",
+                "DATE"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "January 19 \u2013 NASA launches the first space mission to Pluto as a rocket hurls the New Horizons spacecraft on a nine-year journey.[6]",
+            "links": [
+              "/wiki/January_19",
+              "/wiki/NASA",
+              "/wiki/Pluto",
+              "/wiki/New_Horizons",
+              "#cite_note-6"
+            ],
+            "ents": [
+              [
+                "January 19 \u2013 NASA",
+                "DATE"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ],
+              [
+                "New Horizons",
+                "ORG"
+              ],
+              [
+                "nine - year",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "February 3 \u2013 Egyptian passenger ferry, MS\u00a0al-Salam Boccaccio 98, sinks in the Red Sea off the coast of Saudi Arabia, killing over 1,000 people.[7]",
+            "links": [
+              "/wiki/February_3",
+              "/wiki/Egypt",
+              "/wiki/MS_al-Salam_Boccaccio_98",
+              "/wiki/Red_Sea",
+              "#cite_note-7"
+            ],
+            "ents": [
+              [
+                "February 3",
+                "DATE"
+              ],
+              [
+                "Egyptian",
+                "NORP"
+              ],
+              [
+                "\u00a0 al - Salam Boccaccio",
+                "PERSON"
+              ],
+              [
+                "98",
+                "DATE"
+              ],
+              [
+                "the Red Sea",
+                "LOC"
+              ],
+              [
+                "Saudi Arabia",
+                "GPE"
+              ],
+              [
+                "over 1,000",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "February 10\u201326 \u2013 The 2006 Winter Olympics are held in Turin, Italy.[8]",
+            "links": [
+              "/wiki/February_10",
+              "/wiki/February_26",
+              "/wiki/2006_Winter_Olympics",
+              "/wiki/Turin,_Italy",
+              "#cite_note-8"
+            ],
+            "ents": [
+              [
+                "February 10\u201326 \u2013",
+                "DATE"
+              ],
+              [
+                "Turin",
+                "GPE"
+              ],
+              [
+                "Italy",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "February 17 \u2013 A massive mudslide occurs in Southern Leyte, Philippines killing an estimated 1,126 people.[9]",
+            "links": [
+              "/wiki/February_17",
+              "/wiki/2006_Southern_Leyte_mudslide",
+              "/wiki/Southern_Leyte",
+              "/wiki/Philippines",
+              "#cite_note-9"
+            ],
+            "ents": [
+              [
+                "February 17 \u2013",
+                "DATE"
+              ],
+              [
+                "Southern Leyte",
+                "LOC"
+              ],
+              [
+                "Philippines",
+                "GPE"
+              ],
+              [
+                "an estimated 1,126",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "March 9 \u2013 NASA's Cassini\u2013Huygens spacecraft discovers geysers of a liquid substance shooting from Saturn's moon Enceladus, signaling a possible presence of water.[10]",
+            "links": [
+              "/wiki/March_9",
+              "/wiki/NASA",
+              "/wiki/Cassini%E2%80%93Huygens",
+              "/wiki/Geyser",
+              "/wiki/Saturn",
+              "/wiki/Enceladus",
+              "#cite_note-10"
+            ],
+            "ents": [
+              [
+                "March 9 \u2013",
+                "DATE"
+              ],
+              [
+                "NASA",
+                "ORG"
+              ],
+              [
+                "Huygens",
+                "PERSON"
+              ],
+              [
+                "Saturn",
+                "GPE"
+              ],
+              [
+                "Enceladus",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "March 10 \u2013 NASA's Mars Reconnaissance Orbiter enters orbit around Mars.[11][12]",
+            "links": [
+              "/wiki/March_10",
+              "/wiki/Mars_Reconnaissance_Orbiter",
+              "/wiki/Mars",
+              "#cite_note-11",
+              "#cite_note-12"
+            ],
+            "ents": [
+              [
+                "March 10 \u2013",
+                "DATE"
+              ],
+              [
+                "NASA",
+                "ORG"
+              ],
+              [
+                "Mars Reconnaissance Orbiter",
+                "PRODUCT"
+              ],
+              [
+                "Mars",
+                "LOC"
+              ]
+            ]
+          },
+          {
+            "text": "March 15 \u2013 The United Nations General Assembly votes overwhelmingly to establish the United Nations Human Rights Council.[13]",
+            "links": [
+              "/wiki/March_15",
+              "/wiki/United_Nations_General_Assembly",
+              "/wiki/United_Nations_Human_Rights_Council",
+              "#cite_note-13"
+            ],
+            "ents": [
+              [
+                "March 15 \u2013",
+                "DATE"
+              ],
+              [
+                "The United Nations General Assembly",
+                "ORG"
+              ],
+              [
+                "the United Nations Human Rights Council",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "March 28 \u2013 A scramjet jet engine, HyShot III, designed to fly at seven times the speed of sound, is successfully tested at Woomera, South Australia.[14][15]",
+            "links": [
+              "/wiki/March_28",
+              "/wiki/Scramjet",
+              "/wiki/Jet_engine",
+              "/wiki/HyShot_III",
+              "/wiki/Woomera,_South_Australia",
+              "#cite_note-14",
+              "#cite_note-15"
+            ],
+            "ents": [
+              [
+                "March 28 \u2013",
+                "DATE"
+              ],
+              [
+                "HyShot III",
+                "PERSON"
+              ],
+              [
+                "seven",
+                "CARDINAL"
+              ],
+              [
+                "Woomera",
+                "GPE"
+              ],
+              [
+                "South Australia",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "April 11 - The European Space Agency's Venus Express spaceprobe enters Venus' orbit.[16]",
+            "links": [
+              "/wiki/European_Space_Agency",
+              "/wiki/Venus_Express",
+              "/wiki/Venus",
+              "#cite_note-16"
+            ],
+            "ents": [
+              [
+                "April 11 -",
+                "DATE"
+              ],
+              [
+                "The European Space Agency 's",
+                "ORG"
+              ],
+              [
+                "Venus Express",
+                "ORG"
+              ],
+              [
+                "Venus",
+                "LOC"
+              ]
+            ]
+          },
+          {
+            "text": "April 11 - President Mahmoud Ahmadinejad confirms that Iran has successfully produced a few grams of low-grade enriched uranium.[17][18]",
+            "links": [
+              "/wiki/President_of_Iran",
+              "/wiki/Mahmoud_Ahmadinejad",
+              "/wiki/Nuclear_program_of_Iran",
+              "/wiki/Enriched_uranium",
+              "#cite_note-17",
+              "#cite_note-18"
+            ],
+            "ents": [
+              [
+                "April 11 - President",
+                "DATE"
+              ],
+              [
+                "Mahmoud Ahmadinejad",
+                "PERSON"
+              ],
+              [
+                "Iran",
+                "GPE"
+              ],
+              [
+                "a few grams",
+                "QUANTITY"
+              ]
+            ]
+          },
+          {
+            "text": "April 20 \u2013 Iran announces a deal with Russia, involving a joint uranium enrichment firm on Russian soil;[19] nine days later Iran announces that it will not move all activity to Russia, thus leading to a de facto termination of the deal.",
+            "links": [
+              "/wiki/April_20",
+              "/wiki/Iran",
+              "/wiki/Uranium_enrichment",
+              "#cite_note-19"
+            ],
+            "ents": [
+              [
+                "April 20 \u2013 Iran",
+                "DATE"
+              ],
+              [
+                "Russia",
+                "GPE"
+              ],
+              [
+                "Russian",
+                "NORP"
+              ],
+              [
+                "nine days later",
+                "DATE"
+              ],
+              [
+                "Iran",
+                "GPE"
+              ],
+              [
+                "Russia",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "May 17 \u2013 The Human Genome Project publishes the last chromosome sequence, in Nature.[20]",
+            "links": [
+              "/wiki/May_17",
+              "/wiki/Human_Genome_Project",
+              "/wiki/Chromosome_1_(human)",
+              "/wiki/Nature_(journal)",
+              "#cite_note-20"
+            ],
+            "ents": [
+              [
+                "May 17 \u2013",
+                "DATE"
+              ],
+              [
+                "The Human Genome Project",
+                "ORG"
+              ],
+              [
+                "Nature",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "May 27 \u2013 The 6.4 Mw Yogyakarta earthquake shakes central Java with an MSK intensity of IX (Destructive), leaving more than 5,700 dead and 37,000 injured.[21][22]",
+            "links": [
+              "/wiki/May_27",
+              "/wiki/2006_Yogyakarta_earthquake",
+              "/wiki/Java",
+              "/wiki/Medvedev%E2%80%93Sponheuer%E2%80%93Karnik_scale",
+              "#cite_note-21",
+              "#cite_note-22"
+            ],
+            "ents": [
+              [
+                "May 27 \u2013",
+                "DATE"
+              ],
+              [
+                "6.4",
+                "CARDINAL"
+              ],
+              [
+                "Mw Yogyakarta",
+                "ORG"
+              ],
+              [
+                "Java",
+                "PERSON"
+              ],
+              [
+                "MSK",
+                "ORG"
+              ],
+              [
+                "IX ( Destructive",
+                "ORG"
+              ],
+              [
+                "more than 5,700",
+                "CARDINAL"
+              ],
+              [
+                "37,000",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "June 3 \u2013 Montenegro declares independence after a May 21 referendum. The state union of Serbia and Montenegro is dissolved on June 5, leaving Serbia as the successor state.[23][24]",
+            "links": [
+              "/wiki/June_3",
+              "/wiki/Montenegro",
+              "/wiki/May_21",
+              "/wiki/Montenegrin_independence_referendum,_2006",
+              "/wiki/Serbia_and_Montenegro",
+              "/wiki/Serbia",
+              "#cite_note-23",
+              "#cite_note-24"
+            ],
+            "ents": [
+              [
+                "June 3 \u2013 Montenegro",
+                "DATE"
+              ],
+              [
+                "May 21",
+                "DATE"
+              ],
+              [
+                "Serbia",
+                "GPE"
+              ],
+              [
+                "Montenegro",
+                "GPE"
+              ],
+              [
+                "June 5",
+                "DATE"
+              ],
+              [
+                "Serbia",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "June 9 \u2013 July 9 \u2013 The 2006 FIFA World Cup begins in Germany;[25] which is won by Italy.[26]",
+            "links": [
+              "/wiki/June_9",
+              "/wiki/July_9",
+              "/wiki/2006_FIFA_World_Cup",
+              "#cite_note-25",
+              "#cite_note-26"
+            ],
+            "ents": [
+              [
+                "June 9 \u2013 July 9 \u2013",
+                "DATE"
+              ],
+              [
+                "FIFA World Cup",
+                "EVENT"
+              ],
+              [
+                "Germany",
+                "GPE"
+              ],
+              [
+                "Italy",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "June 28 - Israel launches an offensive in the Gaza Strip in response to rocketfire by Hamas into Israeli territory.[27]",
+            "links": [
+              "/wiki/Israel",
+              "/wiki/Operation_Summer_Rains",
+              "/wiki/Gaza_Strip",
+              "/wiki/Hamas",
+              "#cite_note-27"
+            ],
+            "ents": [
+              [
+                "June 28 - Israel",
+                "DATE"
+              ],
+              [
+                "the Gaza Strip",
+                "GPE"
+              ],
+              [
+                "Hamas",
+                "ORG"
+              ],
+              [
+                "Israeli",
+                "NORP"
+              ]
+            ]
+          },
+          {
+            "text": "June 28 - The United States Armed Forces withdraws its forces in Iceland, thereby disbanding the Iceland Defense Force.[28]",
+            "links": [
+              "/wiki/Iceland",
+              "/wiki/Iceland_Defense_Force",
+              "#cite_note-28"
+            ],
+            "ents": [
+              [
+                "June 28 - The United States",
+                "DATE"
+              ],
+              [
+                "Iceland",
+                "GPE"
+              ],
+              [
+                "the Iceland Defense Force",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "July 1 \u2013 The Qinghai\u2013Tibet Railway launches a trial operation, making Tibet the last province-level entity of China to have a conventional railway.[29]",
+            "links": [
+              "/wiki/July_1",
+              "/wiki/Qinghai%E2%80%93Tibet_Railway",
+              "/wiki/Tibet_Autonomous_Region",
+              "/wiki/Administrative_divisions_of_the_People%27s_Republic_of_China",
+              "#cite_note-29"
+            ],
+            "ents": [
+              [
+                "July 1 \u2013",
+                "DATE"
+              ],
+              [
+                "Tibet",
+                "GPE"
+              ],
+              [
+                "China",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "July 6 \u2013 The Nathu La pass between India and China, sealed during the Sino-Indian War, re-opens for trade after 44 years.[30]",
+            "links": [
+              "/wiki/July_6",
+              "/wiki/Nathu_La",
+              "/wiki/Sino-Indian_War",
+              "#cite_note-30"
+            ],
+            "ents": [
+              [
+                "July 6 \u2013",
+                "DATE"
+              ],
+              [
+                "The Nathu La",
+                "ORG"
+              ],
+              [
+                "India",
+                "GPE"
+              ],
+              [
+                "China",
+                "GPE"
+              ],
+              [
+                "the Sino - Indian War",
+                "EVENT"
+              ],
+              [
+                "44 years",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "July 11 - A series of 7 bomb blasts rocks the city of Mumbai, India killing more than 200 people.[31]",
+            "links": [
+              "/wiki/July_11",
+              "/wiki/2006_Mumbai_train_bombings",
+              "/wiki/Mumbai",
+              "/wiki/India",
+              "#cite_note-31"
+            ],
+            "ents": [
+              [
+                "July 11 - A",
+                "DATE"
+              ],
+              [
+                "7",
+                "CARDINAL"
+              ],
+              [
+                "Mumbai",
+                "GPE"
+              ],
+              [
+                "India",
+                "GPE"
+              ],
+              [
+                "more than 200",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "July 12 \u2013 Israeli troops invade Lebanon in response to Hezbollah kidnapping two Israeli soldiers and killing three others. Hezbollah declares open war against Israel two days later.[32]",
+            "links": [
+              "/wiki/July_12",
+              "/wiki/Israel",
+              "/wiki/2006_Lebanon_War",
+              "/wiki/Hezbollah",
+              "#cite_note-32"
+            ],
+            "ents": [
+              [
+                "July 12 \u2013",
+                "DATE"
+              ],
+              [
+                "Israeli",
+                "NORP"
+              ],
+              [
+                "Lebanon",
+                "GPE"
+              ],
+              [
+                "Hezbollah",
+                "ORG"
+              ],
+              [
+                "two",
+                "CARDINAL"
+              ],
+              [
+                "Israeli",
+                "NORP"
+              ],
+              [
+                "three",
+                "CARDINAL"
+              ],
+              [
+                "Hezbollah",
+                "ORG"
+              ],
+              [
+                "Israel",
+                "GPE"
+              ],
+              [
+                "two days later",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "August 22 \u2013 Pulkovo Aviation Enterprise Flight 612 crashes near the Russian border in Ukraine, killing all 171 people on board.[33]",
+            "links": [
+              "/wiki/August_22",
+              "/wiki/Pulkovo_Aviation_Enterprise_Flight_612",
+              "/wiki/Ukraine",
+              "#cite_note-33"
+            ],
+            "ents": [
+              [
+                "August 22",
+                "DATE"
+              ],
+              [
+                "612",
+                "CARDINAL"
+              ],
+              [
+                "Russian",
+                "NORP"
+              ],
+              [
+                "Ukraine",
+                "GPE"
+              ],
+              [
+                "171",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "August 24 \u2013 The International Astronomical Union defines 'planet' at its 26th General Assembly, demoting Pluto to the status of dwarf planet more than 70 years after its discovery.[34]",
+            "links": [
+              "/wiki/August_24",
+              "/wiki/International_Astronomical_Union",
+              "/wiki/2006_definition_of_planet",
+              "/wiki/Planet",
+              "/wiki/Pluto",
+              "/wiki/Dwarf_planet",
+              "#cite_note-34"
+            ],
+            "ents": [
+              [
+                "August 24 \u2013",
+                "DATE"
+              ],
+              [
+                "The International Astronomical Union",
+                "ORG"
+              ],
+              [
+                "26th General Assembly",
+                "ORG"
+              ],
+              [
+                "more than 70 years",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "September 19 \u2013 The Royal Thai Army overthrows the government of Prime Minister Thaksin Shinawatra in a coup d'\u00e9tat.[35]",
+            "links": [
+              "/wiki/September_19",
+              "/wiki/Royal_Thai_Army",
+              "/wiki/Prime_Minister_of_Thailand",
+              "/wiki/Thaksin_Shinawatra",
+              "/wiki/2006_Thai_coup_d%27%C3%A9tat",
+              "#cite_note-35"
+            ],
+            "ents": [
+              [
+                "September 19 \u2013",
+                "DATE"
+              ],
+              [
+                "The Royal Thai Army",
+                "ORG"
+              ],
+              [
+                "Thaksin Shinawatra",
+                "PERSON"
+              ]
+            ]
+          },
+          {
+            "text": "September 29 \u2013 Gol Transportes A\u00e9reos Flight 1907 collides with a business jet over the Amazon rainforest, killing all 155 on board.[36]",
+            "links": [
+              "/wiki/September_29",
+              "/wiki/Gol_Transportes_A%C3%A9reos_Flight_1907",
+              "/wiki/Amazon_rainforest",
+              "#cite_note-36"
+            ],
+            "ents": [
+              [
+                "September 29 \u2013",
+                "DATE"
+              ],
+              [
+                "Amazon",
+                "ORG"
+              ],
+              [
+                "155",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "October 9 \u2013 North Korea claims to have conducted its first-ever nuclear test.[37]",
+            "links": [
+              "/wiki/October_9",
+              "/wiki/North_Korea",
+              "/wiki/2006_North_Korean_nuclear_test",
+              "#cite_note-37"
+            ],
+            "ents": [
+              [
+                "October 9 \u2013 North",
+                "DATE"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "October 13 \u2013 South Korean Ban Ki-moon is elected as the new Secretary-General of the United Nations, succeeding Kofi Annan.[38]",
+            "links": [
+              "/wiki/October_13",
+              "/wiki/Ban_Ki-moon",
+              "/wiki/Kofi_Annan",
+              "#cite_note-38"
+            ],
+            "ents": [
+              [
+                "October 13 \u2013 South",
+                "DATE"
+              ],
+              [
+                "the United Nations",
+                "ORG"
+              ],
+              [
+                "Kofi Annan",
+                "PERSON"
+              ]
+            ]
+          },
+          {
+            "text": "November 2 \u2013 No. 5, 1948 by Jackson Pollock becomes the most expensive painting after it is sold privately for $140 million.[39]",
+            "links": [
+              "/wiki/November_2",
+              "/wiki/No._5,_1948",
+              "/wiki/Jackson_Pollock",
+              "/wiki/List_of_most_expensive_paintings",
+              "/wiki/List_of_most_expensive_paintings",
+              "#cite_note-Artnet-39"
+            ],
+            "ents": [
+              [
+                "November 2 \u2013",
+                "DATE"
+              ],
+              [
+                "5",
+                "CARDINAL"
+              ],
+              [
+                "1948",
+                "DATE"
+              ],
+              [
+                "Jackson Pollock",
+                "ORG"
+              ],
+              [
+                "$ 140 million",
+                "MONEY"
+              ]
+            ]
+          },
+          {
+            "text": "November 5 \u2013 Former President of Iraq Saddam Hussein is sentenced to death by hanging by the Iraqi Special Tribunal.[40]",
+            "links": [
+              "/wiki/November_5",
+              "/wiki/President_of_Iraq",
+              "/wiki/Saddam_Hussein",
+              "/wiki/Execution_of_Saddam_Hussein",
+              "/wiki/Supreme_Iraqi_Criminal_Tribunal",
+              "#cite_note-ap_burial-40"
+            ],
+            "ents": [
+              [
+                "November 5 \u2013",
+                "DATE"
+              ],
+              [
+                "Iraq",
+                "GPE"
+              ],
+              [
+                "Saddam Hussein",
+                "PERSON"
+              ],
+              [
+                "the Iraqi Special Tribunal",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "November 12 \u2013 The breakaway state of South Ossetia holds a referendum on independence from Georgia.[41]",
+            "links": [
+              "/wiki/November_12",
+              "/wiki/South_Ossetia",
+              "/wiki/South_Ossetian_independence_referendum,_2006",
+              "/wiki/Georgia_(country)",
+              "#cite_note-41"
+            ],
+            "ents": [
+              [
+                "November 12 \u2013",
+                "DATE"
+              ],
+              [
+                "South Ossetia",
+                "ORG"
+              ],
+              [
+                "Georgia",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "November 23 \u2013 A series of car bombs and mortar attacks in Sadr City, Baghdad, kill at least 215 people and injure 257 other people.[42]",
+            "links": [
+              "/wiki/November_23",
+              "/wiki/23_November_2006_Sadr_City_bombings",
+              "/wiki/Sadr_City",
+              "/wiki/Baghdad",
+              "#cite_note-42"
+            ],
+            "ents": [
+              [
+                "November 23 \u2013",
+                "DATE"
+              ],
+              [
+                "Sadr City",
+                "GPE"
+              ],
+              [
+                "Baghdad",
+                "GPE"
+              ],
+              [
+                "at least 215",
+                "CARDINAL"
+              ],
+              [
+                "257",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "December 5 \u2013 The military seizes power in Fiji, in a coup d'\u00e9tat led by Commodore Frank Bainimarama.[43]",
+            "links": [
+              "/wiki/December_5",
+              "/wiki/Fiji",
+              "/wiki/2006_Fijian_coup_d%27%C3%A9tat",
+              "/wiki/Frank_Bainimarama",
+              "#cite_note-43"
+            ],
+            "ents": [
+              [
+                "December 5",
+                "DATE"
+              ],
+              [
+                "Fiji",
+                "GPE"
+              ],
+              [
+                "Frank Bainimarama",
+                "PERSON"
+              ]
+            ]
+          },
+          {
+            "text": "December 11 \u2013 Felipe Calder\u00f3n sends the Mexican military to combat the drug cartels and put down the violence in the state of Michoac\u00e1n, initiating the Mexican Drug War.[44]",
+            "links": [
+              "/wiki/December_11",
+              "/wiki/Felipe_Calder%C3%B3n",
+              "/wiki/Mexican_Drug_War",
+              "#cite_note-44"
+            ],
+            "ents": [
+              [
+                "December 11 \u2013",
+                "DATE"
+              ],
+              [
+                "Felipe Calder\u00f3n",
+                "ORG"
+              ],
+              [
+                "Mexican",
+                "NORP"
+              ],
+              [
+                "Michoac\u00e1n",
+                "PERSON"
+              ],
+              [
+                "the Mexican Drug War",
+                "LAW"
+              ]
+            ]
+          },
+          {
+            "text": "December 24 \u2013 Ethiopia admits its troops have intervened in Somalia.[45]",
+            "links": [
+              "/wiki/December_24",
+              "/wiki/Ethiopia",
+              "/wiki/War_in_Somalia_(2006%E2%80%9309)",
+              "#cite_note-45"
+            ],
+            "ents": [
+              [
+                "December 24 \u2013 Ethiopia",
+                "DATE"
+              ],
+              [
+                "Somalia",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "December 26 \u2013 An oil pipeline explodes in Nigeria's commercial capital, Lagos, killing at least 200 people.[46]",
+            "links": [
+              "/wiki/December_26",
+              "/wiki/2006_Abule_Egba_pipeline_explosion",
+              "/wiki/Nigeria",
+              "/wiki/Lagos",
+              "#cite_note-46"
+            ],
+            "ents": [
+              [
+                "December 26 \u2013",
+                "DATE"
+              ],
+              [
+                "Nigeria",
+                "GPE"
+              ],
+              [
+                "Lagos",
+                "GPE"
+              ],
+              [
+                "at least 200",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "December 29 - UK settles its Anglo-American loan, post-WWII loan debt.[importance?]",
+            "links": [
+              "/wiki/December_29",
+              "/wiki/Anglo-American_loan",
+              "/wiki/Wikipedia:INDISCRIMINATE"
+            ],
+            "ents": [
+              [
+                "December 29 - UK",
+                "DATE"
+              ],
+              [
+                "Anglo - American",
+                "NORP"
+              ],
+              [
+                "WWII",
+                "EVENT"
+              ]
+            ]
+          }
+        ],
+        "match": null,
+        "scores": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.14285714285714285,
+            0.1111111111111111
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    [],
+    [
+      {
+        "text": "now",
+        "date": "PRESENT_REF",
+        "ents": {
+          "item": [
+            [
+              "US",
+              "GPE"
+            ],
+            [
+              "US",
+              "GPE"
+            ],
+            [
+              "first",
+              "ORDINAL"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ]
+          ],
+          "before": [
+            [
+              "Iraq",
+              "GPE"
+            ]
+          ],
+          "after": [
+            [
+              "US",
+              "GPE"
+            ],
+            [
+              "US",
+              "GPE"
+            ],
+            [
+              "first",
+              "ORDINAL"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "two",
+              "CARDINAL"
+            ],
+            [
+              "Muslim",
+              "NORP"
+            ],
+            [
+              "Shia",
+              "NORP"
+            ],
+            [
+              "Sunni",
+              "NORP"
+            ]
+          ]
+        },
+        "wiki": []
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "text": "2010",
+        "date": "2010",
+        "ents": {
+          "item": [
+            [
+              "2010",
+              "DATE"
+            ],
+            [
+              "the Arab Spring",
+              "ORG"
+            ],
+            [
+              "the Middle East",
+              "LOC"
+            ]
+          ],
+          "before": [
+            [
+              "one",
+              "CARDINAL"
+            ],
+            [
+              "Saudi Arabia",
+              "GPE"
+            ],
+            [
+              "the Islamic State",
+              "ORG"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "ISI",
+              "ORG"
+            ]
+          ],
+          "after": [
+            [
+              "2010",
+              "DATE"
+            ],
+            [
+              "the Arab Spring",
+              "ORG"
+            ],
+            [
+              "the Middle East",
+              "LOC"
+            ],
+            [
+              "Syria",
+              "GPE"
+            ],
+            [
+              "Bashar al - Assad",
+              "PERSON"
+            ]
+          ]
+        },
+        "wiki": [
+          {
+            "text": "January 4 \u2013 The tallest man-made structure to date, the Burj Khalifa in Dubai, United Arab Emirates, is officially opened.[2][3][4]",
+            "links": [
+              "/wiki/January_4",
+              "/wiki/Burj_Khalifa",
+              "/wiki/Dubai",
+              "/wiki/United_Arab_Emirates",
+              "#cite_note-USAtoday-2",
+              "#cite_note-opening-3",
+              "#cite_note-news.bbc.co.uk-4"
+            ],
+            "ents": [
+              [
+                "January 4 \u2013",
+                "DATE"
+              ],
+              [
+                "the Burj Khalifa",
+                "ORG"
+              ],
+              [
+                "Dubai",
+                "GPE"
+              ],
+              [
+                "United Arab Emirates",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "January 8 \u2013 The Togo national football team is involved in an attack in Cabinda Province, Angola, and as a result withdraws from the Africa Cup of Nations. The attack was perpetrated by the FLEC, their first since the Angolan Civil War.[5]",
+            "links": [
+              "/wiki/January_8",
+              "/wiki/Togo_national_football_team",
+              "/wiki/Togo_national_football_team_attack",
+              "/wiki/Cabinda_Province",
+              "/wiki/Angola",
+              "/wiki/2010_Africa_Cup_of_Nations",
+              "/wiki/Front_for_the_Liberation_of_the_Enclave_of_Cabinda",
+              "/wiki/Angolan_Civil_War",
+              "#cite_note-5"
+            ],
+            "ents": [
+              [
+                "January 8 \u2013",
+                "DATE"
+              ],
+              [
+                "Togo",
+                "ORG"
+              ],
+              [
+                "Cabinda Province",
+                "GPE"
+              ],
+              [
+                "Angola",
+                "GPE"
+              ],
+              [
+                "the Africa Cup of Nations",
+                "EVENT"
+              ],
+              [
+                "FLEC",
+                "ORG"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ],
+              [
+                "the Angolan Civil War",
+                "EVENT"
+              ]
+            ]
+          },
+          {
+            "text": "January 12 \u2013 A 7.0-magnitude earthquake occurs in Haiti, devastating the nation's capital, Port-au-Prince. With a confirmed death toll over 316,000,[6][7][8] it is the tenth deadliest on record.",
+            "links": [
+              "/wiki/January_12",
+              "/wiki/2010_Haiti_earthquake",
+              "/wiki/Haiti",
+              "/wiki/Port-au-Prince",
+              "#cite_note-MiamiHerald13-6",
+              "#cite_note-CNN13-7",
+              "#cite_note-8",
+              "/wiki/Lists_of_earthquakes#Deadliest_earthquakes_on_record"
+            ],
+            "ents": [
+              [
+                "January 12 \u2013",
+                "DATE"
+              ],
+              [
+                "Haiti",
+                "GPE"
+              ],
+              [
+                "Port - au - Prince",
+                "GPE"
+              ],
+              [
+                "316,000",
+                "CARDINAL"
+              ],
+              [
+                "tenth",
+                "ORDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "January 14 \u2013 Yemen declares an open war against the terrorist group al-Qaeda.",
+            "links": [
+              "/wiki/January_14",
+              "/wiki/Al-Qaeda_insurgency_in_Yemen",
+              "/wiki/Al-Qaeda"
+            ],
+            "ents": [
+              [
+                "January 14 \u2013 Yemen",
+                "DATE"
+              ],
+              [
+                "al - Qaeda",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "January 15 - The longest annular solar eclipse of the 3rd millennium occurs.[citation needed]",
+            "links": [
+              "/wiki/Solar_eclipse_of_January_15,_2010",
+              "/wiki/3rd_millennium",
+              "/wiki/Wikipedia:Citation_needed"
+            ],
+            "ents": [
+              [
+                "January 15",
+                "DATE"
+              ],
+              [
+                "the 3rd millennium occurs.[citation needed",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "January 15 - The Chadian Civil War (2005\u201310) officially ends.[citation needed]",
+            "links": [
+              "/wiki/Chadian_Civil_War_(2005%E2%80%9310)",
+              "/wiki/Wikipedia:Citation_needed"
+            ],
+            "ents": [
+              [
+                "January 15 - The",
+                "DATE"
+              ],
+              [
+                "Civil War",
+                "EVENT"
+              ]
+            ]
+          },
+          {
+            "text": "January 25 \u2013 Ethiopian Airlines Flight 409 crashes into the Mediterranean shortly after take-off from Beirut\u2013Rafic Hariri International Airport, killing all 90 people on board.",
+            "links": [
+              "/wiki/January_25",
+              "/wiki/Ethiopian_Airlines_Flight_409",
+              "/wiki/Beirut%E2%80%93Rafic_Hariri_International_Airport"
+            ],
+            "ents": [
+              [
+                "January 25 \u2013 Ethiopian Airlines Flight 409",
+                "DATE"
+              ],
+              [
+                "Mediterranean",
+                "LOC"
+              ],
+              [
+                "Beirut",
+                "GPE"
+              ],
+              [
+                "Rafic Hariri International Airport",
+                "FAC"
+              ],
+              [
+                "90",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "February 3 \u2013 The sculpture L'Homme qui marche I by Alberto Giacometti sells in London for \u00a365 million (US$103.7 million), setting a new world record for a work of art sold at auction.[9][10]",
+            "links": [
+              "/wiki/February_3",
+              "/wiki/L%27Homme_qui_marche_I",
+              "/wiki/Alberto_Giacometti",
+              "/wiki/Pound_sterling",
+              "#cite_note-9",
+              "#cite_note-10"
+            ],
+            "ents": [
+              [
+                "February 3 \u2013",
+                "DATE"
+              ],
+              [
+                "L'Homme",
+                "PERSON"
+              ],
+              [
+                "Alberto Giacometti",
+                "PERSON"
+              ],
+              [
+                "London",
+                "GPE"
+              ],
+              [
+                "\u00a3 65 million",
+                "MONEY"
+              ],
+              [
+                "US$ 103.7 million",
+                "MONEY"
+              ]
+            ]
+          },
+          {
+            "text": "February 12\u201328 \u2013 The 2010 Winter Olympics are held in Vancouver and Whistler, Canada.",
+            "links": [
+              "/wiki/February_12",
+              "/wiki/February_28",
+              "/wiki/2010_Winter_Olympics",
+              "/wiki/Whistler,_British_Columbia"
+            ],
+            "ents": [
+              [
+                "February 12\u201328 \u2013",
+                "DATE"
+              ],
+              [
+                "Vancouver",
+                "GPE"
+              ],
+              [
+                "Whistler",
+                "GPE"
+              ],
+              [
+                "Canada",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "February 18 \u2013 The President of Niger, Mamadou Tandja, is overthrown after a group of soldiers storms the presidential palace[11] and form a ruling junta, the Supreme Council for the Restoration of Democracy headed by chef d'escadron Salou Djibo.[12]",
+            "links": [
+              "/wiki/February_18",
+              "/wiki/President_of_Niger",
+              "/wiki/Mamadou_Tandja",
+              "/wiki/2010_Nigerien_coup_d%27%C3%A9tat",
+              "#cite_note-Todd-11",
+              "/wiki/Supreme_Council_for_the_Restoration_of_Democracy",
+              "/wiki/Chef_d%27escadron",
+              "/wiki/Salou_Djibo",
+              "#cite_note-Ousts-12"
+            ],
+            "ents": [
+              [
+                "February 18 \u2013",
+                "DATE"
+              ],
+              [
+                "Niger",
+                "GPE"
+              ],
+              [
+                "Tandja",
+                "PERSON"
+              ],
+              [
+                "the Supreme Council for the Restoration of Democracy",
+                "ORG"
+              ],
+              [
+                "d'escadron Salou Djibo",
+                "PERSON"
+              ]
+            ]
+          },
+          {
+            "text": "February 27 \u2013 An 8.8-magnitude earthquake occurs in Chile, triggering a tsunami over the Pacific and killing at least 525.[13] The earthquake is one of the largest in recorded history.",
+            "links": [
+              "/wiki/February_27",
+              "/wiki/2010_Chile_earthquake",
+              "/wiki/Chile",
+              "/wiki/Tsunami",
+              "#cite_note-muertos-13",
+              "/wiki/Largest_earthquakes_by_magnitude"
+            ],
+            "ents": [
+              [
+                "February 27 \u2013",
+                "DATE"
+              ],
+              [
+                "Chile",
+                "GPE"
+              ],
+              [
+                "Pacific",
+                "LOC"
+              ],
+              [
+                "at least 525",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "March 16 \u2013 The Kasubi Tombs, Uganda's only cultural World Heritage Site, are destroyed by fire.[14]",
+            "links": [
+              "/wiki/March_16",
+              "/wiki/Kasubi_Tombs",
+              "/wiki/Uganda",
+              "/wiki/World_Heritage_Site",
+              "#cite_note-14"
+            ],
+            "ents": [
+              [
+                "March 16 \u2013",
+                "DATE"
+              ],
+              [
+                "Uganda",
+                "GPE"
+              ],
+              [
+                "World Heritage Site",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "March 26 \u2013 The ROKS Cheonan, a South Korean Navy ship carrying 104 personnel, sinks off the country's west coast, killing 46. In May, an independent investigation blames North Korea, which denies the allegations.[15][16]",
+            "links": [
+              "/wiki/March_26",
+              "/wiki/ROKS_Cheonan",
+              "/wiki/Republic_of_Korea_Navy",
+              "/wiki/ROKS_Cheonan_sinking",
+              "/wiki/North_Korea",
+              "#cite_note-dailynk1-15",
+              "#cite_note-16"
+            ],
+            "ents": [
+              [
+                "March 26 \u2013",
+                "DATE"
+              ],
+              [
+                "South Korean",
+                "NORP"
+              ],
+              [
+                "Navy",
+                "ORG"
+              ],
+              [
+                "104",
+                "ORG"
+              ],
+              [
+                "46",
+                "CARDINAL"
+              ],
+              [
+                "May",
+                "DATE"
+              ],
+              [
+                "North Korea",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "April 7 \u2013 Kyrgyz President Kurmanbek Bakiyev flees the country amid fierce anti-government riots in the capital, Bishkek.[17]",
+            "links": [
+              "/wiki/April_7",
+              "/wiki/Kyrgyzstan",
+              "/wiki/Kurmanbek_Bakiyev",
+              "/wiki/Kyrgyz_Revolution_of_2010",
+              "/wiki/Bishkek",
+              "#cite_note-17"
+            ],
+            "ents": [
+              [
+                "April 7 \u2013 Kyrgyz",
+                "DATE"
+              ],
+              [
+                "Kurmanbek Bakiyev",
+                "PERSON"
+              ],
+              [
+                "Bishkek",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "April 10 \u2013 The President of Poland, Lech Kaczy\u0144ski, is among 96 killed when their airplane crashes near Smolensk, Russia.[18][19]",
+            "links": [
+              "/wiki/April_10",
+              "/wiki/President_of_Poland",
+              "/wiki/Lech_Kaczy%C5%84ski",
+              "/wiki/2010_Polish_Air_Force_Tu-154_crash",
+              "/wiki/Smolensk",
+              "/wiki/Russia",
+              "#cite_note-18",
+              "#cite_note-19"
+            ],
+            "ents": [
+              [
+                "April 10 \u2013",
+                "DATE"
+              ],
+              [
+                "Poland",
+                "GPE"
+              ],
+              [
+                "Lech Kaczy\u0144ski",
+                "PERSON"
+              ],
+              [
+                "96",
+                "CARDINAL"
+              ],
+              [
+                "Smolensk",
+                "GPE"
+              ],
+              [
+                "Russia",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "April 14 \u2013 Volcanic ash from one of several eruptions beneath Mount Eyjafjallaj\u00f6kull, an ice cap in Iceland, begins to disrupt air traffic across northern and western Europe.[20][21][22]",
+            "links": [
+              "/wiki/April_14",
+              "/wiki/Volcanic_ash",
+              "/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull",
+              "/wiki/Eyjafjallaj%C3%B6kull",
+              "/wiki/Ice_cap",
+              "/wiki/Iceland",
+              "/wiki/Air_travel_disruption_after_the_2010_Eyjafjallaj%C3%B6kull_eruption",
+              "#cite_note-NASInfo-20",
+              "#cite_note-21",
+              "#cite_note-BBC8622438-22"
+            ],
+            "ents": [
+              [
+                "April 14 \u2013",
+                "DATE"
+              ],
+              [
+                "one",
+                "CARDINAL"
+              ],
+              [
+                "Mount Eyjafjallaj\u00f6kull",
+                "LOC"
+              ],
+              [
+                "Iceland",
+                "GPE"
+              ],
+              [
+                "Europe",
+                "LOC"
+              ]
+            ]
+          },
+          {
+            "text": "April 20 \u2013 The Deepwater Horizon oil drilling platform explodes in the Gulf of Mexico, killing 11 workers. The resulting Horizon oil spill, one of the largest in history, spreads for several months, damaging the waters and the United States coastline, and prompting international debate and doubt about the practice and procedures of offshore drilling.[23][24]",
+            "links": [
+              "/wiki/April_20",
+              "/wiki/Deepwater_Horizon_explosion",
+              "/wiki/Gulf_of_Mexico",
+              "/wiki/Deepwater_Horizon_oil_spill",
+              "/wiki/Offshore_drilling",
+              "#cite_note-23",
+              "#cite_note-Wardell-24"
+            ],
+            "ents": [
+              [
+                "April 20 \u2013",
+                "DATE"
+              ],
+              [
+                "the Gulf of Mexico",
+                "LOC"
+              ],
+              [
+                "11",
+                "CARDINAL"
+              ],
+              [
+                "Horizon",
+                "ORG"
+              ],
+              [
+                "one",
+                "CARDINAL"
+              ],
+              [
+                "several months",
+                "DATE"
+              ],
+              [
+                "United States",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "April 27 \u2013 Standard & Poor's downgrades Greece's sovereign credit rating to junk 4 days after the activation of a \u20ac45-billion EU\u2013IMF bailout, triggering the decline of stock markets worldwide and of the euro's value,[25][26][27] and furthering a European sovereign debt crisis.",
+            "links": [
+              "/wiki/April_27",
+              "/wiki/Standard_%26_Poor%27s",
+              "/wiki/Economy_of_Greece#2010_debt_crisis",
+              "/wiki/Sovereign_rating",
+              "/wiki/High-yield_debt",
+              "/wiki/Euro",
+              "/wiki/European_Union",
+              "/wiki/International_Monetary_Fund",
+              "/wiki/Stock_market",
+              "/wiki/Euro",
+              "#cite_note-BBC_2-25",
+              "#cite_note-BBC-26",
+              "#cite_note-CNN-27",
+              "/wiki/European_debt_crisis"
+            ],
+            "ents": [
+              [
+                "April 27 \u2013 Standard & Poor 's",
+                "DATE"
+              ],
+              [
+                "Greece",
+                "GPE"
+              ],
+              [
+                "4 days",
+                "DATE"
+              ],
+              [
+                "45-billion",
+                "MONEY"
+              ],
+              [
+                "EU",
+                "ORG"
+              ],
+              [
+                "European",
+                "NORP"
+              ]
+            ]
+          },
+          {
+            "text": "May 2 \u2013 The eurozone and the International Monetary Fund agree to a \u20ac110 billion bailout package for Greece. The package involves sharp Greek austerity measures.[28]",
+            "links": [
+              "/wiki/May_2",
+              "/wiki/Eurozone",
+              "/wiki/International_Monetary_Fund",
+              "/wiki/Austerity",
+              "#cite_note-28"
+            ],
+            "ents": [
+              [
+                "May 2 \u2013",
+                "DATE"
+              ],
+              [
+                "the International Monetary Fund",
+                "ORG"
+              ],
+              [
+                "\u20ac 110 billion",
+                "MONEY"
+              ],
+              [
+                "Greece",
+                "GPE"
+              ],
+              [
+                "Greek",
+                "NORP"
+              ]
+            ]
+          },
+          {
+            "text": "May 4 \u2013 Nude, Green Leaves and Bust by Pablo Picasso sells in New York for US$106.5 million, setting another new world record for a work of art sold at auction.[29][30][31]",
+            "links": [
+              "/wiki/May_4",
+              "/wiki/Nude,_Green_Leaves_and_Bust",
+              "/wiki/Pablo_Picasso",
+              "/wiki/United_States_dollar",
+              "#cite_note-29",
+              "#cite_note-30",
+              "#cite_note-31"
+            ],
+            "ents": [
+              [
+                "May 4 \u2013 Nude",
+                "DATE"
+              ],
+              [
+                "Green Leaves",
+                "PERSON"
+              ],
+              [
+                "Bust",
+                "ORG"
+              ],
+              [
+                "Pablo Picasso",
+                "PERSON"
+              ],
+              [
+                "New York",
+                "GPE"
+              ],
+              [
+                "US$ 106.5 million",
+                "MONEY"
+              ]
+            ]
+          },
+          {
+            "text": "May 6 \u2013 The 2010 Flash Crash, a trillion-dollar stock market crash, occurs over 36 minutes, initiated by a series of automated trading programs in a feedback loop.[32]",
+            "links": [
+              "/wiki/May_6",
+              "/wiki/2010_Flash_Crash",
+              "#cite_note-phillips-5-11-10-32"
+            ],
+            "ents": [
+              [
+                "May 6 \u2013",
+                "DATE"
+              ],
+              [
+                "2010",
+                "DATE"
+              ],
+              [
+                "trillion - dollar",
+                "MONEY"
+              ],
+              [
+                "36 minutes",
+                "TIME"
+              ]
+            ]
+          },
+          {
+            "text": "May 7 - Chile becomes the 31st member of the OECD.[33]",
+            "links": [
+              "/wiki/Chile",
+              "/wiki/Organisation_for_Economic_Co-operation_and_Development",
+              "#cite_note-33"
+            ],
+            "ents": [
+              [
+                "May 7 - Chile",
+                "DATE"
+              ],
+              [
+                "the 31st",
+                "DATE"
+              ],
+              [
+                "OECD",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "May 7 - Scientists conducting the Neanderthal genome project announce that they have sequenced enough of the Neanderthal genome to suggest that Neanderthals and humans may have interbred.[34][35]",
+            "links": [
+              "/wiki/Neanderthal_genome_project",
+              "/wiki/DNA_sequencing",
+              "/wiki/Neanderthal",
+              "/wiki/Genome",
+              "/wiki/Archaic_human_admixture_with_modern_humans",
+              "#cite_note-Pinkowski-34",
+              "#cite_note-Green_Krause-35"
+            ],
+            "ents": [
+              [
+                "May 7 - Scientists",
+                "DATE"
+              ],
+              [
+                "Neanderthal",
+                "NORP"
+              ],
+              [
+                "Neanderthal",
+                "NORP"
+              ],
+              [
+                "Neanderthals",
+                "PERSON"
+              ]
+            ]
+          },
+          {
+            "text": "May 12 \u2013 Afriqiyah Airways Flight 771 crashes at runway at Tripoli International Airport in Libya, killing 103 of the 104 people on board.[36]",
+            "links": [
+              "/wiki/May_12",
+              "/wiki/Afriqiyah_Airways_Flight_771",
+              "/wiki/Tripoli_International_Airport",
+              "/wiki/Libya",
+              "#cite_note-36"
+            ],
+            "ents": [
+              [
+                "May 12 \u2013 Afriqiyah Airways Flight 771",
+                "DATE"
+              ],
+              [
+                "Tripoli International Airport",
+                "FAC"
+              ],
+              [
+                "Libya",
+                "GPE"
+              ],
+              [
+                "103",
+                "CARDINAL"
+              ],
+              [
+                "104",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "May 19 \u2013 Protests in Bangkok, Thailand, end with a bloody military crackdown, killing 91 and injuring more than 2,100.[37][38]",
+            "links": [
+              "/wiki/May_19",
+              "/wiki/2010_Thai_political_protests",
+              "/wiki/Bangkok",
+              "/wiki/Thailand",
+              "#cite_note-deaths-37",
+              "#cite_note-38"
+            ],
+            "ents": [
+              [
+                "May 19 \u2013 Protests",
+                "DATE"
+              ],
+              [
+                "Bangkok",
+                "GPE"
+              ],
+              [
+                "Thailand",
+                "GPE"
+              ],
+              [
+                "91",
+                "CARDINAL"
+              ],
+              [
+                "more than 2,100",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "May 20 - Scientists announced that they have created a functional synthetic genome.[39]",
+            "links": [
+              "/wiki/Gene_synthesis#Entire_genomes",
+              "#cite_note-39"
+            ],
+            "ents": [
+              [
+                "May 20 - Scientists",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "May 20 - Five paintings worth \u20ac100 million are stolen from the Mus\u00e9e d'Art Moderne de la Ville de Paris.[40][41]",
+            "links": [
+              "/wiki/Mus%C3%A9e_d%27Art_Moderne_de_la_Ville_de_Paris",
+              "#cite_note-sky-40",
+              "#cite_note-Guardian-41"
+            ],
+            "ents": [
+              [
+                "May 20 - Five",
+                "DATE"
+              ],
+              [
+                "\u20ac 100 million",
+                "MONEY"
+              ],
+              [
+                "Mus\u00e9e",
+                "PERSON"
+              ]
+            ]
+          },
+          {
+            "text": "May 22 \u2013 Air India Express Flight 812 overshoots the runway at Mangalore International Airport in India, killing 158 and leaving 8 survivors.[42]",
+            "links": [
+              "/wiki/May_22",
+              "/wiki/Air_India_Express_Flight_812",
+              "/wiki/Mangalore_Airport_(India)",
+              "#cite_note-42"
+            ],
+            "ents": [
+              [
+                "May 22",
+                "DATE"
+              ],
+              [
+                "Air India Express",
+                "ORG"
+              ],
+              [
+                "812",
+                "CARDINAL"
+              ],
+              [
+                "Mangalore International Airport",
+                "FAC"
+              ],
+              [
+                "India",
+                "GPE"
+              ],
+              [
+                "158",
+                "CARDINAL"
+              ],
+              [
+                "8",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "May 28 \u2013 the 2010 Ahmadiyya mosques massacre in Lahore, Punjab, Pakistan, killed 94 people during Friday prayers at two mosques.[43]",
+            "links": [
+              "/wiki/May_28",
+              "/wiki/2010_Ahmadiyya_mosques_massacre",
+              "#cite_note-bbc20100528-43"
+            ],
+            "ents": [
+              [
+                "May 28 \u2013 the 2010",
+                "DATE"
+              ],
+              [
+                "Ahmadiyya",
+                "ORG"
+              ],
+              [
+                "mosques",
+                "FAC"
+              ],
+              [
+                "Lahore",
+                "GPE"
+              ],
+              [
+                "Punjab",
+                "GPE"
+              ],
+              [
+                "Pakistan",
+                "GPE"
+              ],
+              [
+                "94",
+                "CARDINAL"
+              ],
+              [
+                "Friday",
+                "DATE"
+              ],
+              [
+                "two",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "May 31 \u2013 Nine activists are killed in a clash with soldiers when Israeli Navy forces raid and capture a flotilla of ships attempting to break the Gaza blockade.[44][45]",
+            "links": [
+              "/wiki/May_31",
+              "/wiki/Gaza_flotilla_raid",
+              "/wiki/Blockade_of_the_Gaza_Strip",
+              "#cite_note-edition.cnn.com-44",
+              "#cite_note-45"
+            ],
+            "ents": [
+              [
+                "May 31",
+                "DATE"
+              ],
+              [
+                "Israeli Navy",
+                "ORG"
+              ],
+              [
+                "Gaza",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "June 10\u201314 \u2013 Ethnic riots in Kyrgyzstan between Kyrgyz and Uzbeks result in the deaths of hundreds.[46]",
+            "links": [
+              "/wiki/June_10",
+              "/wiki/June_14",
+              "/wiki/2010_South_Kyrgyzstan_ethnic_clashes",
+              "/wiki/Kyrgyzstan",
+              "/wiki/Kyrgyz_people",
+              "/wiki/Uzbeks",
+              "#cite_note-46"
+            ],
+            "ents": [
+              [
+                "June 10\u201314 \u2013 Ethnic",
+                "DATE"
+              ],
+              [
+                "Kyrgyzstan",
+                "GPE"
+              ],
+              [
+                "Kyrgyz",
+                "ORG"
+              ],
+              [
+                "hundreds",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "June 11 \u2013 July 11 \u2013 The 2010 FIFA World Cup is held in South Africa, and is won by Spain.",
+            "links": [
+              "/wiki/June_11",
+              "/wiki/July_11",
+              "/wiki/2010_FIFA_World_Cup",
+              "/wiki/Spain_national_football_team"
+            ],
+            "ents": [
+              [
+                "June 11 \u2013 July 11 \u2013",
+                "DATE"
+              ],
+              [
+                "2010",
+                "DATE"
+              ],
+              [
+                "FIFA World Cup",
+                "EVENT"
+              ],
+              [
+                "South Africa",
+                "GPE"
+              ],
+              [
+                "Spain",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "July 8 \u2013 The first 24-hour flight by a solar-powered plane is completed by the Solar Impulse.[47]",
+            "links": [
+              "/wiki/July_8",
+              "/wiki/Solar-powered_plane",
+              "/wiki/Solar_Impulse",
+              "#cite_note-47"
+            ],
+            "ents": [
+              [
+                "July 8 \u2013",
+                "DATE"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ],
+              [
+                "24-hour",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "July 21 \u2013 Slovenia becomes the 32nd member of the OECD.[48]",
+            "links": [
+              "/wiki/July_21",
+              "/wiki/Slovenia",
+              "/wiki/Organisation_for_Economic_Co-operation_and_Development",
+              "#cite_note-48"
+            ],
+            "ents": [
+              [
+                "July 21 \u2013 Slovenia",
+                "DATE"
+              ],
+              [
+                "32nd",
+                "DATE"
+              ],
+              [
+                "OECD",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "July 25 \u2013 WikiLeaks, an online publisher of anonymous, covert, and classified material, leaks to the public over 90,000 internal reports about the United States-led involvement in the War in Afghanistan from 2004 to 2010.[49]",
+            "links": [
+              "/wiki/July_25",
+              "/wiki/WikiLeaks",
+              "/wiki/Afghan_War_documents_leak",
+              "/wiki/War_in_Afghanistan_(2001%E2%80%93present)",
+              "#cite_note-49"
+            ],
+            "ents": [
+              [
+                "July 25 \u2013 WikiLeaks",
+                "DATE"
+              ],
+              [
+                "90,000",
+                "CARDINAL"
+              ],
+              [
+                "the United States",
+                "GPE"
+              ],
+              [
+                "the War",
+                "EVENT"
+              ],
+              [
+                "Afghanistan",
+                "GPE"
+              ],
+              [
+                "2004",
+                "DATE"
+              ],
+              [
+                "2010",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "July 29 \u2013 Heavy monsoon rains begin to cause widespread flooding in the Khyber Pakhtunkhwa province of Pakistan. Over 1,600 are killed, and more than one million are displaced by the floods.[50]",
+            "links": [
+              "/wiki/July_29",
+              "/wiki/2010_Khyber_Pakhtunkhwa_floods",
+              "/wiki/Khyber_Pakhtunkhwa",
+              "#cite_note-50"
+            ],
+            "ents": [
+              [
+                "July 29",
+                "DATE"
+              ],
+              [
+                "Pakistan",
+                "GPE"
+              ],
+              [
+                "Over 1,600",
+                "CARDINAL"
+              ],
+              [
+                "more than one million",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "August 10 \u2013 The World Health Organization declares the H1N1 influenza pandemic over, saying worldwide flu activity has returned to typical seasonal patterns.[51]",
+            "links": [
+              "/wiki/August_10",
+              "/wiki/World_Health_Organization",
+              "/wiki/2009_flu_pandemic",
+              "#cite_note-51"
+            ],
+            "ents": [
+              [
+                "August",
+                "DATE"
+              ],
+              [
+                "10 \u2013",
+                "CARDINAL"
+              ],
+              [
+                "The World Health Organization",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "September 4 \u2013 A 7.1 magnitude earthquake rocks Christchurch, New Zealand causing large amounts of damage but no direct fatalities.[52] It is the first in a series of earthquakes between 2010 and 2012 that resulted in the deaths of 187 people and over $40 billion worth of damage.[53][54] Seismologists noted that the earthquake sequence was highly unusual, and likely to never happen again anywhere else in the world.[55]",
+            "links": [
+              "/wiki/September_4",
+              "/wiki/2010_Canterbury_earthquake",
+              "/wiki/Christchurch",
+              "/wiki/New_Zealand",
+              "#cite_note-52",
+              "#cite_note-53",
+              "#cite_note-54",
+              "#cite_note-55"
+            ],
+            "ents": [
+              [
+                "September 4 \u2013",
+                "DATE"
+              ],
+              [
+                "7.1",
+                "CARDINAL"
+              ],
+              [
+                "Christchurch , New Zealand",
+                "ORG"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ],
+              [
+                "between 2010 and 2012",
+                "DATE"
+              ],
+              [
+                "187",
+                "CARDINAL"
+              ],
+              [
+                "$ 40 billion",
+                "MONEY"
+              ]
+            ]
+          },
+          {
+            "text": "September 7 \u2013 Israel becomes the 33rd member of the OECD.[56]",
+            "links": [
+              "/wiki/September_7",
+              "/wiki/Israel",
+              "/wiki/Organisation_for_Economic_Co-operation_and_Development",
+              "#cite_note-56"
+            ],
+            "ents": [
+              [
+                "September 7 \u2013 Israel",
+                "DATE"
+              ],
+              [
+                "33rd",
+                "ORDINAL"
+              ],
+              [
+                "OECD",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "September 30 \u2013 Germany pays war reparations for World War I.",
+            "links": [
+              "/wiki/September_30",
+              "/wiki/Germany",
+              "/wiki/World_War_I"
+            ],
+            "ents": [
+              [
+                "September 30 \u2013 Germany",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "October 10 \u2013 The Netherlands Antilles are dissolved, with the islands being split up and given a new constitutional status.[57]",
+            "links": [
+              "/wiki/October_10",
+              "/wiki/Netherlands_Antilles",
+              "/wiki/Dissolution_of_the_Netherlands_Antilles",
+              "#cite_note-time-57"
+            ],
+            "ents": [
+              [
+                "October 10 \u2013",
+                "DATE"
+              ],
+              [
+                "The Netherlands Antilles",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "October 22 \u2013 The International Space Station surpasses the record for the longest continuous human occupation of space, having been continuously inhabited since November 2, 2000 (3641 days).[58][59]",
+            "links": [
+              "/wiki/October_22",
+              "/wiki/International_Space_Station",
+              "/wiki/List_of_spaceflight_records",
+              "#cite_note-58",
+              "#cite_note-59"
+            ],
+            "ents": [
+              [
+                "October 22",
+                "DATE"
+              ],
+              [
+                "The International Space Station",
+                "ORG"
+              ],
+              [
+                "November 2 , 2000",
+                "DATE"
+              ],
+              [
+                "3641 days",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "October 23 \u2013 In preparation for the Seoul summit, finance ministers of the G-20 agree to reform the International Monetary Fund and shift 6% of the voting shares to developing nations and countries with emerging markets.[60]",
+            "links": [
+              "/wiki/October_23",
+              "/wiki/2010_G-20_Seoul_summit_preparations",
+              "/wiki/G-20_major_economies",
+              "/wiki/International_Monetary_Fund",
+              "/wiki/International_Monetary_Fund#Members'_quotas_and_voting_power,_and_board_of_governors",
+              "/wiki/Developing_nations",
+              "/wiki/Emerging_markets",
+              "#cite_note-G20_summit_agrees_to_reform_IMF-60"
+            ],
+            "ents": [
+              [
+                "October 23 \u2013",
+                "DATE"
+              ],
+              [
+                "Seoul",
+                "GPE"
+              ],
+              [
+                "G-20",
+                "ORG"
+              ],
+              [
+                "the International Monetary Fund",
+                "ORG"
+              ],
+              [
+                "6 %",
+                "PERCENT"
+              ]
+            ]
+          },
+          {
+            "text": "October 25 \u2013 An earthquake and consequent tsunami off the coast of Sumatra, Indonesia, kills over 400 people and leaves hundreds missing.[61]",
+            "links": [
+              "/wiki/October_25",
+              "/wiki/2010_Mentawai_earthquake_and_tsunami",
+              "/wiki/Sumatra",
+              "/wiki/Indonesia",
+              "#cite_note-BBC_News_Major_earthquake-61"
+            ],
+            "ents": [
+              [
+                "October 25 \u2013",
+                "DATE"
+              ],
+              [
+                "Sumatra",
+                "ORG"
+              ],
+              [
+                "Indonesia",
+                "GPE"
+              ],
+              [
+                "over 400",
+                "CARDINAL"
+              ],
+              [
+                "hundreds",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "October 26 \u2013 Repeated eruptions of Mount Merapi volcano in Central Java, Indonesia, and accompanying pyroclastic flows of scalding gas, pumice, and volcanic ash descending the erupting volcano kill 300 people and force hundreds of thousands of residents to evacuate.[62][63][64]",
+            "links": [
+              "/wiki/October_26",
+              "/wiki/2010_eruptions_of_Mount_Merapi",
+              "/wiki/Mount_Merapi",
+              "/wiki/Central_Java",
+              "/wiki/Indonesia",
+              "/wiki/Pyroclastic_flow",
+              "/wiki/Volcanic_ash",
+              "#cite_note-62",
+              "#cite_note-guardian_toll-63",
+              "#cite_note-bknpb1-64"
+            ],
+            "ents": [
+              [
+                "October 26",
+                "DATE"
+              ],
+              [
+                "Mount Merapi",
+                "LOC"
+              ],
+              [
+                "Central Java",
+                "GPE"
+              ],
+              [
+                "Indonesia",
+                "GPE"
+              ],
+              [
+                "300",
+                "CARDINAL"
+              ],
+              [
+                "hundreds of thousands",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "November 4 \u2013 Aero Caribbean Flight 883 crashes in central Cuba, killing all 68 people on board.[65]",
+            "links": [
+              "/wiki/November_4",
+              "/wiki/Aero_Caribbean_Flight_883",
+              "/wiki/Cuba",
+              "#cite_note-NYT_1106-65"
+            ],
+            "ents": [
+              [
+                "November 4 \u2013 Aero Caribbean Flight 883",
+                "DATE"
+              ],
+              [
+                "Cuba",
+                "GPE"
+              ],
+              [
+                "68",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "November 11\u201312 \u2013 The G-20 summit is held in Seoul, South Korea. Korea becomes the first non-G8 nation to host a G-20 leaders summit.[66]",
+            "links": [
+              "/wiki/November_11",
+              "/wiki/November_12",
+              "/wiki/2010_G-20_Seoul_summit",
+              "/wiki/Seoul",
+              "/wiki/G8",
+              "#cite_note-66"
+            ],
+            "ents": [
+              [
+                "November 11\u201312 \u2013",
+                "DATE"
+              ],
+              [
+                "The G-20",
+                "PRODUCT"
+              ],
+              [
+                "Seoul",
+                "GPE"
+              ],
+              [
+                "South Korea",
+                "GPE"
+              ],
+              [
+                "Korea",
+                "GPE"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ],
+              [
+                "G-20",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "November 13 \u2013 Burmese opposition politician Aung San Suu Kyi is released from her house arrest after being incarcerated since 1989.[67]",
+            "links": [
+              "/wiki/November_13",
+              "/wiki/Burma",
+              "/wiki/Aung_San_Suu_Kyi",
+              "/wiki/House_arrest",
+              "/wiki/1989",
+              "#cite_note-67"
+            ],
+            "ents": [
+              [
+                "November 13",
+                "DATE"
+              ],
+              [
+                "Aung San Suu Kyi",
+                "PERSON"
+              ],
+              [
+                "1989",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "November 17 \u2013 Researchers at CERN trap 38 antihydrogen atoms for a sixth of a second, marking the first time in history that humans have trapped antimatter.[68]",
+            "links": [
+              "/wiki/November_17",
+              "/wiki/CERN",
+              "/wiki/Antihydrogen",
+              "/wiki/Atom",
+              "/wiki/Antimatter",
+              "#cite_note-68"
+            ],
+            "ents": [
+              [
+                "November 17 \u2013 Researchers",
+                "DATE"
+              ],
+              [
+                "CERN",
+                "ORG"
+              ],
+              [
+                "38",
+                "CARDINAL"
+              ],
+              [
+                "sixth",
+                "ORDINAL"
+              ],
+              [
+                "second",
+                "ORDINAL"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "November 20 \u2013 Participants of the 2010 NATO Lisbon summit issue the Lisbon Summit Declaration.",
+            "links": [
+              "/wiki/November_20",
+              "/wiki/2010_Lisbon_summit",
+              "/wiki/NATO_Lisbon_Summit_Declaration"
+            ],
+            "ents": [
+              [
+                "November 20 \u2013",
+                "DATE"
+              ],
+              [
+                "2010",
+                "DATE"
+              ],
+              [
+                "NATO",
+                "ORG"
+              ],
+              [
+                "Lisbon",
+                "GPE"
+              ],
+              [
+                "the Lisbon Summit Declaration",
+                "LAW"
+              ]
+            ]
+          },
+          {
+            "text": "November 21 \u2013 Eurozone countries agree to a rescue package for the Republic of Ireland from the European Financial Stability Facility in response to the country's financial crisis.[69][70][71]",
+            "links": [
+              "/wiki/November_21",
+              "/wiki/Eurozone",
+              "/wiki/Post-2008_Irish_economic_downturn#EU-IMF_intervention",
+              "/wiki/Republic_of_Ireland",
+              "/wiki/European_Financial_Stability_Facility",
+              "/wiki/Post-2008_Irish_economic_downturn",
+              "#cite_note-69",
+              "#cite_note-RTE_21/11-70",
+              "#cite_note-71"
+            ],
+            "ents": [
+              [
+                "November 21 \u2013",
+                "DATE"
+              ],
+              [
+                "the Republic of Ireland",
+                "GPE"
+              ],
+              [
+                "the European Financial Stability Facility",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "November 23 \u2013 North Korea shells Yeonpyeong Island, prompting a military response by South Korea. The incident causes an escalation of tension on the Korean Peninsula and prompts widespread international condemnation. The United Nations declares it to be one of the most serious incidents since the end of the Korean War.[72][73][74]",
+            "links": [
+              "/wiki/November_23",
+              "/wiki/North_Korea",
+              "/wiki/Bombardment_of_Yeonpyeong",
+              "/wiki/Yeonpyeong_Island",
+              "/wiki/Korean_Peninsula",
+              "/wiki/United_Nations",
+              "/wiki/Korean_War",
+              "#cite_note-72",
+              "#cite_note-73",
+              "#cite_note-74"
+            ],
+            "ents": [
+              [
+                "November 23 \u2013 North",
+                "DATE"
+              ],
+              [
+                "Yeonpyeong Island",
+                "LOC"
+              ],
+              [
+                "South Korea",
+                "GPE"
+              ],
+              [
+                "the Korean Peninsula",
+                "LOC"
+              ],
+              [
+                "The United Nations",
+                "ORG"
+              ],
+              [
+                "one",
+                "CARDINAL"
+              ],
+              [
+                "the Korean War",
+                "EVENT"
+              ]
+            ]
+          },
+          {
+            "text": "November 28 \u2013 WikiLeaks releases a collection of more than 250,000 American diplomatic cables, including 100,000 marked \"secret\" or \"confidential\".[75][76]",
+            "links": [
+              "/wiki/November_28",
+              "/wiki/WikiLeaks",
+              "/wiki/United_States_diplomatic_cables_leak",
+              "/wiki/Classified_information_in_the_United_States",
+              "#cite_note-75",
+              "#cite_note-manila-76"
+            ],
+            "ents": [
+              [
+                "November 28 \u2013 WikiLeaks",
+                "DATE"
+              ],
+              [
+                "more than 250,000",
+                "CARDINAL"
+              ],
+              [
+                "American",
+                "NORP"
+              ],
+              [
+                "100,000",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "November 29 \u2013 The European Union agree to an \u20ac85 billion rescue deal for Ireland from the European Financial Stability Facility, the International Monetary Fund and bilateral loans from the United Kingdom, Denmark and Sweden.[77]",
+            "links": [
+              "/wiki/November_29",
+              "/wiki/European_Union",
+              "/wiki/Bailout",
+              "/wiki/European_Financial_Stability_Facility",
+              "/wiki/International_Monetary_Fund",
+              "/wiki/United_Kingdom",
+              "/wiki/Denmark",
+              "/wiki/Sweden",
+              "#cite_note-rescuedeal-77"
+            ],
+            "ents": [
+              [
+                "November 29 \u2013",
+                "DATE"
+              ],
+              [
+                "The European Union",
+                "ORG"
+              ],
+              [
+                "\u20ac 85 billion",
+                "MONEY"
+              ],
+              [
+                "Ireland",
+                "GPE"
+              ],
+              [
+                "the European Financial Stability Facility",
+                "ORG"
+              ],
+              [
+                "the International Monetary Fund",
+                "ORG"
+              ],
+              [
+                "the United Kingdom",
+                "GPE"
+              ],
+              [
+                "Denmark",
+                "GPE"
+              ],
+              [
+                "Sweden",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "November 29 \u2013 December 10 \u2013 The 2010 United Nations Climate Change Conference is held in Canc\u00fan, Mexico. Also referred to as the 16th Conference of the Parties of the United Nations Framework Convention on Climate Change (COP 16), it serves too as the 6th meeting of the Parties to the Kyoto Protocol (CMP 6).[78][79]",
+            "links": [
+              "/wiki/November_29",
+              "/wiki/December_10",
+              "/wiki/2010_United_Nations_Climate_Change_Conference",
+              "/wiki/Canc%C3%BAn",
+              "/wiki/United_Nations_Framework_Convention_on_Climate_Change",
+              "/wiki/Kyoto_Protocol",
+              "#cite_note-78",
+              "#cite_note-79"
+            ],
+            "ents": [
+              [
+                "November 29 \u2013 December 10 \u2013",
+                "DATE"
+              ],
+              [
+                "2010",
+                "DATE"
+              ],
+              [
+                "United Nations Climate Change Conference",
+                "ORG"
+              ],
+              [
+                "Canc\u00fan",
+                "GPE"
+              ],
+              [
+                "Mexico",
+                "GPE"
+              ],
+              [
+                "16th",
+                "ORDINAL"
+              ],
+              [
+                "Conference of the Parties of the United Nations Framework Convention on Climate Change",
+                "EVENT"
+              ],
+              [
+                "6th",
+                "ORDINAL"
+              ],
+              [
+                "the Kyoto Protocol",
+                "LAW"
+              ]
+            ]
+          },
+          {
+            "text": "December 9 \u2013 Estonia becomes the 34th member of the OECD.[80]",
+            "links": [
+              "/wiki/December_9",
+              "/wiki/Estonia",
+              "/wiki/Organisation_for_Economic_Co-operation_and_Development",
+              "#cite_note-80"
+            ],
+            "ents": [
+              [
+                "December 9 \u2013 Estonia",
+                "DATE"
+              ],
+              [
+                "34th",
+                "ORDINAL"
+              ],
+              [
+                "OECD",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "December 17 \u2013 The attempted suicide of Mohamed Bouazizi, a street vendor in Tunisia, triggers the Tunisian Revolution and the wider Arab Spring throughout the Arab world.[81]",
+            "links": [
+              "/wiki/December_17",
+              "/wiki/Suicide_of_Mohamed_Bouazizi",
+              "/wiki/Tunisia",
+              "/wiki/Tunisian_Revolution",
+              "/wiki/Arab_Spring",
+              "/wiki/Arab_world",
+              "#cite_note-81"
+            ],
+            "ents": [
+              [
+                "December 17 \u2013",
+                "DATE"
+              ],
+              [
+                "Mohamed Bouazizi",
+                "PERSON"
+              ],
+              [
+                "Tunisia",
+                "GPE"
+              ],
+              [
+                "the Tunisian Revolution",
+                "EVENT"
+              ],
+              [
+                "Arab",
+                "NORP"
+              ],
+              [
+                "Arab",
+                "NORP"
+              ]
+            ]
+          },
+          {
+            "text": "December 21 \u2013 The first total lunar eclipse to occur on the day of the Northern winter solstice and Southern summer solstice since 1638 takes place.[82][83]",
+            "links": [
+              "/wiki/December_21",
+              "/wiki/December_2010_lunar_eclipse",
+              "/wiki/Winter_solstice",
+              "/wiki/Summer_solstice",
+              "/wiki/List_of_17th_century_lunar_eclipses",
+              "#cite_note-82",
+              "#cite_note-83"
+            ],
+            "ents": [
+              [
+                "December 21 \u2013",
+                "DATE"
+              ],
+              [
+                "first",
+                "ORDINAL"
+              ],
+              [
+                "the day",
+                "DATE"
+              ],
+              [
+                "Southern summer solstice",
+                "EVENT"
+              ],
+              [
+                "1638",
+                "DATE"
+              ]
+            ]
+          }
+        ],
+        "match": null,
+        "scores": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "text": "Spring",
+        "date": "2010-SP",
+        "ents": {
+          "item": [
+            [
+              "2010",
+              "DATE"
+            ],
+            [
+              "the Arab Spring",
+              "ORG"
+            ],
+            [
+              "the Middle East",
+              "LOC"
+            ]
+          ],
+          "before": [
+            [
+              "one",
+              "CARDINAL"
+            ],
+            [
+              "Saudi Arabia",
+              "GPE"
+            ],
+            [
+              "the Islamic State",
+              "ORG"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "ISI",
+              "ORG"
+            ]
+          ],
+          "after": [
+            [
+              "2010",
+              "DATE"
+            ],
+            [
+              "the Arab Spring",
+              "ORG"
+            ],
+            [
+              "the Middle East",
+              "LOC"
+            ],
+            [
+              "Syria",
+              "GPE"
+            ],
+            [
+              "Bashar al - Assad",
+              "PERSON"
+            ]
+          ]
+        },
+        "wiki": [
+          {
+            "text": "March 16 \u2013 The Kasubi Tombs, Uganda's only cultural World Heritage Site, are destroyed by fire.[14]",
+            "links": [
+              "/wiki/March_16",
+              "/wiki/Kasubi_Tombs",
+              "/wiki/Uganda",
+              "/wiki/World_Heritage_Site",
+              "#cite_note-14"
+            ],
+            "ents": [
+              [
+                "March 16 \u2013",
+                "DATE"
+              ],
+              [
+                "Uganda",
+                "GPE"
+              ],
+              [
+                "World Heritage Site",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "March 26 \u2013 The ROKS Cheonan, a South Korean Navy ship carrying 104 personnel, sinks off the country's west coast, killing 46. In May, an independent investigation blames North Korea, which denies the allegations.[15][16]",
+            "links": [
+              "/wiki/March_26",
+              "/wiki/ROKS_Cheonan",
+              "/wiki/Republic_of_Korea_Navy",
+              "/wiki/ROKS_Cheonan_sinking",
+              "/wiki/North_Korea",
+              "#cite_note-dailynk1-15",
+              "#cite_note-16"
+            ],
+            "ents": [
+              [
+                "March 26 \u2013",
+                "DATE"
+              ],
+              [
+                "South Korean",
+                "NORP"
+              ],
+              [
+                "Navy",
+                "ORG"
+              ],
+              [
+                "104",
+                "ORG"
+              ],
+              [
+                "46",
+                "CARDINAL"
+              ],
+              [
+                "May",
+                "DATE"
+              ],
+              [
+                "North Korea",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "April 7 \u2013 Kyrgyz President Kurmanbek Bakiyev flees the country amid fierce anti-government riots in the capital, Bishkek.[17]",
+            "links": [
+              "/wiki/April_7",
+              "/wiki/Kyrgyzstan",
+              "/wiki/Kurmanbek_Bakiyev",
+              "/wiki/Kyrgyz_Revolution_of_2010",
+              "/wiki/Bishkek",
+              "#cite_note-17"
+            ],
+            "ents": [
+              [
+                "April 7 \u2013 Kyrgyz",
+                "DATE"
+              ],
+              [
+                "Kurmanbek Bakiyev",
+                "PERSON"
+              ],
+              [
+                "Bishkek",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "April 10 \u2013 The President of Poland, Lech Kaczy\u0144ski, is among 96 killed when their airplane crashes near Smolensk, Russia.[18][19]",
+            "links": [
+              "/wiki/April_10",
+              "/wiki/President_of_Poland",
+              "/wiki/Lech_Kaczy%C5%84ski",
+              "/wiki/2010_Polish_Air_Force_Tu-154_crash",
+              "/wiki/Smolensk",
+              "/wiki/Russia",
+              "#cite_note-18",
+              "#cite_note-19"
+            ],
+            "ents": [
+              [
+                "April 10 \u2013",
+                "DATE"
+              ],
+              [
+                "Poland",
+                "GPE"
+              ],
+              [
+                "Lech Kaczy\u0144ski",
+                "PERSON"
+              ],
+              [
+                "96",
+                "CARDINAL"
+              ],
+              [
+                "Smolensk",
+                "GPE"
+              ],
+              [
+                "Russia",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "April 14 \u2013 Volcanic ash from one of several eruptions beneath Mount Eyjafjallaj\u00f6kull, an ice cap in Iceland, begins to disrupt air traffic across northern and western Europe.[20][21][22]",
+            "links": [
+              "/wiki/April_14",
+              "/wiki/Volcanic_ash",
+              "/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull",
+              "/wiki/Eyjafjallaj%C3%B6kull",
+              "/wiki/Ice_cap",
+              "/wiki/Iceland",
+              "/wiki/Air_travel_disruption_after_the_2010_Eyjafjallaj%C3%B6kull_eruption",
+              "#cite_note-NASInfo-20",
+              "#cite_note-21",
+              "#cite_note-BBC8622438-22"
+            ],
+            "ents": [
+              [
+                "April 14 \u2013",
+                "DATE"
+              ],
+              [
+                "one",
+                "CARDINAL"
+              ],
+              [
+                "Mount Eyjafjallaj\u00f6kull",
+                "LOC"
+              ],
+              [
+                "Iceland",
+                "GPE"
+              ],
+              [
+                "Europe",
+                "LOC"
+              ]
+            ]
+          },
+          {
+            "text": "April 20 \u2013 The Deepwater Horizon oil drilling platform explodes in the Gulf of Mexico, killing 11 workers. The resulting Horizon oil spill, one of the largest in history, spreads for several months, damaging the waters and the United States coastline, and prompting international debate and doubt about the practice and procedures of offshore drilling.[23][24]",
+            "links": [
+              "/wiki/April_20",
+              "/wiki/Deepwater_Horizon_explosion",
+              "/wiki/Gulf_of_Mexico",
+              "/wiki/Deepwater_Horizon_oil_spill",
+              "/wiki/Offshore_drilling",
+              "#cite_note-23",
+              "#cite_note-Wardell-24"
+            ],
+            "ents": [
+              [
+                "April 20 \u2013",
+                "DATE"
+              ],
+              [
+                "the Gulf of Mexico",
+                "LOC"
+              ],
+              [
+                "11",
+                "CARDINAL"
+              ],
+              [
+                "Horizon",
+                "ORG"
+              ],
+              [
+                "one",
+                "CARDINAL"
+              ],
+              [
+                "several months",
+                "DATE"
+              ],
+              [
+                "United States",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "April 27 \u2013 Standard & Poor's downgrades Greece's sovereign credit rating to junk 4 days after the activation of a \u20ac45-billion EU\u2013IMF bailout, triggering the decline of stock markets worldwide and of the euro's value,[25][26][27] and furthering a European sovereign debt crisis.",
+            "links": [
+              "/wiki/April_27",
+              "/wiki/Standard_%26_Poor%27s",
+              "/wiki/Economy_of_Greece#2010_debt_crisis",
+              "/wiki/Sovereign_rating",
+              "/wiki/High-yield_debt",
+              "/wiki/Euro",
+              "/wiki/European_Union",
+              "/wiki/International_Monetary_Fund",
+              "/wiki/Stock_market",
+              "/wiki/Euro",
+              "#cite_note-BBC_2-25",
+              "#cite_note-BBC-26",
+              "#cite_note-CNN-27",
+              "/wiki/European_debt_crisis"
+            ],
+            "ents": [
+              [
+                "April 27 \u2013 Standard & Poor 's",
+                "DATE"
+              ],
+              [
+                "Greece",
+                "GPE"
+              ],
+              [
+                "4 days",
+                "DATE"
+              ],
+              [
+                "45-billion",
+                "MONEY"
+              ],
+              [
+                "EU",
+                "ORG"
+              ],
+              [
+                "European",
+                "NORP"
+              ]
+            ]
+          },
+          {
+            "text": "May 2 \u2013 The eurozone and the International Monetary Fund agree to a \u20ac110 billion bailout package for Greece. The package involves sharp Greek austerity measures.[28]",
+            "links": [
+              "/wiki/May_2",
+              "/wiki/Eurozone",
+              "/wiki/International_Monetary_Fund",
+              "/wiki/Austerity",
+              "#cite_note-28"
+            ],
+            "ents": [
+              [
+                "May 2 \u2013",
+                "DATE"
+              ],
+              [
+                "the International Monetary Fund",
+                "ORG"
+              ],
+              [
+                "\u20ac 110 billion",
+                "MONEY"
+              ],
+              [
+                "Greece",
+                "GPE"
+              ],
+              [
+                "Greek",
+                "NORP"
+              ]
+            ]
+          },
+          {
+            "text": "May 4 \u2013 Nude, Green Leaves and Bust by Pablo Picasso sells in New York for US$106.5 million, setting another new world record for a work of art sold at auction.[29][30][31]",
+            "links": [
+              "/wiki/May_4",
+              "/wiki/Nude,_Green_Leaves_and_Bust",
+              "/wiki/Pablo_Picasso",
+              "/wiki/United_States_dollar",
+              "#cite_note-29",
+              "#cite_note-30",
+              "#cite_note-31"
+            ],
+            "ents": [
+              [
+                "May 4 \u2013 Nude",
+                "DATE"
+              ],
+              [
+                "Green Leaves",
+                "PERSON"
+              ],
+              [
+                "Bust",
+                "ORG"
+              ],
+              [
+                "Pablo Picasso",
+                "PERSON"
+              ],
+              [
+                "New York",
+                "GPE"
+              ],
+              [
+                "US$ 106.5 million",
+                "MONEY"
+              ]
+            ]
+          },
+          {
+            "text": "May 6 \u2013 The 2010 Flash Crash, a trillion-dollar stock market crash, occurs over 36 minutes, initiated by a series of automated trading programs in a feedback loop.[32]",
+            "links": [
+              "/wiki/May_6",
+              "/wiki/2010_Flash_Crash",
+              "#cite_note-phillips-5-11-10-32"
+            ],
+            "ents": [
+              [
+                "May 6 \u2013",
+                "DATE"
+              ],
+              [
+                "2010",
+                "DATE"
+              ],
+              [
+                "trillion - dollar",
+                "MONEY"
+              ],
+              [
+                "36 minutes",
+                "TIME"
+              ]
+            ]
+          },
+          {
+            "text": "May 7 - Chile becomes the 31st member of the OECD.[33]",
+            "links": [
+              "/wiki/Chile",
+              "/wiki/Organisation_for_Economic_Co-operation_and_Development",
+              "#cite_note-33"
+            ],
+            "ents": [
+              [
+                "May 7 - Chile",
+                "DATE"
+              ],
+              [
+                "the 31st",
+                "DATE"
+              ],
+              [
+                "OECD",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "May 7 - Scientists conducting the Neanderthal genome project announce that they have sequenced enough of the Neanderthal genome to suggest that Neanderthals and humans may have interbred.[34][35]",
+            "links": [
+              "/wiki/Neanderthal_genome_project",
+              "/wiki/DNA_sequencing",
+              "/wiki/Neanderthal",
+              "/wiki/Genome",
+              "/wiki/Archaic_human_admixture_with_modern_humans",
+              "#cite_note-Pinkowski-34",
+              "#cite_note-Green_Krause-35"
+            ],
+            "ents": [
+              [
+                "May 7 - Scientists",
+                "DATE"
+              ],
+              [
+                "Neanderthal",
+                "NORP"
+              ],
+              [
+                "Neanderthal",
+                "NORP"
+              ],
+              [
+                "Neanderthals",
+                "PERSON"
+              ]
+            ]
+          },
+          {
+            "text": "May 12 \u2013 Afriqiyah Airways Flight 771 crashes at runway at Tripoli International Airport in Libya, killing 103 of the 104 people on board.[36]",
+            "links": [
+              "/wiki/May_12",
+              "/wiki/Afriqiyah_Airways_Flight_771",
+              "/wiki/Tripoli_International_Airport",
+              "/wiki/Libya",
+              "#cite_note-36"
+            ],
+            "ents": [
+              [
+                "May 12 \u2013 Afriqiyah Airways Flight 771",
+                "DATE"
+              ],
+              [
+                "Tripoli International Airport",
+                "FAC"
+              ],
+              [
+                "Libya",
+                "GPE"
+              ],
+              [
+                "103",
+                "CARDINAL"
+              ],
+              [
+                "104",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "May 19 \u2013 Protests in Bangkok, Thailand, end with a bloody military crackdown, killing 91 and injuring more than 2,100.[37][38]",
+            "links": [
+              "/wiki/May_19",
+              "/wiki/2010_Thai_political_protests",
+              "/wiki/Bangkok",
+              "/wiki/Thailand",
+              "#cite_note-deaths-37",
+              "#cite_note-38"
+            ],
+            "ents": [
+              [
+                "May 19 \u2013 Protests",
+                "DATE"
+              ],
+              [
+                "Bangkok",
+                "GPE"
+              ],
+              [
+                "Thailand",
+                "GPE"
+              ],
+              [
+                "91",
+                "CARDINAL"
+              ],
+              [
+                "more than 2,100",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "May 20 - Scientists announced that they have created a functional synthetic genome.[39]",
+            "links": [
+              "/wiki/Gene_synthesis#Entire_genomes",
+              "#cite_note-39"
+            ],
+            "ents": [
+              [
+                "May 20 - Scientists",
+                "DATE"
+              ]
+            ]
+          },
+          {
+            "text": "May 20 - Five paintings worth \u20ac100 million are stolen from the Mus\u00e9e d'Art Moderne de la Ville de Paris.[40][41]",
+            "links": [
+              "/wiki/Mus%C3%A9e_d%27Art_Moderne_de_la_Ville_de_Paris",
+              "#cite_note-sky-40",
+              "#cite_note-Guardian-41"
+            ],
+            "ents": [
+              [
+                "May 20 - Five",
+                "DATE"
+              ],
+              [
+                "\u20ac 100 million",
+                "MONEY"
+              ],
+              [
+                "Mus\u00e9e",
+                "PERSON"
+              ]
+            ]
+          },
+          {
+            "text": "May 22 \u2013 Air India Express Flight 812 overshoots the runway at Mangalore International Airport in India, killing 158 and leaving 8 survivors.[42]",
+            "links": [
+              "/wiki/May_22",
+              "/wiki/Air_India_Express_Flight_812",
+              "/wiki/Mangalore_Airport_(India)",
+              "#cite_note-42"
+            ],
+            "ents": [
+              [
+                "May 22",
+                "DATE"
+              ],
+              [
+                "Air India Express",
+                "ORG"
+              ],
+              [
+                "812",
+                "CARDINAL"
+              ],
+              [
+                "Mangalore International Airport",
+                "FAC"
+              ],
+              [
+                "India",
+                "GPE"
+              ],
+              [
+                "158",
+                "CARDINAL"
+              ],
+              [
+                "8",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "May 28 \u2013 the 2010 Ahmadiyya mosques massacre in Lahore, Punjab, Pakistan, killed 94 people during Friday prayers at two mosques.[43]",
+            "links": [
+              "/wiki/May_28",
+              "/wiki/2010_Ahmadiyya_mosques_massacre",
+              "#cite_note-bbc20100528-43"
+            ],
+            "ents": [
+              [
+                "May 28 \u2013 the 2010",
+                "DATE"
+              ],
+              [
+                "Ahmadiyya",
+                "ORG"
+              ],
+              [
+                "mosques",
+                "FAC"
+              ],
+              [
+                "Lahore",
+                "GPE"
+              ],
+              [
+                "Punjab",
+                "GPE"
+              ],
+              [
+                "Pakistan",
+                "GPE"
+              ],
+              [
+                "94",
+                "CARDINAL"
+              ],
+              [
+                "Friday",
+                "DATE"
+              ],
+              [
+                "two",
+                "CARDINAL"
+              ]
+            ]
+          },
+          {
+            "text": "May 31 \u2013 Nine activists are killed in a clash with soldiers when Israeli Navy forces raid and capture a flotilla of ships attempting to break the Gaza blockade.[44][45]",
+            "links": [
+              "/wiki/May_31",
+              "/wiki/Gaza_flotilla_raid",
+              "/wiki/Blockade_of_the_Gaza_Strip",
+              "#cite_note-edition.cnn.com-44",
+              "#cite_note-45"
+            ],
+            "ents": [
+              [
+                "May 31",
+                "DATE"
+              ],
+              [
+                "Israeli Navy",
+                "ORG"
+              ],
+              [
+                "Gaza",
+                "GPE"
+              ]
+            ]
+          }
+        ],
+        "match": null,
+        "scores": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "now",
+        "date": "PRESENT_REF",
+        "ents": {
+          "item": [
+            [
+              "ISI",
+              "ORG"
+            ],
+            [
+              "the Islamic State",
+              "ORG"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "Syria",
+              "GPE"
+            ]
+          ],
+          "before": [
+            [
+              "Islamic",
+              "NORP"
+            ]
+          ],
+          "after": [
+            [
+              "ISI",
+              "ORG"
+            ],
+            [
+              "the Islamic State",
+              "ORG"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "Syria",
+              "GPE"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "years",
+              "DATE"
+            ],
+            [
+              "thousands",
+              "CARDINAL"
+            ]
+          ]
+        },
+        "wiki": []
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "text": "recently",
+        "date": "PAST_REF",
+        "ents": {
+          "item": [
+            [
+              "Iraq",
+              "GPE"
+            ]
+          ],
+          "before": [],
+          "after": [
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "US",
+              "GPE"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "Shia",
+              "NORP"
+            ],
+            [
+              "Nouri al - Maliki",
+              "PERSON"
+            ],
+            [
+              "Sunnis",
+              "NORP"
+            ]
+          ]
+        },
+        "wiki": [],
+        "match": null,
+        "scores": []
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "text": "June 2014",
+        "date": "2014-06",
+        "ents": {
+          "item": [
+            [
+              "June 2014",
+              "DATE"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "Mosul",
+              "GPE"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "second",
+              "ORDINAL"
+            ]
+          ],
+          "before": [],
+          "after": [
+            [
+              "June 2014",
+              "DATE"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "Mosul",
+              "GPE"
+            ],
+            [
+              "Iraq",
+              "GPE"
+            ],
+            [
+              "second",
+              "ORDINAL"
+            ],
+            [
+              "hundreds of millions",
+              "CARDINAL"
+            ],
+            [
+              "Earth",
+              "LOC"
+            ]
+          ]
+        },
+        "wiki": [
+          {
+            "text": "June 5 \u2013 A Sunni militant group called the Islamic State of Iraq and the Levant (also known as the ISIS or ISIL) begins an offensive through northern Iraq, aiming to capture the Iraqi capital city of Baghdad and overthrow the Shiite government led by Prime Minister Nouri al-Maliki.[28]",
+            "links": [
+              "/wiki/June_5",
+              "/wiki/Sunni_Islam",
+              "/wiki/Islamic_State_of_Iraq_and_the_Levant",
+              "/wiki/Northern_Iraq_offensive_(June_2014)",
+              "/wiki/Iraq",
+              "/wiki/Baghdad",
+              "/wiki/Coup_d%27%C3%A9tat",
+              "/wiki/Shia_Islam",
+              "/wiki/Nouri_al-Maliki",
+              "#cite_note-28"
+            ],
+            "ents": [
+              [
+                "June 5 \u2013",
+                "DATE"
+              ],
+              [
+                "Sunni",
+                "NORP"
+              ],
+              [
+                "the Islamic State of Iraq and the Levant",
+                "ORG"
+              ],
+              [
+                "ISIL",
+                "ORG"
+              ],
+              [
+                "Iraq",
+                "GPE"
+              ],
+              [
+                "Iraqi",
+                "NORP"
+              ],
+              [
+                "Baghdad",
+                "GPE"
+              ],
+              [
+                "Shiite",
+                "NORP"
+              ],
+              [
+                "Nouri al - Maliki",
+                "PERSON"
+              ]
+            ]
+          },
+          {
+            "text": "June 12 \u2013 July 13 \u2013 The 2014 FIFA World Cup is held in Brazil,[29] and is won by Germany.[30]",
+            "links": [
+              "/wiki/June_12",
+              "/wiki/July_13",
+              "/wiki/2014_FIFA_World_Cup",
+              "/wiki/Brazil",
+              "#cite_note-29",
+              "/wiki/Germany_national_football_team",
+              "#cite_note-30"
+            ],
+            "ents": [
+              [
+                "June 12 \u2013 July 13 \u2013",
+                "DATE"
+              ],
+              [
+                "FIFA World Cup",
+                "EVENT"
+              ],
+              [
+                "Brazil",
+                "GPE"
+              ],
+              [
+                "Germany",
+                "GPE"
+              ]
+            ]
+          },
+          {
+            "text": "June 13 \u2013 The military intervention against ISIL begins.[31]",
+            "links": [
+              "/wiki/June_13",
+              "/wiki/Military_intervention_against_ISIL",
+              "#cite_note-31"
+            ],
+            "ents": [
+              [
+                "June 13",
+                "DATE"
+              ],
+              [
+                "ISIL",
+                "ORG"
+              ]
+            ]
+          },
+          {
+            "text": "June 29 \u2013 The Islamic State of Iraq and the Levant declares itself a caliphate.[32]",
+            "links": [
+              "/wiki/June_29",
+              "/wiki/Islamic_State_of_Iraq_and_the_Levant",
+              "/wiki/Caliphate",
+              "#cite_note-32"
+            ],
+            "ents": [
+              [
+                "June 29 \u2013",
+                "DATE"
+              ],
+              [
+                "The Islamic State of Iraq",
+                "ORG"
+              ]
+            ]
+          }
+        ],
+        "match": null,
+        "scores": [
+          [
+            0.1111111111111111,
+            0.1
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}
