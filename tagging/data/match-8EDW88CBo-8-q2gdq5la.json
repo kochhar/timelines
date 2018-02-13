@@ -5451,7 +5451,29 @@
             ]
           ],
           "idx": 142,
-          "score": 0.6
+          "score": 0.6,
+          "wptopics": [
+            {
+              "href": "/wiki/November_29",
+              "title": "November_29",
+              "wbid": "Q3016"
+            },
+            {
+              "href": "/wiki/United_Nations_General_Assembly",
+              "title": "United_Nations_General_Assembly",
+              "wbid": "Q47423"
+            },
+            {
+              "href": "/wiki/United_Nations_Partition_Plan_for_Palestine",
+              "title": "United_Nations_Partition_Plan_for_Palestine",
+              "wbid": "Q846795"
+            },
+            {
+              "href": "/wiki/State_of_Israel",
+              "title": "State_of_Israel",
+              "wbid": "Q801"
+            }
+          ]
         },
         "scores": [
           [
@@ -6370,7 +6392,59 @@
             ]
           ],
           "idx": 3,
-          "score": 0.4166666666666667
+          "score": 0.4166666666666667,
+          "wptopics": [
+            {
+              "href": "/wiki/1948",
+              "title": "1948",
+              "wbid": "Q5165"
+            },
+            {
+              "href": "/wiki/Mandatory_Palestine",
+              "title": "Mandatory_Palestine",
+              "wbid": "Q193714"
+            },
+            {
+              "href": "/wiki/Kingdom_of_Egypt",
+              "title": "Kingdom_of_Egypt",
+              "wbid": "Q124943"
+            },
+            {
+              "href": "/wiki/Jordan",
+              "title": "Jordan",
+              "wbid": "Q810"
+            },
+            {
+              "href": "/wiki/Lebanon",
+              "title": "Lebanon",
+              "wbid": "Q822"
+            },
+            {
+              "href": "/wiki/Syria",
+              "title": "Syria",
+              "wbid": "Q858"
+            },
+            {
+              "href": "/wiki/Iraq",
+              "title": "Iraq",
+              "wbid": "Q796"
+            },
+            {
+              "href": "/wiki/Saudi_Arabia",
+              "title": "Saudi_Arabia",
+              "wbid": "Q851"
+            },
+            {
+              "href": "/wiki/Israel",
+              "title": "Israel",
+              "wbid": "Q801"
+            },
+            {
+              "href": "/wiki/1948_Arab%E2%80%93Israeli_War",
+              "title": "1948_Arab%E2%80%93Israeli_War",
+              "wbid": null
+            }
+          ]
         },
         "scores": [
           [
@@ -14976,7 +15050,19 @@
             ]
           ],
           "idx": 120,
-          "score": 0.3333333333333333
+          "score": 0.3333333333333333,
+          "wptopics": [
+            {
+              "href": "/wiki/Syria",
+              "title": "Syria",
+              "wbid": "Q858"
+            },
+            {
+              "href": "/wiki/Israel",
+              "title": "Israel",
+              "wbid": "Q801"
+            }
+          ]
         },
         "scores": [
           [
@@ -21171,7 +21257,19 @@
             ]
           ],
           "idx": 128,
-          "score": 0.4
+          "score": 0.4,
+          "wptopics": [
+            {
+              "href": "/wiki/September_17",
+              "title": "September_17",
+              "wbid": "Q2894"
+            },
+            {
+              "href": "/wiki/Camp_David_Accords",
+              "title": "Camp_David_Accords",
+              "wbid": "Q309204"
+            }
+          ]
         },
         "scores": [
           [

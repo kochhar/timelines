@@ -15815,7 +15815,19 @@
             ]
           ],
           "idx": 120,
-          "score": 0.5
+          "score": 0.5,
+          "wptopics": [
+            {
+              "href": "/wiki/Syria",
+              "title": "Syria",
+              "wbid": "Q858"
+            },
+            {
+              "href": "/wiki/Israel",
+              "title": "Israel",
+              "wbid": "Q801"
+            }
+          ]
         },
         "scores": [
           [
@@ -21946,7 +21958,19 @@
             ]
           ],
           "idx": 128,
-          "score": 0.3333333333333333
+          "score": 0.3333333333333333,
+          "wptopics": [
+            {
+              "href": "/wiki/September_17",
+              "title": "September_17",
+              "wbid": "Q2894"
+            },
+            {
+              "href": "/wiki/Camp_David_Accords",
+              "title": "Camp_David_Accords",
+              "wbid": "Q309204"
+            }
+          ]
         },
         "scores": [
           [
@@ -27799,7 +27823,24 @@
             ]
           ],
           "idx": 72,
-          "score": 0.4
+          "score": 0.4,
+          "wptopics": [
+            {
+              "href": "/wiki/United_Nations_Security_Council",
+              "title": "United_Nations_Security_Council",
+              "wbid": "Q37470"
+            },
+            {
+              "href": "/wiki/Israel",
+              "title": "Israel",
+              "wbid": "Q801"
+            },
+            {
+              "href": "/wiki/Lebanon",
+              "title": "Lebanon",
+              "wbid": "Q822"
+            }
+          ]
         },
         "scores": [
           [

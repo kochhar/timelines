@@ -2091,7 +2091,19 @@
             ]
           ],
           "idx": 5,
-          "score": 0.3333333333333333
+          "score": 0.3333333333333333,
+          "wptopics": [
+            {
+              "href": "/wiki/February_15",
+              "title": "February_15",
+              "wbid": "Q2334"
+            },
+            {
+              "href": "/wiki/February_15,_2003,_anti-war_protests",
+              "title": "February_15,_2003,_anti-war_protests",
+              "wbid": "Q2580246"
+            }
+          ]
         },
         "scores": [
           [

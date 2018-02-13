@@ -143,35 +143,6 @@ def match_event_via_entities(video_extract):
     return video_extract
 
 
-@celery.task
-def resolve_match_link_topics(video_extract):
-    """Given a video extract, processes all the matched events to augment
-    their links with wikibase_ids."""
-    events = video_extract['events']
-
-    for candidate_list in events:
-        if not candidate_list: continue
-        for date in candidate_list:
-            match = date.get('match')
-            if not match: continue
-            match['wptopics'] = resolve_links_to_topics(match['links'])
-
-    return video_extract
-
-
-def resolve_links_to_topics(links):
-    # Preseve the hrefs which match the pattern '/wiki/Title'
-    wp_links = filter(lambda l: l.startswith('/wiki'), links)
-    wp_title_matcher = re.compile('/wiki/(.*)$')
-    links_and_titles = list(map(lambda m: (m.group(0), m.group(1)),
-                                filter(lambda m: m is not None,
-                                       map(wp_title_matcher.match, wp_links))))
-
-    title_wbid_map = dict(wp.wbid_from_titles(*[t for (l, t) in links_and_titles]))
-    # Xform (l, title) -> (l, title, id) via (title -> id)
-    return [{'href': l, 'title': t, 'wbid': title_wbid_map[t]} for (l, t) in links_and_titles]
-
-
 def match_event_on_date(text, date, ents, candidate_events, entity_filter):
     """Given an event date and entities relevant to the event, tries to match
     against candidate events fetched from wikipedia.
@@ -204,6 +175,84 @@ def match_event_on_date(text, date, ents, candidate_events, entity_filter):
     match_dict = dict(candidate_events[best_idx])
     match_dict.update({'idx': best_idx, 'score': best_score})
     return match_dict, event_scores
+
+
+@celery.task
+def resolve_match_link_topics(video_extract):
+    """Given a video extract, processes all the matched events to augment
+    their links with wikibase_ids."""
+    events = video_extract['events']
+
+    for candidate_list in events:
+        if not candidate_list: continue
+        for date in candidate_list:
+            match = date.get('match')
+            if not match: continue
+            match['wptopics'] = resolve_links_to_topics(match['links'])
+
+    return video_extract
+
+
+def resolve_links_to_topics(links):
+    # Preseve the hrefs which match the pattern '/wiki/Title'
+    wp_links = filter(lambda l: l.startswith('/wiki'), links)
+    wp_title_matcher = re.compile('/wiki/(.*)$')
+    links_and_titles = list(map(lambda m: (m.group(0), m.group(1)),
+                                filter(lambda m: m is not None,
+                                       map(wp_title_matcher.match, wp_links))))
+
+    title_wbid_map = dict(wp.wbid_from_titles(*[t for (l, t) in links_and_titles]))
+    # Xform (l, title) -> (l, title, id) via (title -> id)
+    return [{'href': l, 'title': t, 'wbid': title_wbid_map[t]} for (l, t) in links_and_titles]
+
+
+@celery.task
+def score_related_events(video_extract):
+    """Scores the related events from a video's matched events for relevance.
+
+    Examines video_extract['events'][i][j]['match']
+    Match must have:
+    - wptopics
+    - wptopics_sel: { topic }
+    - wptopics_rel: { 'part-of': [ [{ topic }], [{ topic }] ],
+                      'category': [ { topic }, { topic } ]
+                    }
+    """
+    transcript = video_extract['captions']['sents']
+    events = video_extract['events']
+
+    all_wprelated = []
+    for candidate_list in events:
+        if not candidate_list: continue
+        for date in candidate_list:
+            match = date.get('match')
+            if not match: continue
+            if not match.get('wptopics'): continue
+
+            topic, related = match.get('wptopics_sel'), match.get('wptopics_rel')
+            if not related:
+                logging.info('No related events for %s', match.get('text'))
+                continue
+            if not topic:
+                logging.info('No topic found for %s', match.get('text'))
+                continue
+
+            all_wprelated.append((topic, related))
+
+    related_scores = score_events_in_relation(to=transcript, events=all_wprelated)
+    video_extract['wptopics_rel'] = related_scores
+
+    return video_extract
+
+
+def score_events_in_relation(to, events):
+    """Scores events in relation to a body of text.
+
+    Params:
+        to: iterable of sentences
+        events: iterable of ((topic, wptopics_rel))
+    """
+    return []
 
 
 def jacquard(first, second):

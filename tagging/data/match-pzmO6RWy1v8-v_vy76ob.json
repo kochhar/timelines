@@ -17968,7 +17968,19 @@
             ]
           ],
           "idx": 8,
-          "score": 0.25
+          "score": 0.25,
+          "wptopics": [
+            {
+              "href": "/wiki/Donald_Rumsfeld",
+              "title": "Donald_Rumsfeld",
+              "wbid": "Q184650"
+            },
+            {
+              "href": "/wiki/The_Pentagon",
+              "title": "The_Pentagon",
+              "wbid": "Q11208"
+            }
+          ]
         },
         "scores": [
           [
@@ -19644,7 +19656,19 @@
             ]
           ],
           "idx": 5,
-          "score": 0.25
+          "score": 0.25,
+          "wptopics": [
+            {
+              "href": "/wiki/February_15",
+              "title": "February_15",
+              "wbid": "Q2334"
+            },
+            {
+              "href": "/wiki/February_15,_2003,_anti-war_protests",
+              "title": "February_15,_2003,_anti-war_protests",
+              "wbid": "Q2580246"
+            }
+          ]
         },
         "scores": [
           [
@@ -26315,7 +26339,24 @@
             ]
           ],
           "idx": 12,
-          "score": 0.3333333333333333
+          "score": 0.3333333333333333,
+          "wptopics": [
+            {
+              "href": "/wiki/Civil_uprising_phase_of_the_Syrian_Civil_War",
+              "title": "Civil_uprising_phase_of_the_Syrian_Civil_War",
+              "wbid": "Q14746872"
+            },
+            {
+              "href": "/wiki/Bashar_al-Assad",
+              "title": "Bashar_al-Assad",
+              "wbid": "Q44329"
+            },
+            {
+              "href": "/wiki/Syrian_Civil_War",
+              "title": "Syrian_Civil_War",
+              "wbid": "Q178810"
+            }
+          ]
         },
         "scores": [
           [
@@ -27007,7 +27048,24 @@
             ]
           ],
           "idx": 2,
-          "score": 0.3333333333333333
+          "score": 0.3333333333333333,
+          "wptopics": [
+            {
+              "href": "/wiki/Civil_uprising_phase_of_the_Syrian_Civil_War",
+              "title": "Civil_uprising_phase_of_the_Syrian_Civil_War",
+              "wbid": "Q14746872"
+            },
+            {
+              "href": "/wiki/Bashar_al-Assad",
+              "title": "Bashar_al-Assad",
+              "wbid": "Q44329"
+            },
+            {
+              "href": "/wiki/Syrian_Civil_War",
+              "title": "Syrian_Civil_War",
+              "wbid": "Q178810"
+            }
+          ]
         },
         "scores": [
           [
@@ -31042,7 +31100,54 @@
             ]
           ],
           "idx": 0,
-          "score": 0.18181818181818182
+          "score": 0.18181818181818182,
+          "wptopics": [
+            {
+              "href": "/wiki/June_5",
+              "title": "June_5",
+              "wbid": "Q2622"
+            },
+            {
+              "href": "/wiki/Sunni_Islam",
+              "title": "Sunni_Islam",
+              "wbid": "Q483654"
+            },
+            {
+              "href": "/wiki/Islamic_State_of_Iraq_and_the_Levant",
+              "title": "Islamic_State_of_Iraq_and_the_Levant",
+              "wbid": "Q2429253"
+            },
+            {
+              "href": "/wiki/Northern_Iraq_offensive_(June_2014)",
+              "title": "Northern_Iraq_offensive_(June_2014)",
+              "wbid": "Q17144192"
+            },
+            {
+              "href": "/wiki/Iraq",
+              "title": "Iraq",
+              "wbid": "Q796"
+            },
+            {
+              "href": "/wiki/Baghdad",
+              "title": "Baghdad",
+              "wbid": "Q1530"
+            },
+            {
+              "href": "/wiki/Coup_d%27%C3%A9tat",
+              "title": "Coup_d%27%C3%A9tat",
+              "wbid": null
+            },
+            {
+              "href": "/wiki/Shia_Islam",
+              "title": "Shia_Islam",
+              "wbid": "Q9585"
+            },
+            {
+              "href": "/wiki/Nouri_al-Maliki",
+              "title": "Nouri_al-Maliki",
+              "wbid": "Q57673"
+            }
+          ]
         },
         "scores": [
           [
