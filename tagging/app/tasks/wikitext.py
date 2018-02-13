@@ -144,7 +144,7 @@ def match_event_via_entities(video_extract):
 
 
 @celery.task
-def resolve_match_link_ids(video_extract):
+def resolve_match_link_topics(video_extract):
     """Given a video extract, processes all the matched events to augment
     their links with wikibase_ids."""
     events = video_extract['events']
@@ -155,6 +155,8 @@ def resolve_match_link_ids(video_extract):
             match = date.get('match')
             if not match: continue
             match['wptopics'] = resolve_links_to_topics(match['links'])
+
+    return video_extract
 
 
 def resolve_links_to_topics(links):
