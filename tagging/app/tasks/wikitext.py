@@ -12,6 +12,9 @@ import re
 import requests
 
 from app import app, celery, db, lib
+from app.lib import wikipedia as wp
+
+
 DatePtn = collections.namedtuple('DatePtn', 'year month months day ssn')
 
 
@@ -137,10 +140,34 @@ def match_event_via_entities(video_extract):
             except KeyError as ke:
                 import pdb; pdb.set_trace()
 
-    video_id = video_extract['video_id']
-    filename = lib.save_to_tempfile_as_json(video_extract, prefix='match-{}-'.format(video_id))
-    logging.info('Saved extracted events to %s', filename)
     return video_extract
+
+
+@celery.task
+def resolve_match_link_ids(video_extract):
+    """Given a video extract, processes all the matched events to augment
+    their links with wikibase_ids."""
+    events = video_extract['events']
+
+    for candidate_list in events:
+        if not candidate_list: continue
+        for date in candidate_list:
+            match = date.get('match')
+            if not match: continue
+            match['wptopics'] = resolve_links_to_topics(match['links'])
+
+
+def resolve_links_to_topics(links):
+    # Preseve the hrefs which match the pattern '/wiki/Title'
+    wp_links = filter(lambda l: l.startswith('/wiki'), links)
+    wp_title_matcher = re.compile('/wiki/(.*)$')
+    links_and_titles = list(map(lambda m: (m.group(0), m.group(1)),
+                                filter(lambda m: m is not None,
+                                       map(wp_title_matcher.match, wp_links))))
+
+    title_wbid_map = dict(wp.wbid_from_titles(*[t for (l, t) in links_and_titles]))
+    # Xform (l, title) -> (l, title, id) via (title -> id)
+    return [{'href': l, 'title': t, 'wbid': title_wbid_map[t]} for (l, t) in links_and_titles]
 
 
 def match_event_on_date(text, date, ents, candidate_events, entity_filter):
@@ -309,17 +336,13 @@ def events_from_date_soup(soup, year):
 
 
 def events_from_bullet_soup(bullet):
+    """Given a wikipedia event bullet soup, returns the event text and links."""
     ret = {}
     if not bullet: return ret
 
     ret['text'] = bullet.get_text()
-
-    links = []
-    for tag in bullet.select('a'):
-        links.append(tag.get('href'))
-    ret['links'] = links
+    ret['links'] = [t.get('href') for t in bullet.select('a')]
     return ret
-
 
 
 # testing

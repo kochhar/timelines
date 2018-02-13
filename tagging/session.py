@@ -24,10 +24,15 @@ def run_pipeline(video_id):
     # matching via entities
     wikipedia_entities = wikitext.event_entities_from_wikitext(wikipedia_events)
     matched_events = wikitext.match_event_via_entities(wikipedia_entities)
+    linked_topics = wikitext.resolve_match_link_topics(matched_events)
+
+    video_id = linked_topics['video_id']
+    filename = lib.save_to_tempfile_as_json(linked_topics, prefix='match-{}-'.format(video_id))
+    logging.info('Saved extracted events to %s', filename)
 
     # matching via vector similarity
     # vector_matches = wikitext.match_event_via_vector_sim(wikipedia_events)
-    return matched_events
+    return linked_topics
 
 
 def preprocess_video_set():
