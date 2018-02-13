@@ -48,6 +48,7 @@ class YoutubeInput(Resource):
             tasks.wikitext.wikipedia_events_from_dates.s(),
             tasks.wikitext.event_entities_from_wikitext.s(),
             tasks.wikitext.match_event_via_entities.s(),
+            tasks.wikitext.resolve_match_link_topics.s(),
             # tasks.requests.send_url_payload(app.config['WIKITEXT_PAYLOAD_DEST_URL']),
         ).apply_async()
 
