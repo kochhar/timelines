@@ -5,12 +5,12 @@ export default [
   {
       method: 'GET',
       path:'/hello', 
-      handler: handlers.getStuff,
+      handler: handlers.startDownstream,
       config: {
         validate: {
-          query: {
-            wbId: Joi.string().required()
-          }
+          // query: {
+          //   wbId: Joi.string().required()
+          // }
         }
       }
   }

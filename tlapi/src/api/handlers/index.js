@@ -1,13 +1,44 @@
 import wdk from 'wikidata-sdk'
 import axios from 'axios'
 import _ from 'lodash'
+import extractData from './extract.js'
 
+async function addWikidata(match) {
+  let wbIds = match.wptopics.map(wpt => wpt.wbid);
+  console.log(wbIds);
+
+  let wptopics_temp = await Promise.all(wbIds.map(wbId => getEntityInfo({wbId})));
+
+  let wptopic_sel = wptopics_temp.find(wpt => wpt.start_time);
+
+  // //add wptopic_sel.related
+  let wptopic_rel = {};
+  if(wptopic_sel) {
+    wptopic_rel.part_of = await Promise.all(wptopic_sel.part_of_arr.map(pot => getPoChildren({wbId: pot.event.value})));
+    // wptopic_rel.category = await getCategoryChildren({wbId: wptopic_sel.event.value});
+  }
+  
+  return {
+    ...match,
+    wptopic_rel,
+    wptopic_sel,
+    wptopics_temp
+  };
+}
 export let startDownstream = async (request, reply) => {
-  let extract = request.query.extract;
   //filter Down to the matches
-  //for each match - use wptopics to get wbids and enhance wp_topics
-  //wp_sel - select one thats an event, if multiple make a guess
-  //wp_rel - populate with topics related to wp_sel through category or part of
+  let extract = extractData;
+
+  extract.events = await Promise.all(extract.events.map(async (eventsInSent, sentInd) => {
+    for (let event of eventsInSent) {
+      if(event.match && event.match.wptopics.length){
+        // console.log(event.match.wptopics);
+        event.match = await addWikidata(event.match);
+      }
+    }
+    return eventsInSent;
+  }));
+  return extract;
 };
 
 export let getStuff = async (request, reply) => {
@@ -15,14 +46,19 @@ export let getStuff = async (request, reply) => {
   let wbIds = [request.query.wbId];
 
   let wptopics = await Promise.all(wbIds.map(wbId => getEntityInfo({wbId})));
-  // console.log(wptopics.map(wpt => ({wpt.label, wpt.part_of_arr.length, wpt.event_category, wpt.start_time})));
 
   let wptopic_sel = wptopics.find(wpt => wpt.start_time);
 
   //add wptopic_sel.related
   let wptopic_rel = {};
-  wptopic_rel.part_of = await Promise.all(wptopic_sel.part_of_arr.map(pot => getPoChildren({wbId: pot.event.value})));
-  wptopic_rel.category = await getCategoryChildren({wbId: wptopic_sel.event_category.value});
+  try {
+    wptopic_rel.part_of = await Promise.all(wptopic_sel.part_of_arr.map(pot => getPoChildren({wbId: pot.event.value})));
+  }
+  catch(e) {
+    console.log(e);
+  }
+
+  // wptopic_rel.category = await getCategoryChildren({wbId: wptopic_sel.event.value});
 
   return {
     wptopics,
@@ -33,6 +69,7 @@ export let getStuff = async (request, reply) => {
 };
 
 export let getEntityInfo = async ({wbId}) => {
+  if(!wbId) return {};
   console.log('getting entity info for ', wbId);
   
   const sparql =`
@@ -70,15 +107,15 @@ export let getEntityInfo = async ({wbId}) => {
     else part_of_arr.push(currEntity)
 
   });
-  let ret = {
+  return {
     ...rootEntity,
     part_of_arr
   };
-  console.log(ret);
-  return ret;
 };
 
 async function getPoChildren({wbId}) {
+  if(!wbId) return [];
+  console.log('getting po children for ', wbId);
   //sparql query to fetch 
   const sparql = `
   PREFIX schema: <http://schema.org/>
@@ -111,7 +148,9 @@ async function getCategoryChildren({wbId}) {
    OPTIONAL { wd:${wbId} wdt:P910 ?category . }
    OPTIONAL { ?category_sib wdt:P910 ?category . }
 
-   SERVICE wikibase:label {bd:serviceParam wikibase:language "en" . }
+   SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en" .
+   }
   }
   `;
 
