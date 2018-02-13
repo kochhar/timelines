@@ -78,3 +78,4 @@ from app import tasks
 from app.api import YoutubeInput
 api = Api(app, prefix='/api/v1')
 api.add_resource(YoutubeInput, '/in/yt', endpoint='yt_in')
+api.add_resource(WikidataExtract, '/in/wd', endpoint='wd_in')

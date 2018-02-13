@@ -19,9 +19,6 @@ class YoutubeInput(Resource):
         'task_id': fields.String,
     }
 
-    def get(self):
-        pass
-
     @marshal_with(fields, envelope='in')
     def post(self):
         """Adds in a new youtube video for processing."""
@@ -52,6 +49,36 @@ class YoutubeInput(Resource):
             # tasks.requests.send_url_payload(app.config['WIKITEXT_PAYLOAD_DEST_URL']),
         ).apply_async()
 
-        return {'url': args['url'],
-                'video_id': video_id,
-                'task_id': res.id}
+        return {
+            'url': args['url'],
+            'video_id': video_id,
+            'task_id': res.id
+        }
+
+
+class WikidataExtract(Resource):
+    """Resource which represents wikidata extracts for processing."""
+    fields = {
+        'video_id': fields.String,
+        'task_id': fields.String,
+    }
+
+    @marshal_with(fields, envelope='in')
+    def post(self):
+        """Adds in a new wikidata extract for relevance processing."""
+        parser = RequestParser()
+        parser.add_argument('extract', required=True)
+        args = parser.parse_args()
+        extract = args['extract']
+
+        video_id = extract['video_id']
+        logging.info('Enqueing relevance scoring for video %s', video_id)
+
+        res = chain(
+            tasks.wikitext.score_related_events.s(extract)
+        ).apply_async()
+
+        return {
+            'video_id': video_id,
+            'task_id': res.id
+        }
