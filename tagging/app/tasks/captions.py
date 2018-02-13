@@ -131,16 +131,14 @@ def event_dates_from_timeml_annotated_captions(video_extract):
         }
         - video_id - string with the video_id
     """
-    cap_sents = video_extract['captions']['sents']
     cap_ents = video_extract['captions']['ents']
     cap_timeann = video_extract['heidel']['sents']
-    logging.debug('Sentences: {}'.format(cap_sents))
     logging.debug('Entities: {}'.format(cap_ents))
     logging.debug('Annotated: {}'.format(cap_timeann))
 
     events = []
-    ctx_entities = context_window(cap_ents, bef=1, aft=1)
-    for ann, entities in zip(cap_timeann, ctx_entities):
+    ctx_ents = context_window(cap_ents, bef=1, aft=1)
+    for ann, entities in zip(cap_timeann, ctx_ents):
         matches = TIMX_MATCH.finditer(ann)
         if not matches:
             events.append(())
@@ -148,10 +146,12 @@ def event_dates_from_timeml_annotated_captions(video_extract):
 
         entities['before'] = [e for bl in entities['before'] for e in bl]
         entities['after'] = [e for al in entities['after'] for e in al ]
+
+        event_text, event_date = op.itemgetter(0), op.itemgetter(1)
         ann_events = [_event_metadata(match) for match in matches]
         ann_events = [
-            {'text': e[0], 'date': e[1], 'ents': entities}
-            for e in ann_events if (e[0] and e[1])
+            {'text': event_text(e), 'date': event_date(e), 'ents': entities}
+            for e in ann_events if (event_text(e) and event_date(e))
         ]
         events.append(ann_events)
 
