@@ -12,9 +12,11 @@ async function addWikidata(match) {
   wptopics = wptopics.map((wpt,i) => {
     return {
       ...wpt,
-      ...wptopics_temp[i]
+      ...wptopics_temp[i].start_time ? wptopics_temp[i] : {} //merge only if event
     };
   });
+
+  //
 
   let wptopic_sel = wptopics.find(wpt => wpt.start_time) || null;
   
@@ -25,6 +27,8 @@ async function addWikidata(match) {
   if(wptopic_sel) {
     wptopic_rel.part_of = await Promise.all(wptopic_sel.part_of_arr.map(pot => getPoChildren({wbId: pot.event.value})));
     // wptopic_rel.category = await getCategoryChildren({wbId: wptopic_sel.event.value});
+  } else {
+    wptopic_rel = null;
   }
   
   return {
@@ -141,7 +145,6 @@ async function getPoChildren({wbId}) {
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
   }
   `;
-  
   const entities = await sparqlEntities(sparql);
   return entities;
 }
