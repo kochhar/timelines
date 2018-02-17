@@ -1350,23 +1350,7 @@
                         {
                             "href": "/wiki/Bashar_al-Assad",
                             "title": "Bashar_al-Assad",
-                            "wbid": "Q44329",
-                            "article": "https://en.wikipedia.org/wiki/Bashar_al-Assad",
-                            "event": {
-                                "value": "Q44329",
-                                "label": "Bashar al-Assad"
-                            },
-                            "event_category": {
-                                "value": "Q25587670",
-                                "label": "Category:Bashar al-Assad"
-                            },
-                            "instance_of_arr": [
-                                {
-                                    "value": "Q5",
-                                    "label": "human"
-                                }
-                            ],
-                            "part_of_arr": []
+                            "wbid": "Q44329"
                         },
                         {
                             "href": "/wiki/Syrian_Civil_War",
@@ -1418,6 +1402,39 @@
                         "part_of": [
                             [
                                 {
+                                    "article": "https://en.wikipedia.org/wiki/Civil_uprising_phase_of_the_Syrian_Civil_War",
+                                    "start_time": "2011-03-15T00:00:00Z",
+                                    "end_time": "2011-07-29T00:00:00Z",
+                                    "event": {
+                                        "value": "Q14746872",
+                                        "label": "Civil uprising phase of the Syrian civil war"
+                                    }
+                                },
+                                {
+                                    "main_subject": {
+                                        "value": "Q20678399",
+                                        "label": "Category:Libyan Civil War (2014–present)"
+                                    },
+                                    "article": "https://en.wikipedia.org/wiki/Libyan_Civil_War_(2014%E2%80%93present)",
+                                    "start_time": "2014-05-16T00:00:00Z",
+                                    "event": {
+                                        "value": "Q16911838",
+                                        "label": "Libyan civil war (2014–)"
+                                    }
+                                },
+                                {
+                                    "main_subject": {
+                                        "value": "Q22674820",
+                                        "label": "Category:Spillover of the Syrian Civil War"
+                                    },
+                                    "article": "https://en.wikipedia.org/wiki/Spillover_of_the_Syrian_Civil_War",
+                                    "start_time": "2011-01-01T00:00:00Z",
+                                    "event": {
+                                        "value": "Q17272643",
+                                        "label": "spillover of the Syrian Civil War"
+                                    }
+                                },
+                                {
                                     "main_subject": {
                                         "value": "Q8201487",
                                         "label": "Category:Egyptian Revolution of 2011"
@@ -1466,39 +1483,6 @@
                                     "event": {
                                         "value": "Q81545",
                                         "label": "2011 Libyan Civil War"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Civil_uprising_phase_of_the_Syrian_Civil_War",
-                                    "start_time": "2011-03-15T00:00:00Z",
-                                    "end_time": "2011-07-29T00:00:00Z",
-                                    "event": {
-                                        "value": "Q14746872",
-                                        "label": "Civil uprising phase of the Syrian civil war"
-                                    }
-                                },
-                                {
-                                    "main_subject": {
-                                        "value": "Q20678399",
-                                        "label": "Category:Libyan Civil War (2014–present)"
-                                    },
-                                    "article": "https://en.wikipedia.org/wiki/Libyan_Civil_War_(2014%E2%80%93present)",
-                                    "start_time": "2014-05-16T00:00:00Z",
-                                    "event": {
-                                        "value": "Q16911838",
-                                        "label": "Libyan civil war (2014–)"
-                                    }
-                                },
-                                {
-                                    "main_subject": {
-                                        "value": "Q22674820",
-                                        "label": "Category:Spillover of the Syrian Civil War"
-                                    },
-                                    "article": "https://en.wikipedia.org/wiki/Spillover_of_the_Syrian_Civil_War",
-                                    "start_time": "2011-01-01T00:00:00Z",
-                                    "event": {
-                                        "value": "Q17272643",
-                                        "label": "spillover of the Syrian Civil War"
                                     }
                                 },
                                 {
@@ -1619,61 +1603,100 @@
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/Tell_Abyad_offensive",
-                                    "start_time": "2015-05-01T00:00:00Z",
-                                    "end_time": "2015-07-01T00:00:00Z",
+                                    "article": "https://en.wikipedia.org/wiki/Rojava_conflict",
+                                    "start_time": "2012-07-19T00:00:00Z",
                                     "event": {
-                                        "value": "Q20087579",
-                                        "label": "Tell Abyad offensive"
+                                        "value": "Q2384201",
+                                        "label": "Rojava conflict"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Taftanaz",
+                                    "start_time": "2012-04-03T00:00:00Z",
+                                    "end_time": "2012-04-05T00:00:00Z",
+                                    "event": {
+                                        "value": "Q2890096",
+                                        "label": "Battle of Taftanaz"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/April_2012_Idlib_Governorate_Operation",
+                                    "event": {
+                                        "value": "Q4781954",
+                                        "label": "April 2012 Idlib Governorate Operation"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Shaddadi_(2013)",
+                                    "event": {
+                                        "value": "Q4872359",
+                                        "label": "Battle of Shadadeh"
                                     }
                                 },
                                 {
                                     "main_subject": {
-                                        "value": "Q23311350",
-                                        "label": "Q23311350"
+                                        "value": "Q22671249",
+                                        "label": "Category:Foreign involvement in the Syrian Civil War"
                                     },
-                                    "article": "https://en.wikipedia.org/wiki/Russian_military_intervention_in_the_Syrian_Civil_War",
-                                    "start_time": "2015-09-30T00:00:00Z",
+                                    "article": "https://en.wikipedia.org/wiki/Foreign_involvement_in_the_Syrian_Civil_War",
                                     "event": {
-                                        "value": "Q21032720",
-                                        "label": "Russian military intervention in the Syrian Civil War"
+                                        "value": "Q5468411",
+                                        "label": "foreign involvement in the Syrian civil war"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/2015_Russian_Sukhoi_Su-24_shootdown",
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Raqqa_(March_2013)",
+                                    "start_time": "2013-03-02T00:00:00Z",
+                                    "end_time": "2013-03-06T00:00:00Z",
                                     "event": {
-                                        "value": "Q21540349",
-                                        "label": "2015 Russian Sukhoi Su-24 shootdown"
+                                        "value": "Q6627360",
+                                        "label": "Battle of Raqqa"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/2015_Homs_car_bombing",
+                                    "article": "https://en.wikipedia.org/wiki/Media_coverage_of_the_Syrian_Civil_War",
                                     "event": {
-                                        "value": "Q22087809",
-                                        "label": "Homs car bombing"
+                                        "value": "Q7663273",
+                                        "label": "media coverage of the Syrian Civil War"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/Al-Shaddadi_offensive_(2016)",
-                                    "start_time": "2016-02-17T00:00:00Z",
-                                    "end_time": "2016-02-22T00:00:00Z",
+                                    "article": "https://en.wikipedia.org/wiki/Ghouta_chemical_attack",
                                     "event": {
-                                        "value": "Q22894201",
-                                        "label": "Al-Shaddadi offensive (2016)"
+                                        "value": "Q14626794",
+                                        "label": "August 2013 Ghouta chemical attack"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/February_2016_Sayyidah_Zaynab_bombings",
+                                    "article": "https://en.wikipedia.org/wiki/Civil_uprising_phase_of_the_Syrian_Civil_War",
+                                    "start_time": "2011-03-15T00:00:00Z",
+                                    "end_time": "2011-07-29T00:00:00Z",
                                     "event": {
-                                        "value": "Q22918854",
-                                        "label": "February 2016 Sayyidah Zaynab bombings"
+                                        "value": "Q14746872",
+                                        "label": "Civil uprising phase of the Syrian civil war"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/February_2016_Homs_bombings",
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Maaloula",
+                                    "start_time": "2013-09-04T00:00:00Z",
+                                    "end_time": "2013-09-15T00:00:00Z",
                                     "event": {
-                                        "value": "Q22924593",
-                                        "label": "February 2016 Homs bombings"
+                                        "value": "Q14941448",
+                                        "label": "Battle of Maaloula"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Khan_al-Assal_chemical_attack",
+                                    "event": {
+                                        "value": "Q14942764",
+                                        "label": "Khan al-Assal chemical attack"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Syrian%E2%80%93Turkish_border_incidents_during_the_Syrian_Civil_War",
+                                    "event": {
+                                        "value": "Q15817274",
+                                        "label": "Syrian–Turkish border incidents during the Syrian civil war"
                                     }
                                 },
                                 {
@@ -1782,6 +1805,64 @@
                                     }
                                 },
                                 {
+                                    "article": "https://en.wikipedia.org/wiki/Tell_Abyad_offensive",
+                                    "start_time": "2015-05-01T00:00:00Z",
+                                    "end_time": "2015-07-01T00:00:00Z",
+                                    "event": {
+                                        "value": "Q20087579",
+                                        "label": "Tell Abyad offensive"
+                                    }
+                                },
+                                {
+                                    "main_subject": {
+                                        "value": "Q23311350",
+                                        "label": "Q23311350"
+                                    },
+                                    "article": "https://en.wikipedia.org/wiki/Russian_military_intervention_in_the_Syrian_Civil_War",
+                                    "start_time": "2015-09-30T00:00:00Z",
+                                    "event": {
+                                        "value": "Q21032720",
+                                        "label": "Russian military intervention in the Syrian Civil War"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/2015_Russian_Sukhoi_Su-24_shootdown",
+                                    "event": {
+                                        "value": "Q21540349",
+                                        "label": "2015 Russian Sukhoi Su-24 shootdown"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/2015_Homs_car_bombing",
+                                    "event": {
+                                        "value": "Q22087809",
+                                        "label": "Homs car bombing"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Al-Shaddadi_offensive_(2016)",
+                                    "start_time": "2016-02-17T00:00:00Z",
+                                    "end_time": "2016-02-22T00:00:00Z",
+                                    "event": {
+                                        "value": "Q22894201",
+                                        "label": "Al-Shaddadi offensive (2016)"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/February_2016_Sayyidah_Zaynab_bombings",
+                                    "event": {
+                                        "value": "Q22918854",
+                                        "label": "February 2016 Sayyidah Zaynab bombings"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/February_2016_Homs_bombings",
+                                    "event": {
+                                        "value": "Q22924593",
+                                        "label": "February 2016 Homs bombings"
+                                    }
+                                },
+                                {
                                     "article": "https://en.wikipedia.org/wiki/Palmyra_offensive_(March_2016)",
                                     "start_time": "2016-03-09T00:00:00Z",
                                     "end_time": "2016-03-27T00:00:00Z",
@@ -1867,103 +1948,6 @@
                                     "event": {
                                         "value": "Q27988133",
                                         "label": "Palmyra offensive (December 2016)"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Rojava_conflict",
-                                    "start_time": "2012-07-19T00:00:00Z",
-                                    "event": {
-                                        "value": "Q2384201",
-                                        "label": "Rojava conflict"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Taftanaz",
-                                    "start_time": "2012-04-03T00:00:00Z",
-                                    "end_time": "2012-04-05T00:00:00Z",
-                                    "event": {
-                                        "value": "Q2890096",
-                                        "label": "Battle of Taftanaz"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/April_2012_Idlib_Governorate_Operation",
-                                    "event": {
-                                        "value": "Q4781954",
-                                        "label": "April 2012 Idlib Governorate Operation"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Shaddadi_(2013)",
-                                    "event": {
-                                        "value": "Q4872359",
-                                        "label": "Battle of Shadadeh"
-                                    }
-                                },
-                                {
-                                    "main_subject": {
-                                        "value": "Q22671249",
-                                        "label": "Category:Foreign involvement in the Syrian Civil War"
-                                    },
-                                    "article": "https://en.wikipedia.org/wiki/Foreign_involvement_in_the_Syrian_Civil_War",
-                                    "event": {
-                                        "value": "Q5468411",
-                                        "label": "foreign involvement in the Syrian civil war"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Raqqa_(March_2013)",
-                                    "start_time": "2013-03-02T00:00:00Z",
-                                    "end_time": "2013-03-06T00:00:00Z",
-                                    "event": {
-                                        "value": "Q6627360",
-                                        "label": "Battle of Raqqa"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Media_coverage_of_the_Syrian_Civil_War",
-                                    "event": {
-                                        "value": "Q7663273",
-                                        "label": "media coverage of the Syrian Civil War"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Ghouta_chemical_attack",
-                                    "event": {
-                                        "value": "Q14626794",
-                                        "label": "August 2013 Ghouta chemical attack"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Civil_uprising_phase_of_the_Syrian_Civil_War",
-                                    "start_time": "2011-03-15T00:00:00Z",
-                                    "end_time": "2011-07-29T00:00:00Z",
-                                    "event": {
-                                        "value": "Q14746872",
-                                        "label": "Civil uprising phase of the Syrian civil war"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Maaloula",
-                                    "start_time": "2013-09-04T00:00:00Z",
-                                    "end_time": "2013-09-15T00:00:00Z",
-                                    "event": {
-                                        "value": "Q14941448",
-                                        "label": "Battle of Maaloula"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Khan_al-Assal_chemical_attack",
-                                    "event": {
-                                        "value": "Q14942764",
-                                        "label": "Khan al-Assal chemical attack"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Syrian%E2%80%93Turkish_border_incidents_during_the_Syrian_Civil_War",
-                                    "event": {
-                                        "value": "Q15817274",
-                                        "label": "Syrian–Turkish border incidents during the Syrian civil war"
                                     }
                                 },
                                 {
@@ -2708,23 +2692,7 @@
                         {
                             "href": "/wiki/Bashar_al-Assad",
                             "title": "Bashar_al-Assad",
-                            "wbid": "Q44329",
-                            "article": "https://en.wikipedia.org/wiki/Bashar_al-Assad",
-                            "event": {
-                                "value": "Q44329",
-                                "label": "Bashar al-Assad"
-                            },
-                            "event_category": {
-                                "value": "Q25587670",
-                                "label": "Category:Bashar al-Assad"
-                            },
-                            "instance_of_arr": [
-                                {
-                                    "value": "Q5",
-                                    "label": "human"
-                                }
-                            ],
-                            "part_of_arr": []
+                            "wbid": "Q44329"
                         },
                         {
                             "href": "/wiki/Syrian_Civil_War",
@@ -2803,18 +2771,6 @@
                                 },
                                 {
                                     "main_subject": {
-                                        "value": "Q8840308",
-                                        "label": "Category:Syrian Civil War"
-                                    },
-                                    "article": "https://en.wikipedia.org/wiki/Syrian_Civil_War",
-                                    "start_time": "2011-03-15T00:00:00Z",
-                                    "event": {
-                                        "value": "Q178810",
-                                        "label": "Syrian Civil War"
-                                    }
-                                },
-                                {
-                                    "main_subject": {
                                         "value": "Q8589467",
                                         "label": "Category:Libyan Civil War (2011)"
                                     },
@@ -2824,6 +2780,18 @@
                                     "event": {
                                         "value": "Q81545",
                                         "label": "2011 Libyan Civil War"
+                                    }
+                                },
+                                {
+                                    "main_subject": {
+                                        "value": "Q8840308",
+                                        "label": "Category:Syrian Civil War"
+                                    },
+                                    "article": "https://en.wikipedia.org/wiki/Syrian_Civil_War",
+                                    "start_time": "2011-03-15T00:00:00Z",
+                                    "event": {
+                                        "value": "Q178810",
+                                        "label": "Syrian Civil War"
                                     }
                                 },
                                 {
@@ -2909,129 +2877,100 @@
                             ],
                             [
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/Quneitra_Governorate_clashes_(2012%E2%80%9314)",
-                                    "start_time": "2012-11-02T00:00:00Z",
-                                    "event": {
-                                        "value": "Q130721",
-                                        "label": "Quneitra Governorate clashes (2012–present)"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Tremseh",
-                                    "event": {
-                                        "value": "Q543202",
-                                        "label": "Battle of Tremseh"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Douma",
-                                    "event": {
-                                        "value": "Q630757",
-                                        "label": "Battle of Douma"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Ras_al-Ayn",
-                                    "event": {
-                                        "value": "Q720348",
-                                        "label": "Battle of Ras al-Ayn"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Idlib_(2012)",
-                                    "start_time": "2012-03-10T00:00:00Z",
-                                    "end_time": "2012-03-13T00:00:00Z",
-                                    "event": {
-                                        "value": "Q978261",
-                                        "label": "Battle of Idlib"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Houla_massacre",
-                                    "event": {
-                                        "value": "Q1137013",
-                                        "label": "Houla massacre"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Aleppo_(2012%E2%80%932016)",
+                                    "article": "https://en.wikipedia.org/wiki/Rojava_conflict",
                                     "start_time": "2012-07-19T00:00:00Z",
-                                    "end_time": "2016-12-22T00:00:00Z",
                                     "event": {
-                                        "value": "Q1842866",
-                                        "label": "Battle of Aleppo"
+                                        "value": "Q2384201",
+                                        "label": "Rojava conflict"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Damascus_(2012)",
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Taftanaz",
+                                    "start_time": "2012-04-03T00:00:00Z",
+                                    "end_time": "2012-04-05T00:00:00Z",
                                     "event": {
-                                        "value": "Q2094032",
-                                        "label": "Battle of Damascus"
+                                        "value": "Q2890096",
+                                        "label": "Battle of Taftanaz"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Azaz_(2012)",
+                                    "article": "https://en.wikipedia.org/wiki/April_2012_Idlib_Governorate_Operation",
                                     "event": {
-                                        "value": "Q2105475",
-                                        "label": "Battle of Azaz"
+                                        "value": "Q4781954",
+                                        "label": "April 2012 Idlib Governorate Operation"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/Tell_Abyad_offensive",
-                                    "start_time": "2015-05-01T00:00:00Z",
-                                    "end_time": "2015-07-01T00:00:00Z",
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Shaddadi_(2013)",
                                     "event": {
-                                        "value": "Q20087579",
-                                        "label": "Tell Abyad offensive"
+                                        "value": "Q4872359",
+                                        "label": "Battle of Shadadeh"
                                     }
                                 },
                                 {
                                     "main_subject": {
-                                        "value": "Q23311350",
-                                        "label": "Q23311350"
+                                        "value": "Q22671249",
+                                        "label": "Category:Foreign involvement in the Syrian Civil War"
                                     },
-                                    "article": "https://en.wikipedia.org/wiki/Russian_military_intervention_in_the_Syrian_Civil_War",
-                                    "start_time": "2015-09-30T00:00:00Z",
+                                    "article": "https://en.wikipedia.org/wiki/Foreign_involvement_in_the_Syrian_Civil_War",
                                     "event": {
-                                        "value": "Q21032720",
-                                        "label": "Russian military intervention in the Syrian Civil War"
+                                        "value": "Q5468411",
+                                        "label": "foreign involvement in the Syrian civil war"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/2015_Russian_Sukhoi_Su-24_shootdown",
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Raqqa_(March_2013)",
+                                    "start_time": "2013-03-02T00:00:00Z",
+                                    "end_time": "2013-03-06T00:00:00Z",
                                     "event": {
-                                        "value": "Q21540349",
-                                        "label": "2015 Russian Sukhoi Su-24 shootdown"
+                                        "value": "Q6627360",
+                                        "label": "Battle of Raqqa"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/2015_Homs_car_bombing",
+                                    "article": "https://en.wikipedia.org/wiki/Media_coverage_of_the_Syrian_Civil_War",
                                     "event": {
-                                        "value": "Q22087809",
-                                        "label": "Homs car bombing"
+                                        "value": "Q7663273",
+                                        "label": "media coverage of the Syrian Civil War"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/Al-Shaddadi_offensive_(2016)",
-                                    "start_time": "2016-02-17T00:00:00Z",
-                                    "end_time": "2016-02-22T00:00:00Z",
+                                    "article": "https://en.wikipedia.org/wiki/Ghouta_chemical_attack",
                                     "event": {
-                                        "value": "Q22894201",
-                                        "label": "Al-Shaddadi offensive (2016)"
+                                        "value": "Q14626794",
+                                        "label": "August 2013 Ghouta chemical attack"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/February_2016_Sayyidah_Zaynab_bombings",
+                                    "article": "https://en.wikipedia.org/wiki/Civil_uprising_phase_of_the_Syrian_Civil_War",
+                                    "start_time": "2011-03-15T00:00:00Z",
+                                    "end_time": "2011-07-29T00:00:00Z",
                                     "event": {
-                                        "value": "Q22918854",
-                                        "label": "February 2016 Sayyidah Zaynab bombings"
+                                        "value": "Q14746872",
+                                        "label": "Civil uprising phase of the Syrian civil war"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/February_2016_Homs_bombings",
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Maaloula",
+                                    "start_time": "2013-09-04T00:00:00Z",
+                                    "end_time": "2013-09-15T00:00:00Z",
                                     "event": {
-                                        "value": "Q22924593",
-                                        "label": "February 2016 Homs bombings"
+                                        "value": "Q14941448",
+                                        "label": "Battle of Maaloula"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Khan_al-Assal_chemical_attack",
+                                    "event": {
+                                        "value": "Q14942764",
+                                        "label": "Khan al-Assal chemical attack"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Syrian%E2%80%93Turkish_border_incidents_during_the_Syrian_Civil_War",
+                                    "event": {
+                                        "value": "Q15817274",
+                                        "label": "Syrian–Turkish border incidents during the Syrian civil war"
                                     }
                                 },
                                 {
@@ -3140,6 +3079,127 @@
                                     }
                                 },
                                 {
+                                    "article": "https://en.wikipedia.org/wiki/Siege_of_Deir_ez-Zor_(2014%E2%80%9317)",
+                                    "start_time": "2014-07-14T00:00:00Z",
+                                    "end_time": "2017-09-10T00:00:00Z",
+                                    "event": {
+                                        "value": "Q28419687",
+                                        "label": "Siege of Deir ez-Zor (2014–2017)"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Palmyra_offensive_(2017)",
+                                    "start_time": "2017-01-01T00:00:00Z",
+                                    "event": {
+                                        "value": "Q28858948",
+                                        "label": "Palmyra offensive (2017)"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/2017_al-Jinah_airstrike",
+                                    "event": {
+                                        "value": "Q28983702",
+                                        "label": "2017 al-Jina mosque airstrike"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/2017_Shayrat_missile_strike",
+                                    "event": {
+                                        "value": "Q29197866",
+                                        "label": "2017 Shayrat missile strike"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Raqqa_campaign_(2012%E2%80%9313)",
+                                    "start_time": "2012-09-19T00:00:00Z",
+                                    "end_time": "2013-03-06T00:00:00Z",
+                                    "event": {
+                                        "value": "Q29258856",
+                                        "label": "Raqqa campaign (2012–13)"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/2017_Aleppo_suicide_car_bombing",
+                                    "event": {
+                                        "value": "Q29413569",
+                                        "label": "2017 Aleppo suicide car bombing"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Turkish_military_operation_in_Idlib_Governorate",
+                                    "start_time": "2017-10-12T00:00:00Z",
+                                    "event": {
+                                        "value": "Q42075415",
+                                        "label": "Q42075415"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Eastern_Syria_campaign_(September%E2%80%93December_2017)",
+                                    "start_time": "2017-09-14T00:00:00Z",
+                                    "event": {
+                                        "value": "Q44812560",
+                                        "label": "Eastern Syria campaign"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Tell_Abyad_offensive",
+                                    "start_time": "2015-05-01T00:00:00Z",
+                                    "end_time": "2015-07-01T00:00:00Z",
+                                    "event": {
+                                        "value": "Q20087579",
+                                        "label": "Tell Abyad offensive"
+                                    }
+                                },
+                                {
+                                    "main_subject": {
+                                        "value": "Q23311350",
+                                        "label": "Q23311350"
+                                    },
+                                    "article": "https://en.wikipedia.org/wiki/Russian_military_intervention_in_the_Syrian_Civil_War",
+                                    "start_time": "2015-09-30T00:00:00Z",
+                                    "event": {
+                                        "value": "Q21032720",
+                                        "label": "Russian military intervention in the Syrian Civil War"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/2015_Russian_Sukhoi_Su-24_shootdown",
+                                    "event": {
+                                        "value": "Q21540349",
+                                        "label": "2015 Russian Sukhoi Su-24 shootdown"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/2015_Homs_car_bombing",
+                                    "event": {
+                                        "value": "Q22087809",
+                                        "label": "Homs car bombing"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Al-Shaddadi_offensive_(2016)",
+                                    "start_time": "2016-02-17T00:00:00Z",
+                                    "end_time": "2016-02-22T00:00:00Z",
+                                    "event": {
+                                        "value": "Q22894201",
+                                        "label": "Al-Shaddadi offensive (2016)"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/February_2016_Sayyidah_Zaynab_bombings",
+                                    "event": {
+                                        "value": "Q22918854",
+                                        "label": "February 2016 Sayyidah Zaynab bombings"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/February_2016_Homs_bombings",
+                                    "event": {
+                                        "value": "Q22924593",
+                                        "label": "February 2016 Homs bombings"
+                                    }
+                                },
+                                {
                                     "article": "https://en.wikipedia.org/wiki/Palmyra_offensive_(March_2016)",
                                     "start_time": "2016-03-09T00:00:00Z",
                                     "end_time": "2016-03-27T00:00:00Z",
@@ -3228,163 +3288,71 @@
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/Rojava_conflict",
+                                    "article": "https://en.wikipedia.org/wiki/Quneitra_Governorate_clashes_(2012%E2%80%9314)",
+                                    "start_time": "2012-11-02T00:00:00Z",
+                                    "event": {
+                                        "value": "Q130721",
+                                        "label": "Quneitra Governorate clashes (2012–present)"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Tremseh",
+                                    "event": {
+                                        "value": "Q543202",
+                                        "label": "Battle of Tremseh"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Douma",
+                                    "event": {
+                                        "value": "Q630757",
+                                        "label": "Battle of Douma"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Ras_al-Ayn",
+                                    "event": {
+                                        "value": "Q720348",
+                                        "label": "Battle of Ras al-Ayn"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Idlib_(2012)",
+                                    "start_time": "2012-03-10T00:00:00Z",
+                                    "end_time": "2012-03-13T00:00:00Z",
+                                    "event": {
+                                        "value": "Q978261",
+                                        "label": "Battle of Idlib"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Houla_massacre",
+                                    "event": {
+                                        "value": "Q1137013",
+                                        "label": "Houla massacre"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Aleppo_(2012%E2%80%932016)",
                                     "start_time": "2012-07-19T00:00:00Z",
+                                    "end_time": "2016-12-22T00:00:00Z",
                                     "event": {
-                                        "value": "Q2384201",
-                                        "label": "Rojava conflict"
+                                        "value": "Q1842866",
+                                        "label": "Battle of Aleppo"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Taftanaz",
-                                    "start_time": "2012-04-03T00:00:00Z",
-                                    "end_time": "2012-04-05T00:00:00Z",
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Damascus_(2012)",
                                     "event": {
-                                        "value": "Q2890096",
-                                        "label": "Battle of Taftanaz"
+                                        "value": "Q2094032",
+                                        "label": "Battle of Damascus"
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/April_2012_Idlib_Governorate_Operation",
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Azaz_(2012)",
                                     "event": {
-                                        "value": "Q4781954",
-                                        "label": "April 2012 Idlib Governorate Operation"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Shaddadi_(2013)",
-                                    "event": {
-                                        "value": "Q4872359",
-                                        "label": "Battle of Shadadeh"
-                                    }
-                                },
-                                {
-                                    "main_subject": {
-                                        "value": "Q22671249",
-                                        "label": "Category:Foreign involvement in the Syrian Civil War"
-                                    },
-                                    "article": "https://en.wikipedia.org/wiki/Foreign_involvement_in_the_Syrian_Civil_War",
-                                    "event": {
-                                        "value": "Q5468411",
-                                        "label": "foreign involvement in the Syrian civil war"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Raqqa_(March_2013)",
-                                    "start_time": "2013-03-02T00:00:00Z",
-                                    "end_time": "2013-03-06T00:00:00Z",
-                                    "event": {
-                                        "value": "Q6627360",
-                                        "label": "Battle of Raqqa"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Media_coverage_of_the_Syrian_Civil_War",
-                                    "event": {
-                                        "value": "Q7663273",
-                                        "label": "media coverage of the Syrian Civil War"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Ghouta_chemical_attack",
-                                    "event": {
-                                        "value": "Q14626794",
-                                        "label": "August 2013 Ghouta chemical attack"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Civil_uprising_phase_of_the_Syrian_Civil_War",
-                                    "start_time": "2011-03-15T00:00:00Z",
-                                    "end_time": "2011-07-29T00:00:00Z",
-                                    "event": {
-                                        "value": "Q14746872",
-                                        "label": "Civil uprising phase of the Syrian civil war"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Maaloula",
-                                    "start_time": "2013-09-04T00:00:00Z",
-                                    "end_time": "2013-09-15T00:00:00Z",
-                                    "event": {
-                                        "value": "Q14941448",
-                                        "label": "Battle of Maaloula"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Khan_al-Assal_chemical_attack",
-                                    "event": {
-                                        "value": "Q14942764",
-                                        "label": "Khan al-Assal chemical attack"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Syrian%E2%80%93Turkish_border_incidents_during_the_Syrian_Civil_War",
-                                    "event": {
-                                        "value": "Q15817274",
-                                        "label": "Syrian–Turkish border incidents during the Syrian civil war"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Siege_of_Deir_ez-Zor_(2014%E2%80%9317)",
-                                    "start_time": "2014-07-14T00:00:00Z",
-                                    "end_time": "2017-09-10T00:00:00Z",
-                                    "event": {
-                                        "value": "Q28419687",
-                                        "label": "Siege of Deir ez-Zor (2014–2017)"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Palmyra_offensive_(2017)",
-                                    "start_time": "2017-01-01T00:00:00Z",
-                                    "event": {
-                                        "value": "Q28858948",
-                                        "label": "Palmyra offensive (2017)"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/2017_al-Jinah_airstrike",
-                                    "event": {
-                                        "value": "Q28983702",
-                                        "label": "2017 al-Jina mosque airstrike"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/2017_Shayrat_missile_strike",
-                                    "event": {
-                                        "value": "Q29197866",
-                                        "label": "2017 Shayrat missile strike"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Raqqa_campaign_(2012%E2%80%9313)",
-                                    "start_time": "2012-09-19T00:00:00Z",
-                                    "end_time": "2013-03-06T00:00:00Z",
-                                    "event": {
-                                        "value": "Q29258856",
-                                        "label": "Raqqa campaign (2012–13)"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/2017_Aleppo_suicide_car_bombing",
-                                    "event": {
-                                        "value": "Q29413569",
-                                        "label": "2017 Aleppo suicide car bombing"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Turkish_military_operation_in_Idlib_Governorate",
-                                    "start_time": "2017-10-12T00:00:00Z",
-                                    "event": {
-                                        "value": "Q42075415",
-                                        "label": "Q42075415"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Eastern_Syria_campaign_(September%E2%80%93December_2017)",
-                                    "start_time": "2017-09-14T00:00:00Z",
-                                    "event": {
-                                        "value": "Q44812560",
-                                        "label": "Eastern Syria campaign"
+                                        "value": "Q2105475",
+                                        "label": "Battle of Azaz"
                                     }
                                 },
                                 {
@@ -5961,41 +5929,7 @@
                         {
                             "href": "/wiki/January_23",
                             "title": "January_23",
-                            "wbid": "Q2276",
-                            "article": "https://en.wikipedia.org/wiki/January_23",
-                            "event": {
-                                "value": "Q2276",
-                                "label": "January 23"
-                            },
-                            "event_category": {
-                                "value": "Q9418673",
-                                "label": "Category:January 23"
-                            },
-                            "instance_of_arr": [
-                                {
-                                    "value": "Q14795564",
-                                    "label": "determinator for date of periodic occurrence"
-                                }
-                            ],
-                            "part_of_arr": [
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/January",
-                                    "event": {
-                                        "value": "Q108",
-                                        "label": "January"
-                                    },
-                                    "event_category": {
-                                        "value": "Q5866575",
-                                        "label": "Category:January"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q47018901",
-                                            "label": "calendar month"
-                                        }
-                                    ]
-                                }
-                            ]
+                            "wbid": "Q2276"
                         },
                         {
                             "href": "/wiki/Iran%E2%80%93European_Union_relations",
@@ -6005,596 +5939,25 @@
                         {
                             "href": "/wiki/European_Union",
                             "title": "European_Union",
-                            "wbid": "Q458",
-                            "article": "https://en.wikipedia.org/wiki/European_Union",
-                            "event": {
-                                "value": "Q458",
-                                "label": "European Union"
-                            },
-                            "event_category": {
-                                "value": "Q1458209",
-                                "label": "Category:European Union"
-                            },
-                            "instance_of_arr": [
-                                {
-                                    "value": "Q4120211",
-                                    "label": "regional organization"
-                                },
-                                {
-                                    "value": "Q3623811",
-                                    "label": "economic union"
-                                },
-                                {
-                                    "value": "Q1335818",
-                                    "label": "supranational organisation"
-                                }
-                            ],
-                            "part_of_arr": []
+                            "wbid": "Q458"
                         },
                         {
                             "href": "/wiki/Embargo",
                             "title": "Embargo",
-                            "wbid": "Q1248258",
-                            "article": "https://en.wikipedia.org/wiki/Economic_sanctions",
-                            "event": {
-                                "value": "Q1248258",
-                                "label": "Economic sanctions"
-                            },
-                            "instance_of_arr": [
-                                null
-                            ],
-                            "part_of_arr": []
+                            "wbid": "Q1248258"
                         },
                         {
                             "href": "/wiki/Iran",
                             "title": "Iran",
-                            "wbid": "Q794",
-                            "article": "https://en.wikipedia.org/wiki/Iran",
-                            "event": {
-                                "value": "Q794",
-                                "label": "Iran"
-                            },
-                            "event_category": {
-                                "value": "Q1411712",
-                                "label": "Category:Iran"
-                            },
-                            "instance_of_arr": [
-                                {
-                                    "value": "Q3624078",
-                                    "label": "sovereign state"
-                                },
-                                {
-                                    "value": "Q672729",
-                                    "label": "Islamic republic"
-                                },
-                                {
-                                    "value": "Q160016",
-                                    "label": "member state of the United Nations"
-                                },
-                                {
-                                    "value": "Q6256",
-                                    "label": "country"
-                                }
-                            ],
-                            "part_of_arr": [
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Earth",
-                                    "event": {
-                                        "value": "Q2",
-                                        "label": "Earth"
-                                    },
-                                    "event_category": {
-                                        "value": "Q1458521",
-                                        "label": "Category:Earth"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q3504248",
-                                            "label": "inner planet of the Solar System"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Universe",
-                                    "start_time": "-13798000000-01-01T00:00:00Z",
-                                    "event": {
-                                        "value": "Q1",
-                                        "label": "Universe"
-                                    },
-                                    "event_category": {
-                                        "value": "Q5551050",
-                                        "label": "Category:Physical universe"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q36906466",
-                                            "label": "universe"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Pisces%E2%80%93Cetus_Supercluster_Complex",
-                                    "event": {
-                                        "value": "Q24571",
-                                        "label": "Pisces–Cetus Supercluster Complex"
-                                    },
-                                    "event_category": {
-                                        "value": "Q9621006",
-                                        "label": "Category:Pisces–Cetus Supercluster Complex"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q1133705",
-                                            "label": "galaxy filament"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Western_Asia",
-                                    "event": {
-                                        "value": "Q27293",
-                                        "label": "Western Asia"
-                                    },
-                                    "event_category": {
-                                        "value": "Q7214963",
-                                        "label": "Category:Western Asia"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q855697",
-                                            "label": "subcontinent"
-                                        },
-                                        {
-                                            "value": "Q82794",
-                                            "label": "geographic region"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Local_Group",
-                                    "event": {
-                                        "value": "Q3944",
-                                        "label": "Local Group"
-                                    },
-                                    "event_category": {
-                                        "value": "Q7009873",
-                                        "label": "Category:Local Group"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q204107",
-                                            "label": "galaxy cluster"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Eurasia",
-                                    "event": {
-                                        "value": "Q5401",
-                                        "label": "Eurasia"
-                                    },
-                                    "event_category": {
-                                        "value": "Q7453435",
-                                        "label": "Category:Eurasia"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q5107",
-                                            "label": "continent"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Laniakea_Supercluster",
-                                    "event": {
-                                        "value": "Q17863945",
-                                        "label": "Laniakea Supercluster"
-                                    },
-                                    "event_category": {
-                                        "value": "Q19121179",
-                                        "label": "Category:Laniakea Supercluster"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q27521",
-                                            "label": "supercluster"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Milky_Way",
-                                    "event": {
-                                        "value": "Q321",
-                                        "label": "Milky Way"
-                                    },
-                                    "event_category": {
-                                        "value": "Q7217375",
-                                        "label": "Category:Milky Way"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q2490",
-                                            "label": "barred spiral galaxy"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Solar_System",
-                                    "event": {
-                                        "value": "Q544",
-                                        "label": "Solar System"
-                                    },
-                                    "event_category": {
-                                        "value": "Q6519933",
-                                        "label": "Category:Solar System"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q206717",
-                                            "label": "planetary system"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Asia",
-                                    "event": {
-                                        "value": "Q48",
-                                        "label": "Asia"
-                                    },
-                                    "event_category": {
-                                        "value": "Q5610083",
-                                        "label": "Category:Asia"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q2418896",
-                                            "label": "continental area and surrounding islands"
-                                        },
-                                        {
-                                            "value": "Q5107",
-                                            "label": "continent"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Middle_East",
-                                    "event": {
-                                        "value": "Q7204",
-                                        "label": "Middle East"
-                                    },
-                                    "event_category": {
-                                        "value": "Q6157311",
-                                        "label": "Category:Middle East"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q82794",
-                                            "label": "geographic region"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Gould_Belt",
-                                    "event": {
-                                        "value": "Q24469",
-                                        "label": "Gould Belt"
-                                    },
-                                    "event_category": {
-                                        "value": "Q17679784",
-                                        "label": "Category:Gould Belt"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q11387",
-                                            "label": "open cluster"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Virgo_Supercluster",
-                                    "event": {
-                                        "value": "Q175760",
-                                        "label": "Virgo Supercluster"
-                                    },
-                                    "event_category": {
-                                        "value": "Q7007415",
-                                        "label": "Category:Virgo Supercluster"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q27521",
-                                            "label": "supercluster"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Observable_universe",
-                                    "event": {
-                                        "value": "Q221392",
-                                        "label": "observable universe"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q28530079",
-                                            "label": "observable universe"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Local_Bubble",
-                                    "event": {
-                                        "value": "Q329182",
-                                        "label": "Local Bubble"
-                                    },
-                                    "event_category": {
-                                        "value": "Q17420444",
-                                        "label": "Category:Local Bubble"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q26713767",
-                                            "label": "region of space"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/South_Asia",
-                                    "event": {
-                                        "value": "Q771405",
-                                        "label": "South Asia"
-                                    },
-                                    "event_category": {
-                                        "value": "Q7214980",
-                                        "label": "Category:South Asia"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q82794",
-                                            "label": "geographic region"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Local_Interstellar_Cloud",
-                                    "event": {
-                                        "value": "Q817157",
-                                        "label": "Local Interstellar Cloud"
-                                    },
-                                    "event_category": {
-                                        "value": "Q17420443",
-                                        "label": "Category:Local Interstellar Cloud"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q1054444",
-                                            "label": "interstellar cloud"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Multiverse",
-                                    "event": {
-                                        "value": "Q3327819",
-                                        "label": "multiverse"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q41719",
-                                            "label": "hypothesis"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Afro-Eurasia",
-                                    "event": {
-                                        "value": "Q27527",
-                                        "label": "Afro-Eurasia"
-                                    },
-                                    "event_category": {
-                                        "value": "Q7212493",
-                                        "label": "Category:Afro-Eurasia"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q55833",
-                                            "label": "supercontinent"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Orion_Arm",
-                                    "event": {
-                                        "value": "Q33187",
-                                        "label": "Orion Arm"
-                                    },
-                                    "event_category": {
-                                        "value": "Q6200219",
-                                        "label": "Category:Orion–Cygnus Arm"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q2311038",
-                                            "label": "spiral arm"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q1349417",
-                                        "label": "Earth's surface"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q7201252",
-                                            "label": "planetary surface"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q2035462",
-                                        "label": "Ostfeste"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q82794",
-                                            "label": "geographic region"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q2627400",
-                                        "label": "geography envelope"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q47495022",
-                                            "label": "shell of an astronomical object"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q3248845",
-                                        "label": "Omniverse"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q41719",
-                                            "label": "hypothesis"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q7879772",
-                                        "label": "inner Solar System"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q28939874",
-                                            "label": "inner part"
-                                        },
-                                        {
-                                            "value": "Q17334923",
-                                            "label": "location"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q18589965",
-                                        "label": "Earth-Moon system"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q29431432",
-                                            "label": "dyad"
-                                        },
-                                        {
-                                            "value": "Q15053549",
-                                            "label": "gravitationally bound system"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q21811410",
-                                        "label": "Milky Way subgroup"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q204107",
-                                            "label": "galaxy cluster"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q28530079",
-                                        "label": "observable universe"
-                                    },
-                                    "instance_of_arr": [
-                                        null
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q34457362",
-                                        "label": "inner and outer Solar System"
-                                    },
-                                    "instance_of_arr": [
-                                        null
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q36906466",
-                                        "label": "universe"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q5127848",
-                                            "label": "class"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q47488392",
-                                        "label": "megaverse"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q41719",
-                                            "label": "hypothesis"
-                                        }
-                                    ]
-                                }
-                            ]
+                            "wbid": "Q794"
                         },
                         {
                             "href": "/wiki/Uranium",
                             "title": "Uranium",
-                            "wbid": "Q1098",
-                            "article": "https://en.wikipedia.org/wiki/Uranium",
-                            "event": {
-                                "value": "Q1098",
-                                "label": "uranium"
-                            },
-                            "event_category": {
-                                "value": "Q7145393",
-                                "label": "Category:Uranium"
-                            },
-                            "instance_of_arr": [
-                                {
-                                    "value": "Q11344",
-                                    "label": "chemical element"
-                                }
-                            ],
-                            "part_of_arr": [
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Period_7_element",
-                                    "event": {
-                                        "value": "Q244979",
-                                        "label": "period 7"
-                                    },
-                                    "event_category": {
-                                        "value": "Q9067871",
-                                        "label": "Q9067871"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q101843",
-                                            "label": "period"
-                                        }
-                                    ]
-                                }
-                            ]
+                            "wbid": "Q1098"
                         }
                     ],
-                    "wptopic_rel": {},
+                    "wptopic_rel": null,
                     "wptopic_sel": null
                 },
                 "scores": [
@@ -10977,62 +10340,12 @@
                         {
                             "href": "/wiki/August_8",
                             "title": "August_8",
-                            "wbid": "Q2780",
-                            "article": "https://en.wikipedia.org/wiki/August_8",
-                            "event": {
-                                "value": "Q2780",
-                                "label": "August 8"
-                            },
-                            "event_category": {
-                                "value": "Q9412544",
-                                "label": "Category:August 8"
-                            },
-                            "instance_of_arr": [
-                                {
-                                    "value": "Q14795564",
-                                    "label": "determinator for date of periodic occurrence"
-                                }
-                            ],
-                            "part_of_arr": [
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/August",
-                                    "event": {
-                                        "value": "Q122",
-                                        "label": "August"
-                                    },
-                                    "event_category": {
-                                        "value": "Q6493758",
-                                        "label": "Category:August"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q47018901",
-                                            "label": "calendar month"
-                                        }
-                                    ]
-                                }
-                            ]
+                            "wbid": "Q2780"
                         },
                         {
                             "href": "/wiki/United_States_military",
                             "title": "United_States_military",
-                            "wbid": "Q11211",
-                            "article": "https://en.wikipedia.org/wiki/United_States_Armed_Forces",
-                            "event": {
-                                "value": "Q11211",
-                                "label": "United States Armed Forces"
-                            },
-                            "event_category": {
-                                "value": "Q7069581",
-                                "label": "Category:Military of the United States"
-                            },
-                            "instance_of_arr": [
-                                {
-                                    "value": "Q772547",
-                                    "label": "armed forces"
-                                }
-                            ],
-                            "part_of_arr": []
+                            "wbid": "Q11211"
                         },
                         {
                             "href": "/wiki/American-led_intervention_in_Iraq_(2014%E2%80%93present)",
@@ -11042,511 +10355,15 @@
                         {
                             "href": "/wiki/Iraq",
                             "title": "Iraq",
-                            "wbid": "Q796",
-                            "article": "https://en.wikipedia.org/wiki/Iraq",
-                            "event": {
-                                "value": "Q796",
-                                "label": "Iraq"
-                            },
-                            "event_category": {
-                                "value": "Q1455682",
-                                "label": "Category:Iraq"
-                            },
-                            "instance_of_arr": [
-                                {
-                                    "value": "Q3624078",
-                                    "label": "sovereign state"
-                                },
-                                {
-                                    "value": "Q160016",
-                                    "label": "member state of the United Nations"
-                                },
-                                {
-                                    "value": "Q6256",
-                                    "label": "country"
-                                }
-                            ],
-                            "part_of_arr": [
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Earth",
-                                    "event": {
-                                        "value": "Q2",
-                                        "label": "Earth"
-                                    },
-                                    "event_category": {
-                                        "value": "Q1458521",
-                                        "label": "Category:Earth"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q3504248",
-                                            "label": "inner planet of the Solar System"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Universe",
-                                    "start_time": "-13798000000-01-01T00:00:00Z",
-                                    "event": {
-                                        "value": "Q1",
-                                        "label": "Universe"
-                                    },
-                                    "event_category": {
-                                        "value": "Q5551050",
-                                        "label": "Category:Physical universe"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q36906466",
-                                            "label": "universe"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Solar_System",
-                                    "event": {
-                                        "value": "Q544",
-                                        "label": "Solar System"
-                                    },
-                                    "event_category": {
-                                        "value": "Q6519933",
-                                        "label": "Category:Solar System"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q206717",
-                                            "label": "planetary system"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Multiverse",
-                                    "event": {
-                                        "value": "Q3327819",
-                                        "label": "multiverse"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q41719",
-                                            "label": "hypothesis"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Laniakea_Supercluster",
-                                    "event": {
-                                        "value": "Q17863945",
-                                        "label": "Laniakea Supercluster"
-                                    },
-                                    "event_category": {
-                                        "value": "Q19121179",
-                                        "label": "Category:Laniakea Supercluster"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q27521",
-                                            "label": "supercluster"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Milky_Way",
-                                    "event": {
-                                        "value": "Q321",
-                                        "label": "Milky Way"
-                                    },
-                                    "event_category": {
-                                        "value": "Q7217375",
-                                        "label": "Category:Milky Way"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q2490",
-                                            "label": "barred spiral galaxy"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Asia",
-                                    "event": {
-                                        "value": "Q48",
-                                        "label": "Asia"
-                                    },
-                                    "event_category": {
-                                        "value": "Q5610083",
-                                        "label": "Category:Asia"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q2418896",
-                                            "label": "continental area and surrounding islands"
-                                        },
-                                        {
-                                            "value": "Q5107",
-                                            "label": "continent"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Local_Group",
-                                    "event": {
-                                        "value": "Q3944",
-                                        "label": "Local Group"
-                                    },
-                                    "event_category": {
-                                        "value": "Q7009873",
-                                        "label": "Category:Local Group"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q204107",
-                                            "label": "galaxy cluster"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Eurasia",
-                                    "event": {
-                                        "value": "Q5401",
-                                        "label": "Eurasia"
-                                    },
-                                    "event_category": {
-                                        "value": "Q7453435",
-                                        "label": "Category:Eurasia"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q5107",
-                                            "label": "continent"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Virgo_Supercluster",
-                                    "event": {
-                                        "value": "Q175760",
-                                        "label": "Virgo Supercluster"
-                                    },
-                                    "event_category": {
-                                        "value": "Q7007415",
-                                        "label": "Category:Virgo Supercluster"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q27521",
-                                            "label": "supercluster"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Observable_universe",
-                                    "event": {
-                                        "value": "Q221392",
-                                        "label": "observable universe"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q28530079",
-                                            "label": "observable universe"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Local_Bubble",
-                                    "event": {
-                                        "value": "Q329182",
-                                        "label": "Local Bubble"
-                                    },
-                                    "event_category": {
-                                        "value": "Q17420444",
-                                        "label": "Category:Local Bubble"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q26713767",
-                                            "label": "region of space"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Local_Interstellar_Cloud",
-                                    "event": {
-                                        "value": "Q817157",
-                                        "label": "Local Interstellar Cloud"
-                                    },
-                                    "event_category": {
-                                        "value": "Q17420443",
-                                        "label": "Category:Local Interstellar Cloud"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q1054444",
-                                            "label": "interstellar cloud"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Middle_East",
-                                    "event": {
-                                        "value": "Q7204",
-                                        "label": "Middle East"
-                                    },
-                                    "event_category": {
-                                        "value": "Q6157311",
-                                        "label": "Category:Middle East"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q82794",
-                                            "label": "geographic region"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Gould_Belt",
-                                    "event": {
-                                        "value": "Q24469",
-                                        "label": "Gould Belt"
-                                    },
-                                    "event_category": {
-                                        "value": "Q17679784",
-                                        "label": "Category:Gould Belt"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q11387",
-                                            "label": "open cluster"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Pisces%E2%80%93Cetus_Supercluster_Complex",
-                                    "event": {
-                                        "value": "Q24571",
-                                        "label": "Pisces–Cetus Supercluster Complex"
-                                    },
-                                    "event_category": {
-                                        "value": "Q9621006",
-                                        "label": "Category:Pisces–Cetus Supercluster Complex"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q1133705",
-                                            "label": "galaxy filament"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Afro-Eurasia",
-                                    "event": {
-                                        "value": "Q27527",
-                                        "label": "Afro-Eurasia"
-                                    },
-                                    "event_category": {
-                                        "value": "Q7212493",
-                                        "label": "Category:Afro-Eurasia"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q55833",
-                                            "label": "supercontinent"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Orion_Arm",
-                                    "event": {
-                                        "value": "Q33187",
-                                        "label": "Orion Arm"
-                                    },
-                                    "event_category": {
-                                        "value": "Q6200219",
-                                        "label": "Category:Orion–Cygnus Arm"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q2311038",
-                                            "label": "spiral arm"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q1349417",
-                                        "label": "Earth's surface"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q7201252",
-                                            "label": "planetary surface"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q2035462",
-                                        "label": "Ostfeste"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q82794",
-                                            "label": "geographic region"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q2627400",
-                                        "label": "geography envelope"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q47495022",
-                                            "label": "shell of an astronomical object"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q3248845",
-                                        "label": "Omniverse"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q41719",
-                                            "label": "hypothesis"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q7879772",
-                                        "label": "inner Solar System"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q28939874",
-                                            "label": "inner part"
-                                        },
-                                        {
-                                            "value": "Q17334923",
-                                            "label": "location"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q18589965",
-                                        "label": "Earth-Moon system"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q29431432",
-                                            "label": "dyad"
-                                        },
-                                        {
-                                            "value": "Q15053549",
-                                            "label": "gravitationally bound system"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q21811410",
-                                        "label": "Milky Way subgroup"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q204107",
-                                            "label": "galaxy cluster"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q28530079",
-                                        "label": "observable universe"
-                                    },
-                                    "instance_of_arr": [
-                                        null
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q34457362",
-                                        "label": "inner and outer Solar System"
-                                    },
-                                    "instance_of_arr": [
-                                        null
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q36906466",
-                                        "label": "universe"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q5127848",
-                                            "label": "class"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "event": {
-                                        "value": "Q47488392",
-                                        "label": "megaverse"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q41719",
-                                            "label": "hypothesis"
-                                        }
-                                    ]
-                                }
-                            ]
+                            "wbid": "Q796"
                         },
                         {
                             "href": "/wiki/Islamic_State_of_Iraq_and_the_Levant",
                             "title": "Islamic_State_of_Iraq_and_the_Levant",
-                            "wbid": "Q2429253",
-                            "article": "https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant",
-                            "event": {
-                                "value": "Q2429253",
-                                "label": "Islamic State of Iraq and the Levant"
-                            },
-                            "event_category": {
-                                "value": "Q17710972",
-                                "label": "Category:Islamic State of Iraq and the Levant"
-                            },
-                            "instance_of_arr": [
-                                {
-                                    "value": "Q17127659",
-                                    "label": "terrorist organization"
-                                }
-                            ],
-                            "part_of_arr": [
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Al-Qaeda",
-                                    "event": {
-                                        "value": "Q34490",
-                                        "label": "al-Qaeda"
-                                    },
-                                    "event_category": {
-                                        "value": "Q6585556",
-                                        "label": "Category:Al-Qaeda"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q43229",
-                                            "label": "organization"
-                                        }
-                                    ]
-                                }
-                            ]
+                            "wbid": "Q2429253"
                         }
                     ],
-                    "wptopic_rel": {},
+                    "wptopic_rel": null,
                     "wptopic_sel": null
                 },
                 "scores": [
@@ -15492,41 +14309,7 @@
                         {
                             "href": "/wiki/September_30",
                             "title": "September_30",
-                            "wbid": "Q2881",
-                            "article": "https://en.wikipedia.org/wiki/September_30",
-                            "event": {
-                                "value": "Q2881",
-                                "label": "September 30"
-                            },
-                            "event_category": {
-                                "value": "Q9410638",
-                                "label": "Category:September 30"
-                            },
-                            "instance_of_arr": [
-                                {
-                                    "value": "Q14795564",
-                                    "label": "determinator for date of periodic occurrence"
-                                }
-                            ],
-                            "part_of_arr": [
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/September",
-                                    "event": {
-                                        "value": "Q123",
-                                        "label": "September"
-                                    },
-                                    "event_category": {
-                                        "value": "Q6489174",
-                                        "label": "Category:September"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q47018901",
-                                            "label": "calendar month"
-                                        }
-                                    ]
-                                }
-                            ]
+                            "wbid": "Q2881"
                         },
                         {
                             "href": "/wiki/Russian_military_intervention_in_Syria",
@@ -15625,59 +14408,12 @@
                         {
                             "href": "/wiki/Islamic_State_of_Iraq_and_the_Levant",
                             "title": "Islamic_State_of_Iraq_and_the_Levant",
-                            "wbid": "Q2429253",
-                            "article": "https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant",
-                            "event": {
-                                "value": "Q2429253",
-                                "label": "Islamic State of Iraq and the Levant"
-                            },
-                            "event_category": {
-                                "value": "Q17710972",
-                                "label": "Category:Islamic State of Iraq and the Levant"
-                            },
-                            "instance_of_arr": [
-                                {
-                                    "value": "Q17127659",
-                                    "label": "terrorist organization"
-                                }
-                            ],
-                            "part_of_arr": [
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Al-Qaeda",
-                                    "event": {
-                                        "value": "Q34490",
-                                        "label": "al-Qaeda"
-                                    },
-                                    "event_category": {
-                                        "value": "Q6585556",
-                                        "label": "Category:Al-Qaeda"
-                                    },
-                                    "instance_of_arr": [
-                                        {
-                                            "value": "Q43229",
-                                            "label": "organization"
-                                        }
-                                    ]
-                                }
-                            ]
+                            "wbid": "Q2429253"
                         },
                         {
                             "href": "/wiki/Syrian_opposition",
                             "title": "Syrian_opposition",
-                            "wbid": "Q3024068",
-                            "article": "https://en.wikipedia.org/wiki/Syrian_opposition",
-                            "event": {
-                                "value": "Q3024068",
-                                "label": "Syrian opposition"
-                            },
-                            "event_category": {
-                                "value": "Q15303175",
-                                "label": "Category:Anti-government factions of the Syrian Civil War"
-                            },
-                            "instance_of_arr": [
-                                null
-                            ],
-                            "part_of_arr": []
+                            "wbid": "Q3024068"
                         }
                     ],
                     "wptopic_rel": {
@@ -15779,6 +14515,19 @@
                                 },
                                 {
                                     "main_subject": {
+                                        "value": "Q8589467",
+                                        "label": "Category:Libyan Civil War (2011)"
+                                    },
+                                    "article": "https://en.wikipedia.org/wiki/Libyan_Civil_War_(2011)",
+                                    "start_time": "2011-02-15T00:00:00Z",
+                                    "end_time": "2011-10-23T00:00:00Z",
+                                    "event": {
+                                        "value": "Q81545",
+                                        "label": "2011 Libyan Civil War"
+                                    }
+                                },
+                                {
+                                    "main_subject": {
                                         "value": "Q8840308",
                                         "label": "Category:Syrian Civil War"
                                     },
@@ -15820,19 +14569,6 @@
                                     "event": {
                                         "value": "Q17272643",
                                         "label": "spillover of the Syrian Civil War"
-                                    }
-                                },
-                                {
-                                    "main_subject": {
-                                        "value": "Q8589467",
-                                        "label": "Category:Libyan Civil War (2011)"
-                                    },
-                                    "article": "https://en.wikipedia.org/wiki/Libyan_Civil_War_(2011)",
-                                    "start_time": "2011-02-15T00:00:00Z",
-                                    "end_time": "2011-10-23T00:00:00Z",
-                                    "event": {
-                                        "value": "Q81545",
-                                        "label": "2011 Libyan Civil War"
                                     }
                                 },
                                 {
@@ -15884,6 +14620,74 @@
                                 }
                             ],
                             [
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Quneitra_Governorate_clashes_(2012%E2%80%9314)",
+                                    "start_time": "2012-11-02T00:00:00Z",
+                                    "event": {
+                                        "value": "Q130721",
+                                        "label": "Quneitra Governorate clashes (2012–present)"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Tremseh",
+                                    "event": {
+                                        "value": "Q543202",
+                                        "label": "Battle of Tremseh"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Douma",
+                                    "event": {
+                                        "value": "Q630757",
+                                        "label": "Battle of Douma"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Ras_al-Ayn",
+                                    "event": {
+                                        "value": "Q720348",
+                                        "label": "Battle of Ras al-Ayn"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Idlib_(2012)",
+                                    "start_time": "2012-03-10T00:00:00Z",
+                                    "end_time": "2012-03-13T00:00:00Z",
+                                    "event": {
+                                        "value": "Q978261",
+                                        "label": "Battle of Idlib"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Houla_massacre",
+                                    "event": {
+                                        "value": "Q1137013",
+                                        "label": "Houla massacre"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Aleppo_(2012%E2%80%932016)",
+                                    "start_time": "2012-07-19T00:00:00Z",
+                                    "end_time": "2016-12-22T00:00:00Z",
+                                    "event": {
+                                        "value": "Q1842866",
+                                        "label": "Battle of Aleppo"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Damascus_(2012)",
+                                    "event": {
+                                        "value": "Q2094032",
+                                        "label": "Battle of Damascus"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Azaz_(2012)",
+                                    "event": {
+                                        "value": "Q2105475",
+                                        "label": "Battle of Azaz"
+                                    }
+                                },
                                 {
                                     "article": "https://en.wikipedia.org/wiki/Rojava_conflict",
                                     "start_time": "2012-07-19T00:00:00Z",
@@ -15979,74 +14783,6 @@
                                     "event": {
                                         "value": "Q15817274",
                                         "label": "Syrian–Turkish border incidents during the Syrian civil war"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Quneitra_Governorate_clashes_(2012%E2%80%9314)",
-                                    "start_time": "2012-11-02T00:00:00Z",
-                                    "event": {
-                                        "value": "Q130721",
-                                        "label": "Quneitra Governorate clashes (2012–present)"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Tremseh",
-                                    "event": {
-                                        "value": "Q543202",
-                                        "label": "Battle of Tremseh"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Douma",
-                                    "event": {
-                                        "value": "Q630757",
-                                        "label": "Battle of Douma"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Ras_al-Ayn",
-                                    "event": {
-                                        "value": "Q720348",
-                                        "label": "Battle of Ras al-Ayn"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Idlib_(2012)",
-                                    "start_time": "2012-03-10T00:00:00Z",
-                                    "end_time": "2012-03-13T00:00:00Z",
-                                    "event": {
-                                        "value": "Q978261",
-                                        "label": "Battle of Idlib"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Houla_massacre",
-                                    "event": {
-                                        "value": "Q1137013",
-                                        "label": "Houla massacre"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Aleppo_(2012%E2%80%932016)",
-                                    "start_time": "2012-07-19T00:00:00Z",
-                                    "end_time": "2016-12-22T00:00:00Z",
-                                    "event": {
-                                        "value": "Q1842866",
-                                        "label": "Battle of Aleppo"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Damascus_(2012)",
-                                    "event": {
-                                        "value": "Q2094032",
-                                        "label": "Battle of Damascus"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Battle_of_Azaz_(2012)",
-                                    "event": {
-                                        "value": "Q2105475",
-                                        "label": "Battle of Azaz"
                                     }
                                 },
                                 {
@@ -16213,69 +14949,6 @@
                                     }
                                 },
                                 {
-                                    "article": "https://en.wikipedia.org/wiki/Siege_of_Deir_ez-Zor_(2014%E2%80%9317)",
-                                    "start_time": "2014-07-14T00:00:00Z",
-                                    "end_time": "2017-09-10T00:00:00Z",
-                                    "event": {
-                                        "value": "Q28419687",
-                                        "label": "Siege of Deir ez-Zor (2014–2017)"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Palmyra_offensive_(2017)",
-                                    "start_time": "2017-01-01T00:00:00Z",
-                                    "event": {
-                                        "value": "Q28858948",
-                                        "label": "Palmyra offensive (2017)"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/2017_al-Jinah_airstrike",
-                                    "event": {
-                                        "value": "Q28983702",
-                                        "label": "2017 al-Jina mosque airstrike"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/2017_Shayrat_missile_strike",
-                                    "event": {
-                                        "value": "Q29197866",
-                                        "label": "2017 Shayrat missile strike"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Raqqa_campaign_(2012%E2%80%9313)",
-                                    "start_time": "2012-09-19T00:00:00Z",
-                                    "end_time": "2013-03-06T00:00:00Z",
-                                    "event": {
-                                        "value": "Q29258856",
-                                        "label": "Raqqa campaign (2012–13)"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/2017_Aleppo_suicide_car_bombing",
-                                    "event": {
-                                        "value": "Q29413569",
-                                        "label": "2017 Aleppo suicide car bombing"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Turkish_military_operation_in_Idlib_Governorate",
-                                    "start_time": "2017-10-12T00:00:00Z",
-                                    "event": {
-                                        "value": "Q42075415",
-                                        "label": "Q42075415"
-                                    }
-                                },
-                                {
-                                    "article": "https://en.wikipedia.org/wiki/Eastern_Syria_campaign_(September%E2%80%93December_2017)",
-                                    "start_time": "2017-09-14T00:00:00Z",
-                                    "event": {
-                                        "value": "Q44812560",
-                                        "label": "Eastern Syria campaign"
-                                    }
-                                },
-                                {
                                     "article": "https://en.wikipedia.org/wiki/Palmyra_offensive_(March_2016)",
                                     "start_time": "2016-03-09T00:00:00Z",
                                     "end_time": "2016-03-27T00:00:00Z",
@@ -16361,6 +15034,69 @@
                                     "event": {
                                         "value": "Q27988133",
                                         "label": "Palmyra offensive (December 2016)"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Siege_of_Deir_ez-Zor_(2014%E2%80%9317)",
+                                    "start_time": "2014-07-14T00:00:00Z",
+                                    "end_time": "2017-09-10T00:00:00Z",
+                                    "event": {
+                                        "value": "Q28419687",
+                                        "label": "Siege of Deir ez-Zor (2014–2017)"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Palmyra_offensive_(2017)",
+                                    "start_time": "2017-01-01T00:00:00Z",
+                                    "event": {
+                                        "value": "Q28858948",
+                                        "label": "Palmyra offensive (2017)"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/2017_al-Jinah_airstrike",
+                                    "event": {
+                                        "value": "Q28983702",
+                                        "label": "2017 al-Jina mosque airstrike"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/2017_Shayrat_missile_strike",
+                                    "event": {
+                                        "value": "Q29197866",
+                                        "label": "2017 Shayrat missile strike"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Raqqa_campaign_(2012%E2%80%9313)",
+                                    "start_time": "2012-09-19T00:00:00Z",
+                                    "end_time": "2013-03-06T00:00:00Z",
+                                    "event": {
+                                        "value": "Q29258856",
+                                        "label": "Raqqa campaign (2012–13)"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/2017_Aleppo_suicide_car_bombing",
+                                    "event": {
+                                        "value": "Q29413569",
+                                        "label": "2017 Aleppo suicide car bombing"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Turkish_military_operation_in_Idlib_Governorate",
+                                    "start_time": "2017-10-12T00:00:00Z",
+                                    "event": {
+                                        "value": "Q42075415",
+                                        "label": "Q42075415"
+                                    }
+                                },
+                                {
+                                    "article": "https://en.wikipedia.org/wiki/Eastern_Syria_campaign_(September%E2%80%93December_2017)",
+                                    "start_time": "2017-09-14T00:00:00Z",
+                                    "event": {
+                                        "value": "Q44812560",
+                                        "label": "Eastern Syria campaign"
                                     }
                                 },
                                 {

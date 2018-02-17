@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.1",
+    "fs": "0.0.1-security",
     "hapi": "^17.2.0",
     "joi": "^13.1.2",
     "lodash": "^4.17.5",

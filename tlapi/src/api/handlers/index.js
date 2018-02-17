@@ -1,7 +1,27 @@
 import wdk from 'wikidata-sdk'
 import axios from 'axios'
 import _ from 'lodash'
-import extractData from '../videos/match-JFpanWNgfQY-mdrr3k9p.json'
+import extractData from '../videos/match-wb6IiSUxpgw-2xpih10w.json'
+import fs from 'fs'
+
+export let startDownstream = async (request, reply) => {
+  //filter Down to the matches
+  let extract = extractData;
+
+  extract.events = await Promise.all(extract.events.map(async (eventsInSent, sentInd) => {
+    for (let event of eventsInSent) {
+      if(event.match && event.match.wptopics.length){
+        // console.log(event.match.wptopics);
+        event.match = await addWikidata(event.match);
+      }
+    }
+    return eventsInSent;
+  }));
+  fs.writeFile(`wikidata_${extract.video_id}`, JSON.stringify(extract), 'utf-8', err => {
+    if(err) console.log(err);
+  });
+  return extract;
+};
 
 async function addWikidata(match) {
   let {wptopics} = match;
@@ -38,50 +58,8 @@ async function addWikidata(match) {
     wptopics
   };
 }
-export let startDownstream = async (request, reply) => {
-  //filter Down to the matches
-  let extract = extractData;
 
-  extract.events = await Promise.all(extract.events.map(async (eventsInSent, sentInd) => {
-    for (let event of eventsInSent) {
-      if(event.match && event.match.wptopics.length){
-        // console.log(event.match.wptopics);
-        event.match = await addWikidata(event.match);
-      }
-    }
-    return eventsInSent;
-  }));
-  return extract;
-};
-
-export let getStuff = async (request, reply) => {
-  // given wikidataId - query wikidata get start-date, end-date, part-of, main-topic, instance-of - VS
-  let wbIds = [request.query.wbId];
-
-  let wptopics = await Promise.all(wbIds.map(wbId => getEntityInfo({wbId})));
-
-  let wptopic_sel = wptopics.find(wpt => wpt.start_time);
-
-  //add wptopic_sel.related
-  let wptopic_rel = {};
-  try {
-    wptopic_rel.part_of = await Promise.all(wptopic_sel.part_of_arr.map(pot => getPoChildren({wbId: pot.event.value})));
-  }
-  catch(e) {
-    console.log(e);
-  }
-
-  // wptopic_rel.category = await getCategoryChildren({wbId: wptopic_sel.event.value});
-
-  return {
-    wptopics,
-    wptopic_rel,
-    wptopic_sel
-  };
-
-};
-
-export let getEntityInfo = async ({wbId}) => {
+async function getEntityInfo({wbId}) {
   if(!wbId) return {};
   console.log('getting entity info for ', wbId);
   
