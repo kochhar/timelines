@@ -22,6 +22,6 @@ $primary: #2070bb;
   -moz-osx-font-smoothing: grayscale;
   margin: 0px auto;
   padding: 40px;
-  max-width: 1000px;
+  max-width: 1050px;
 }
 </style>

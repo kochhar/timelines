@@ -10,7 +10,7 @@ Vue.use(VueYouTubeEmbed)
 
 Vue.config.productionTip = false
 
-Vue.prototype.$TL = TL
+// Vue.prototype.$TL = TL
 Vue.prototype.$store = store
 
 /* eslint-disable no-new */

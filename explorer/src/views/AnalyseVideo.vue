@@ -1,15 +1,20 @@
 <template>
-  <div class="analyse-video">
-    <div class="columns">
-      <div class="column is-5">
-        <timeline-simple :video-id="videoId"></timeline-simple>
+  <div class="analyse-video" ref="container">
+    <div class="buttons">
+      <button class="button"
+      v-for="vid in videoIdArr" 
+      :class="{'is-info': currVideoId == vid}" 
+      @click="currVideoId = vid">{{vid}}</button>
+    </div>
+    <div v-if="currVideoId">
+      <div class="youtube-container">
+        <youtube :video-id="currVideoId" :player-height="playerHeight" :player-width="playerWidth" @ready="ready" @playing="playing"></youtube>
       </div>
-      <div class="column is-7">
-        <div class="youtube-container">
-          <youtube :video-id="videoId" :player-height="300" :player-width="500"></youtube>
-        </div>
+      <div class="timeline-container" :style="{'padding-top': (playerHeight*1.1)+'px'}">
+        <timeline-simple :video-id="currVideoId" :curr-time="currTime" @timestamp-change="timestampChangeHandler"></timeline-simple>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -23,7 +28,45 @@ export default {
   },
   data() {
     return {
-      videoId: 'veMFCFyOwFI'
+      currVideoId: null,
+      player: null,
+      currTime: null
+    }
+  },
+  computed: {
+    playerWidth() {
+      return this.$refs.container.offsetWidth;
+    },
+    playerHeight() {
+      return this.playerWidth * 9/16;
+    },
+    videoIdArr() {
+      return this.$store.wikidatas.map(wd => wd.video_id);
+    }
+  },
+  watch: {
+    currVideoId() {
+      console.log('changed');
+      clearInterval(this.interval);
+      setTimeout(this.startInterval, 2000);
+    }
+  },
+  methods: {
+    ready(player) {
+      this.player = player;
+    },
+    playing(player) {
+      console.log('playing event');
+    },
+    timestampChangeHandler(ts) {
+      return this.player.seekTo(ts);
+    },
+    startInterval() {
+      this.player.playVideo();
+      this.interval = setInterval(() => {
+        if(!this.currVideoId) clearInterval(this.interval);
+        this.currTime = this.player.getCurrentTime();
+      }, 2000);
     }
   }
 }
@@ -32,8 +75,11 @@ export default {
 <style lang="scss" scoped>
 .analyse-video {
   font-size: 10px;
+  margin: 0 auto;
+  text-align: center;
 }
 .youtube-container {
   position:fixed;
+  z-index: 100;
 }
 </style>

@@ -3,9 +3,9 @@ function requireAll(ctx) {
 }
 
 // import all the match-*.json files.
-const matchDataRequire = require.context('../data', true, /match-.*\.json$/)
-const matchData = requireAll(matchDataRequire)
+const wikidataRequire = require.context('../data/wikidata', true, /wikidata_.*\.json$/)
+const wikidatas = requireAll(wikidataRequire)
 
 export default {
-    matchData
+    wikidatas
 }
