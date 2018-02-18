@@ -5,6 +5,7 @@ module containing tasks for captions
 """
 import html
 import logging
+import operator as op
 import os
 from os import path
 import re
