@@ -10,12 +10,14 @@ import logging
 import operator as op
 import re
 import requests
+import spacy
 
 from app import app, celery, db, lib
 from app.lib import wikipedia as wp
 
 
 DatePtn = collections.namedtuple('DatePtn', 'year month months day ssn')
+nlp = spacy.load('en')
 
 
 CITE_REGEX = '\[\d+\]'
@@ -214,7 +216,7 @@ def score_related_events(video_extract):
     Match must have:
     - wptopics
     - wptopics_sel: { topic }
-    - wptopics_rel: { 'part-of': [ [{ topic }], [{ topic }] ],
+    - wptopics_rel: { 'part_of': [ [{ topic }], [{ topic }] ],
                       'category': [ { topic }, { topic } ]
                     }
     """
@@ -229,7 +231,7 @@ def score_related_events(video_extract):
             if not match: continue
             if not match.get('wptopics'): continue
 
-            topic, related = match.get('wptopics_sel'), match.get('wptopics_rel')
+            topic, related = match.get('wptopic_sel'), match.get('wptopic_rel')
             if not related:
                 logging.info('No related events for %s', match.get('text'))
                 continue
@@ -239,6 +241,7 @@ def score_related_events(video_extract):
 
             all_wprelated.append((topic, related))
 
+    import pdb; pdb.set_trace()
     related_scores = score_events_in_relation(to=transcript, events=all_wprelated)
     video_extract['wptopics_rel'] = related_scores
 
@@ -252,7 +255,30 @@ def score_events_in_relation(to, events):
         to: iterable of sentences
         events: iterable of ((topic, wptopics_rel))
     """
-    return []
+    scores = []
+    to_nlp = nlp(''.join(to))
+    for topic, wptopic_rel in events:
+        related_by_partof = [t for partof in wptopic_rel['part_of'] for t in partof]
+        for related in related_by_partof:
+            if 'article' not in related:
+                logging.info('No article present in related event %s', related)
+                continue
+
+            relevant_topic = related.copy()
+            relevant_topic['score'] = wikipedia_intro_relevance(related['article'], to_nlp)
+            relevant_topic['via'] = topic
+
+            scores.append(relevant_topic)
+
+    return scores
+
+
+def wikipeda_intro_relevance(article_url, blob_nlp):
+    """Computes the relevance score of of a wikipedia article to a blob of text."""
+    intro = wp.intro_from_article(wp.article_by_url(article_url, fetch_strategy='cache'))
+    intro = CITE_MATCH.sub('', intro)  # eliminate citations
+    intro_nlp = nlp(intro)
+    return blob_nlp.similarity(intro_nlp)
 
 
 def jacquard(first, second):
