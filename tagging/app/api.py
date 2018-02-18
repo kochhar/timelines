@@ -5,10 +5,12 @@ import logging
 from urllib import parse
 
 from celery import chain
+from celery.result import AsyncResult
+from flask import Response, jsonify
 from flask_restful import abort, fields, marshal_with, Resource
 from flask_restful.reqparse import RequestParser
 
-from app import app, tasks
+from app import app, celery, tasks
 
 
 class YoutubeInput(Resource):
@@ -82,3 +84,23 @@ class WikidataExtract(Resource):
             'video_id': video_id,
             'task_id': res.id
         }
+
+
+class TaskResult(Resource):
+    """Resource which represents the result of task enqueued."""
+
+    def get(self, task_id):
+        """Fetches the result of a task."""
+        result = AsyncResult(id=task_id, app=celery)
+        if result.status in ['SUCCESS', 'FAILURE']:
+            try:
+                response = jsonify(result.get())
+            except Exception as e:
+                logging.info(e)
+                response = jsonify({'id': task_id, 'status': result.status, 'err': repr(e)})
+        else:
+            response = jsonify({'id': task_id, 'status': result.status})
+
+        response.status_code = 200
+        return response
+

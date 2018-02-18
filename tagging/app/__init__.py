@@ -14,7 +14,7 @@ app = Flask(__name__)
 app.config.from_object('app.config')
 app.config.update(
     CELERY_BROKER_URL='redis://localhost:6379',
-    CELERY_RESULT_BACKEND='redis://localhost:6379'
+    CELERY_RESULT_BACKEND='redis://localhost:6379/0'
 )
 # Setup the database
 db = SQLAlchemy(app)
@@ -54,8 +54,8 @@ def load_user(email):
 def make_celery(app):
     # create the celery instance and configure it
     celery = Celery(app.import_name,
-                           backend=app.config['CELERY_RESULT_BACKEND'],
-                           broker=app.config['CELERY_BROKER_URL'])
+                    backend=app.config['CELERY_RESULT_BACKEND'],
+                    broker=app.config['CELERY_BROKER_URL'])
     celery.conf.update(app.config)
 
     # setup the base class for celery tasks
@@ -75,7 +75,8 @@ from app import tasks
 
 
 # Setup the API interface
-from app.api import YoutubeInput
+from app.api import TaskResult, WikidataExtract, YoutubeInput
 api = Api(app, prefix='/api/v1')
 api.add_resource(YoutubeInput, '/in/yt', endpoint='yt_in')
 api.add_resource(WikidataExtract, '/in/wd', endpoint='wd_in')
+api.add_resource(TaskResult, '/tasks/<string:task_id>', endpoint='task_result')
