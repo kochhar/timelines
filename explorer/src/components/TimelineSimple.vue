@@ -68,7 +68,7 @@ export default {
     },
     focusSentInd() {
       let sentAfter = this.sentences.find(s => s.timestamp > this.currTime);
-      return sentAfter.sentInd - 1;
+      return sentAfter ? sentAfter.sentInd - 1 : -1;
     }
   },
   methods: {

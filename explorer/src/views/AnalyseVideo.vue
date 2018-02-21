@@ -1,7 +1,8 @@
 <template>
   <div class="analyse-video" ref="container">
+    <div class="title">Timelines Dev Edition</div>
     <div class="buttons">
-      <button class="button"
+      <button class="button is-small"
       v-for="vid in videoIdArr" 
       :class="{'is-info': currVideoId == vid}" 
       @click="currVideoId = vid">{{vid}}</button>
@@ -35,7 +36,7 @@ export default {
   },
   computed: {
     playerWidth() {
-      return this.$refs.container.offsetWidth;
+      return Math.min(700, this.$refs.container.offsetWidth);
     },
     playerHeight() {
       return this.playerWidth * 9/16;
@@ -48,7 +49,7 @@ export default {
     currVideoId() {
       console.log('changed');
       clearInterval(this.interval);
-      setTimeout(this.startInterval, 2000);
+      setTimeout(this.startInterval, 5000);
     }
   },
   methods: {
@@ -81,5 +82,8 @@ export default {
 .youtube-container {
   position:fixed;
   z-index: 100;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 </style>
