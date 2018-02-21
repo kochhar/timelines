@@ -1,12 +1,13 @@
-import wdk from 'wikidata-sdk'
-import axios from 'axios'
-import _ from 'lodash'
-import extractData from '../videos/match-wb6IiSUxpgw-2xpih10w.json'
-import fs from 'fs'
+import wdk from 'wikidata-sdk';
+import axios from 'axios';
+import {groupBy} from 'lodash/collection';
+import fs from 'fs-extra';
 
-export let startDownstream = async (request, reply) => {
-  //filter Down to the matches
-  let extract = extractData;
+//temporary 
+import extractData from '../extracts/match-veMFCFyOwFI-2_ejf5nv.json'
+
+export let processDownstream = async (request, h) => {
+  let extract = request.query.payload || extractData;
 
   extract.events = await Promise.all(extract.events.map(async (eventsInSent, sentInd) => {
     for (let event of eventsInSent) {
@@ -17,9 +18,9 @@ export let startDownstream = async (request, reply) => {
     }
     return eventsInSent;
   }));
-  fs.writeFile(`wikidata_${extract.video_id}`, JSON.stringify(extract), 'utf-8', err => {
-    if(err) console.log(err);
-  });
+  
+  writeOutputJSON(extract);
+
   return extract;
 };
 
@@ -85,7 +86,7 @@ async function getEntityInfo({wbId}) {
   //group by the wbId in questioj
   let rootEntity, part_of_arr = [];
 
-  let entitiesById = _.groupBy(entities, 'event.value');
+  let entitiesById = groupBy(entities, 'event.value');
   Object.keys(entitiesById).forEach(currWbId => {
     let leaves = entitiesById[currWbId];
     let currEntity = {
@@ -164,4 +165,13 @@ function cleanEntities(entities) {
   //filter down to events by checking start_time??
   //TO DO
   return entities;
+}
+
+async function writeOutputJSON(extract) {
+  try {
+    await fs.outputJSON(`./wikidata_extracts/wikidata_${extract.video_id}.json`, extract);
+    console.log('succesfully written');
+  } catch (error) {
+    console.log(error);
+  }
 }

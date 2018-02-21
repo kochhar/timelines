@@ -1,17 +1,18 @@
-import * as handlers from './handlers'
-import Joi from 'joi'
+import * as handlers from './handlers';
+import Joi from 'joi';
 
 export default [
   {
-      method: 'GET',
-      path:'/hello', 
-      handler: handlers.startDownstream,
-      config: {
+      method: 'POST',
+      path:'/api/processDownstream', 
+      handler: handlers.processDownstream,
+      options: {
+        tags: ['downstream'],
         validate: {
-          // query: {
-          //   wbId: Joi.string().required()
-          // }
+          payload: {
+            extract: Joi.object().allow(null)
+          }
         }
       }
   }
-]
+];
