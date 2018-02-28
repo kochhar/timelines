@@ -1,5 +1,5 @@
 Celery==4.1.0
-https://github.com/explosion/spacy-models/releases/download/en_core_web_md-1.2.0/en_core_web_md-1.2.0.tar.gz
+https://github.com/explosion/spacy-models/releases/download/en_core_web_md-1.2.0/en_core_web_sm-1.2.0.tar.gz
 Flask-Admin==1.5.0
 Flask-Bcrypt==0.7.1
 Flask-DebugToolbar==0.10.0
