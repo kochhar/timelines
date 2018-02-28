@@ -1,3 +1,4 @@
+beautifulsoup4==4.6.0
 Celery==4.1.0
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz
 Flask-Admin==1.5.0
