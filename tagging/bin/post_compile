@@ -1,3 +1,2 @@
 cd app/lib/treetagger
 sh ./install-tagger.sh
-python -m spacy download en
