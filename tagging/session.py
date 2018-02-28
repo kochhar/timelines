@@ -8,6 +8,7 @@ from importlib import reload
 captions = reload(captions)
 wikitext = reload(wikitext)
 
+
 def run_annotations(video_id):
     """Runs the time annotations for a video id."""
     caps = captions.youtube_captions_from_video(video_id)
