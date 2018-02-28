@@ -13,7 +13,7 @@ import requests
 
 import en_core_web_sm
 
-from app import app, celery, db, lib
+from app import app, celery, lib
 from app.lib import wikipedia as wp
 
 

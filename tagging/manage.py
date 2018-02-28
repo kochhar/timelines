@@ -2,7 +2,7 @@ import os
 from flask_script import Manager, prompt_bool, Shell, Server
 from termcolor import colored
 
-from app import app, db, models
+from app import app #, db, models
 
 
 manager = Manager(app)

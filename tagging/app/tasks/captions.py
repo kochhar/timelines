@@ -12,7 +12,7 @@ import re
 import subprocess
 from xml.etree import ElementTree as ET
 
-from app import app, celery, db, lib
+from app import app, celery, lib
 from app.tasks import requests as treq
 
 

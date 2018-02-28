@@ -29,7 +29,7 @@ app.config['DEBUG_TB_PROFILER_ENABLED'] = True
 toolbar = DebugToolbarExtension(app)
 
 # App imports
-from app import admin
+# from app import admin
 # from app.models import User
 from app.logger_setup import logger
 # from app.views import main, user, error
@@ -77,3 +77,4 @@ api = Api(app, prefix='/api/v1')
 api.add_resource(YoutubeInput, '/in/yt', endpoint='yt_in')
 api.add_resource(WikidataExtract, '/in/wd', endpoint='wd_in')
 api.add_resource(TaskResult, '/tasks/<string:task_id>', endpoint='task_result')
+
