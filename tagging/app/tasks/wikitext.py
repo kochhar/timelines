@@ -10,14 +10,15 @@ import logging
 import operator as op
 import re
 import requests
+
 import en_core_web_sm
+nlp = en_core_web_sm.load()
 
 from app import app, celery, db, lib
 from app.lib import wikipedia as wp
 
 
 DatePtn = collections.namedtuple('DatePtn', 'year month months day ssn')
-nlp = en_core_web_sm.load()
 
 
 CITE_REGEX = '\[\d+\]'

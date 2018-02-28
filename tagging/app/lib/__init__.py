@@ -7,11 +7,10 @@ import json
 import os
 import tempfile
 
-import spacy
+import en_core_web_sm
+nlp = en_core_web_sm.load()
 
 from app import app
-
-# nlp = spacy.load('en')
 
 
 def nlp_over_lines_as_blob(lines, *extractors):
