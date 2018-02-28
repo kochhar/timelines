@@ -12,7 +12,6 @@ server.route(routes);
 
 async function start() {
   try {
-    
     //below for static file serving
     //TODO: need to replace dist with the output folder of the build process of explorer repo 
     await server.register(Inert);

@@ -7,7 +7,7 @@ import fs from 'fs-extra';
 import extractData from '../extracts/match-veMFCFyOwFI-2_ejf5nv.json'
 
 export let processDownstream = async (request, h) => {
-  let extract = request.query.payload || extractData;
+  let extract = request.payload.extract || extractData;
 
   extract.events = await Promise.all(extract.events.map(async (eventsInSent, sentInd) => {
     for (let event of eventsInSent) {
@@ -62,7 +62,7 @@ async function addWikidata(match) {
 
 async function getEntityInfo({wbId}) {
   if(!wbId) return {};
-  console.log('getting entity info for ', wbId);
+  // console.log('getting entity info for ', wbId);
   
   const sparql =`
   PREFIX schema: <http://schema.org/>
@@ -168,9 +168,11 @@ function cleanEntities(entities) {
 }
 
 async function writeOutputJSON(extract) {
+  let timestamp = new Date().getTime().toString();
   try {
-    await fs.outputJSON(`./wikidata_extracts/wikidata_${extract.video_id}.json`, extract);
-    console.log('succesfully written');
+    let targetFile = `./wikidata_extracts/wikidata_${extract.video_id}_${timestamp}.json`;
+    await fs.outputJSON(targetFile, extract);
+    console.log(`Success. Also written to ${targetFile}`);
   } catch (error) {
     console.log(error);
   }
