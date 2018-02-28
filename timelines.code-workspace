@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "tlapi"
+		},
+		{
+			"path": "explorer"
+		},
+		{
+			"path": "tagging"
+		}
+	],
+	"settings": {}
+}
