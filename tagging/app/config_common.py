@@ -26,7 +26,7 @@ BCRYPT_LOG_ROUNDS = 12
 
 # Directory containing heideltime libraries, relative to app root
 HEIDELTIME_LIB_DIR = 'lib/heideltime-standalone'
-HEIDELTIME_TMPINPUT_DIR = '/tmp/timelines-tagger'
+HEIDELTIME_TMPINPUT_DIR = '/tmp'
 
 CELERY_BROKER_URL = os.environ.get('REDIS_URL', 'redis://localhost:6379')
 CELERY_RESULT_BACKEND = os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
