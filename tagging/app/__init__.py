@@ -13,10 +13,6 @@ app = Flask(__name__)
 
 # Setup the app with the config.py file
 app.config.from_object(os.environ['TIMELINES_CONFIG'])
-app.config.update(
-    CELERY_BROKER_URL='redis://localhost:6379',
-    CELERY_RESULT_BACKEND='redis://localhost:6379/0'
-)
 # Setup the database
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
