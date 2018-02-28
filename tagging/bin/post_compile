@@ -4,4 +4,5 @@ cd ../..
 
 APP_DIR=`pwd`
 echo $APP_DIR
-sed "s#/Users/kochhar/workspace/projects/timelines/tagging/app#$APP_DIR#" ./lib/heideltime-standalone/config.props
+sed "s#/Users/kochhar/workspace/projects/timelines/tagging/app#$APP_DIR#" ./lib/heideltime-standalone/config.props > ./lib/heideltime-standalone/config.props
+cd ..
