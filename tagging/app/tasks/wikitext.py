@@ -10,14 +10,14 @@ import logging
 import operator as op
 import re
 import requests
-import spacy
+import en_core_web_sm
 
 from app import app, celery, db, lib
 from app.lib import wikipedia as wp
 
 
 DatePtn = collections.namedtuple('DatePtn', 'year month months day ssn')
-# nlp = spacy.load('en')
+nlp = en_core_web_sm.load()
 
 
 CITE_REGEX = '\[\d+\]'
