@@ -17,7 +17,7 @@ from app.lib import wikipedia as wp
 
 
 DatePtn = collections.namedtuple('DatePtn', 'year month months day ssn')
-nlp = spacy.load('en')
+# nlp = spacy.load('en')
 
 
 CITE_REGEX = '\[\d+\]'

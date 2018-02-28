@@ -11,7 +11,7 @@ import spacy
 
 from app import app
 
-nlp = spacy.load('en')
+# nlp = spacy.load('en')
 
 
 def nlp_over_lines_as_blob(lines, *extractors):
