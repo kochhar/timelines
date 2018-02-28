@@ -12,7 +12,6 @@ import re
 import requests
 
 import en_core_web_sm
-nlp = en_core_web_sm.load()
 
 from app import app, celery, db, lib
 from app.lib import wikipedia as wp
@@ -256,8 +255,11 @@ def score_events_in_relation(to, events):
         to: iterable of sentences
         events: iterable of ((topic, wptopics_rel))
     """
+    nlp = en_core_web_sm.load()
+
     scores = []
     to_nlp = nlp(''.join(to))
+
     for topic, wptopic_rel in events:
         related_by_partof = [t for partof in wptopic_rel['part_of'] for t in partof]
         for related in related_by_partof:
@@ -266,20 +268,14 @@ def score_events_in_relation(to, events):
                 continue
 
             relevant_topic = related.copy()
-            relevant_topic['score'] = wikipedia_intro_relevance(related['article'], to_nlp)
-            relevant_topic['via'] = topic
 
+            # Get article intro and replace citations
+            intro = CITE_MATCH.sub('', wp.intro_from_article(wp.article_by_url(related['article'])))
+            relevant_topic['score'] = to_nlp.similarity(intro)
+            relevant_topic['via'] = topic
             scores.append(relevant_topic)
 
     return scores
-
-
-def wikipeda_intro_relevance(article_url, blob_nlp):
-    """Computes the relevance score of of a wikipedia article to a blob of text."""
-    intro = wp.intro_from_article(wp.article_by_url(article_url, fetch_strategy='cache'))
-    intro = CITE_MATCH.sub('', intro)  # eliminate citations
-    intro_nlp = nlp(intro)
-    return blob_nlp.similarity(intro_nlp)
 
 
 def jacquard(first, second):
