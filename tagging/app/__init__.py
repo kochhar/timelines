@@ -1,27 +1,27 @@
 import os
 from celery import Celery
 from flask import Flask
-from flask_bcrypt import Bcrypt
+# from flask_bcrypt import Bcrypt
 from flask_debugtoolbar import DebugToolbarExtension
-from flask_login import LoginManager
-from flask_mail import Mail
-from flask_migrate import Migrate
+# from flask_login import LoginManager
+# from flask_mail import Mail
+# from flask_migrate import Migrate
 from flask_restful import Api
-from flask_sqlalchemy import SQLAlchemy
+# from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
 # Setup the app with the config.py file
 app.config.from_object(os.environ['TIMELINES_CONFIG'])
 # Setup the database
-db = SQLAlchemy(app)
-migrate = Migrate(app, db)
+# db = SQLAlchemy(app)
+# migrate = Migrate(app, db)
 
 # Setup the password crypting
-bcrypt = Bcrypt(app)
+# bcrypt = Bcrypt(app)
 
 # Setup the mail server
-mail = Mail(app)
+# mail = Mail(app)
 
 # Setup the debug toolbar
 app.config['DEBUG_TB_TEMPLATE_EDITOR_ENABLED'] = True
@@ -30,21 +30,21 @@ toolbar = DebugToolbarExtension(app)
 
 # App imports
 from app import admin
-from app.models import User
+# from app.models import User
 from app.logger_setup import logger
-from app.views import main, user, error
+# from app.views import main, user, error
 
-app.register_blueprint(user.userbp)
+# app.register_blueprint(user.userbp)
 
 # Setup the user login process
-login_manager = LoginManager()
-login_manager.init_app(app)
-login_manager.login_view = 'userbp.signin'
+# login_manager = LoginManager()
+# login_manager.init_app(app)
+# login_manager.login_view = 'userbp.signin'
 
 
-@login_manager.user_loader
-def load_user(email):
-    return User.query.filter(User.email == email).first()
+# @login_manager.user_loader
+# def load_user(email):
+#     return User.query.filter(User.email == email).first()
 
 
 # Setup the celery task definitions
