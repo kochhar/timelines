@@ -30,4 +30,4 @@ HEIDELTIME_TMPINPUT_DIR = '/tmp'
 
 CELERY_BROKER_URL = os.environ.get('REDIS_URL', 'redis://localhost:6379')
 CELERY_RESULT_BACKEND = os.environ.get('REDIS_URL', 'redis://localhost:6379/0')
-
+CELERY_REDIS_MAX_CONNECTIONS = 2
