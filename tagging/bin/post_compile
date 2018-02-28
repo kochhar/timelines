@@ -7,4 +7,6 @@ DEFAULT_APP_DIR=/Users/kochhar/workspace/projects/timelines/tagging/app
 APP_DIR=`pwd`
 # Replace the default path for treeTagger in the heideltime config.props
 sed "s#DEFAULT_APP_DIR#$APP_DIR#" $HEIDELTIME_DIR/config.props > $HEIDELTIME_DIR/config.props
+echo "treeTagger config is:"
+grep treeTagger $HEIDELTIME_DIR/config.props
 cd ..
