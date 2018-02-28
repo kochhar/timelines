@@ -1,0 +1,2 @@
+cd app/lib/treetagger
+sh ./install-tagger.sh

@@ -1,3 +1,4 @@
+import os
 from celery import Celery
 from flask import Flask
 from flask_bcrypt import Bcrypt
@@ -11,7 +12,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 # Setup the app with the config.py file
-app.config.from_object('app.config')
+app.config.from_object(os.environ['TIMELINES_CONFIG'])
 app.config.update(
     CELERY_BROKER_URL='redis://localhost:6379',
     CELERY_RESULT_BACKEND='redis://localhost:6379/0'

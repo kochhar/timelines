@@ -1,2 +1,2 @@
 web: python manage.py runserver -h 0.0.0.0 -p 5000
-worker: celery worker -A app.celey -l INFO
+worker: celery worker -A app.celery -l INFO
