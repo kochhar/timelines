@@ -1,5 +1,7 @@
 cd app/lib/treetagger
 sh ./install-tagger.sh
+cd ../..
+
 APP_DIR=`pwd`
-echo APP_DIR
-sed s|/Users/kochhar/workspace/projects/timelines/tagging|$APP_DIR| ../lib/heideltime-standalone/config.props
+echo $APP_DIR
+sed 's#/Users/kochhar/workspace/projects/timelines/tagging#$APP_DIR#' ../lib/heideltime-standalone/config.props
