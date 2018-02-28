@@ -2,7 +2,9 @@ cd app/lib/treetagger
 sh ./install-tagger.sh
 cd ../..
 
+HEIDELTIME_DIR=./lib/heideltime-standalone
+DEFAULT_APP_DIR=/Users/kochhar/workspace/projects/timelines/tagging/app
 APP_DIR=`pwd`
-echo $APP_DIR
-sed "s#/Users/kochhar/workspace/projects/timelines/tagging/app#$APP_DIR#" ./lib/heideltime-standalone/config.props > ./lib/heideltime-standalone/config.props
+# Replace the default path for treeTagger in the heideltime config.props
+sed "s#DEFAULT_APP_DIR#$APP_DIR#" $HEIDELTIME_DIR/config.props > $HEIDELTIME_DIR/config.props
 cd ..
